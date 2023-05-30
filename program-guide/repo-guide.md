@@ -11,7 +11,7 @@ Please, be open with anything you wish to improve about these processes. Feel fr
 
 ## Development Updates
 
-One of the core goals of this program is to improve your technical writing and communication skills. One of the ways to do this is to get comfortable telling people about what you are working on. So one of the expectations for program participants is a regularly cadenced development update. For the duration of the program, all participants should publish a development update at least once every two weeks.
+One of the core goals of this program is to improve your technical writing and communication skills. One key way to do this is to get comfortable telling people about what you are working on. One of the expectations for program participants is a regularly cadenced development update. For the duration of the program, all participants should publish a development update at least once every two weeks.
 
 A good development update can take many forms. Every individual will probably need to find their own style. Here are some suggestions.
 
@@ -20,7 +20,7 @@ A good development update can take many forms. Every individual will probably ne
 - Links are great. Forum posts. Pull requests. HackMD documents.
 
 A great example are Danny Ryan's "finalized" series of development updates. For example this one: https://blog.ethereum.org/2021/04/02/finalized-no-25/
-You can also check out development updates from [previous cohorts](https://github.com/eth-protocol-fellows/cohort-zero/blob/main/development-updates.md). 
+You can also check out development updates from [previous cohorts](https://github.com/eth-protocol-fellows/cohort-three/blob/master/development-updates.md). 
 
 You should: 
 
@@ -40,7 +40,7 @@ Create a document under the path `/notes/<project-name>.md`. This document shoul
 - All neccessary links to repos where development is happening, documentation, research posts and technical background 
 - List of participants working on the project
 
- This document can be created later in the program when your project is mature enough and you would like to present it. 
+ This document can be created later in the program when your project is mature enough and you are ready to present it.
 
 
 ### Using `/notes/<your-name>.md`

@@ -1,12 +1,12 @@
 # Ethereum Protocol Fellowship Program Details
 
-The development of the core Ethereum protocols is some of the most important and impactful work you can do in the Ethereum ecosystem. Open source protocols and accompanying open source software and clients that implement those protocol rules are the foundation everything else is built upon.
+The development of the core Ethereum protocol is some of the most important and impactful work you can do in the Ethereum ecosystem. Open-source protocols and accompanying open-source software and clients that implement those protocol rules are the foundation everything else within the Ethereum ecosystem is built upon.
 
-The Ethereum protocols are going through the most significant updates and upgrades since genesis and there is much to do. We need more talented and dedicated people to be part of this process. If you are interested in joining this effort the doors are open. You just have to walk through them.
+The Ethereum protocol is going through the significant updates and upgrades and there is much to do. Ethereum needs more talented and dedicated people to be part of this process. If you are interested in joining this effort, the doors are open. You just have to walk through them.
 
 ## What Is It
 
-The *Ethereum Protocol Fellowship (formerly Core Developer Apprentice Program)* is a program designed to onboard developers to the process through which the protocol development happens. It is an opportunity to dive deep into the protocol and learn while also working closely with others on the same learning trajectory as well as the core development community.
+The *Ethereum Protocol Fellowship (formerly Core Developer Apprentice Program)* is a program designed to onboard developers to the process through which protocol development happens. It is an opportunity to dive deep into the protocol while working closely with others on the same learning trajectory as well as the core development community.
 
 *This program will not teach or focus in any way on smart contract development or creating blockchain applications.*
 
@@ -14,10 +14,10 @@ Over the course of the 4 month program, EPF participants will receive project su
 - a weekly call with participants
 - selected mentorship with applicable devs
 - monthly demo days
-- optional In-person meetups
+- optional in-person meetups
 - project documentation guidance
 
-Learn more about EPF and previous cohort in the [third cohort recap](https://blog.ethereum.org/2023/05/10/ethereum-protocol-fellowship-third-recap).
+Learn more about EPF and the previous cohort in the [third cohort recap](https://blog.ethereum.org/2023/05/10/ethereum-protocol-fellowship-third-recap).
 
 ## Who is it for?
 
@@ -54,9 +54,9 @@ We will be prioritizing candidates which have something that we consider a stron
 
 ## How it will work
 
-Applications will open at the beginning of September and remain open for two weeks, closing on September 16th.
+Applications will open at the beginning of June and remain open for two weeks, closing on June 16th.
 
-The program will formally run for 4 months, from October through January. This gives us the opportunity to organize physical meetups at Ethereum conferences like [Devcon](https://devcon.org) and [EthDenver](https://www.ethdenver.com).
+The program will formally run for 4 months, from July through November. This gives us the opportunity to organize physical meetups at Ethereum conferences like [Devconnect](https://devconnect.org) and [EthCC](https://www.ethcc.io/).
 
 Timeline of the 4 month program will follow these stages:
 
@@ -92,6 +92,6 @@ Our goal is to provide an opportunity for you to get paid to learn. We will work
 
 The program is funded by the Ethereum Foundation and run by the Protocol Support Team. It is important to note that the [Ethereum Foundation](https://ethereum.foundation/philosophy/) does not own, operate, or manage Ethereum but exists to support the protocol and the Ethereum community through funding and research.
 
-[Apply for the third cohort of the Ethereum Protocol Fellowship.](https://forms.gle/8FfKPz7UB8u1rafu8)
+[Apply for the fourth cohort of the Ethereum Protocol Fellowship.](https://forms.gle/9CJidyBmSJVxYn899)
 
 ![Fellowship of the Protocol](/images/epf-hero.jpg)
