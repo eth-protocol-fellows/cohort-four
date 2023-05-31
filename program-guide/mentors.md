@@ -4,30 +4,27 @@ In this EPF cohort, participants have an opportunity to be mentored by core deve
 
 ## Mentors
 
-| Name                  | Team                       | Area of focus                                                        |
-| --------------------- | -------------------------- | -------------------------------------------------------------------- |
-| Paweł Bylica          | Ipsilon                    | EVM                                                                  |
-| Dankrad Feist         | EF Consensus Research      | Cryptography, Data Availability Sampling, Proof of Custody, Sharding |
-| Kasey                 | Prysmatic labs             | Consensus Layer implementation, database and optimization            |
-| Fredrik               | EF Security Research       | General Security                                                     |
-| Matt                  | Geth                       | EVM, DAS, RPC, PBS                                                   |
-| Marius van der Wijden | Geth                       | Execution Layer, EVM, Crypto, Merge                                  |
-| Hsiao-Wei Wang        | EF Consensus Research      | Consensus Layer                                                      |
-| Piper Merriam         | Portal Network             | Execution Layer, EVM, Networking, Client Design                      |
-| Alex Stokes           | EF Consensus Research      | Consensus layer, MEV, (consensus layer) light clients                |
-| Barnabé Monnot        | EF Robust Incentives Group | Cryptoeconomics, economic modelling, data science                    |
-| Felix (fjl)           | Geth                       | Execution layer, p2p networking, client testing                      |
-| Kev                   | Independent                | Cryptography, Verkle Trees, Statless                                 |
-| Łukasz Rozmej         | Nethermind                 | Execution layer, P2P, EVM, JSON RPC                                  |
-| Cayman Nava           | ChainSafe Lodestar         | Consensus layer, browser compatability                               |
-| Paul Harris           | Teku                       | Consensus layer                                                      |
-| Mario Vega            | EF Testing team            | Execution Clients Testing, End-to-end tests, State Tests             |
-| Potuz                 | Prysmatic labs             | Consensus Layer, Forkchoice, Cryptography (hashing)                  |
-| Tomasz K. Stanczak    | Nethermind                 | Protocol Engineering, MEV, EVM                                       |
-| Mikhail Kalinin       | TXRX                       | Merge, Engine API, Consensus Layer, Optimistic Sync, In-protocol PBS |
-| Guillaume Ballet      | Geth                       | Verkle Trees                                                         |
-| Michael Sproul        | Sigma Prime (Lighthouse)   | Consensus layer, fork choice, block fingerprinting                   |
-| Paul Hauner           | Sigma Prime (Lighthouse)   | Consensus layer, code optimisation, rewards profiling                |
+| Name                  | Team                       | Area of focus                                                 |
+| --------------------- | -------------------------- | ------------------------------------------------------------- |
+| Paweł Bylica          | Ipsilon                    | EVM                                                           |
+| Fredrik               | EF Security Research       | General Security                                              |
+| Marius van der Wijden | Geth                       | Execution Layer, EVM, Crypto, Merge                           |
+| Hsiao-Wei Wang        | EF Consensus Research      | Consensus Layer                                               |
+| Piper Merriam         | Portal Network             | Execution Layer, EVM, Networking, Client Design               |
+| Alex Stokes           | EF Consensus Research      | Consensus layer, MEV, (consensus layer) light clients         |
+| Barnabé Monnot        | EF Robust Incentives Group | Cryptoeconomics, economic modelling, data science             |
+| Kev                   | Independent                | Cryptography, Verkle Trees, Statless                          |
+| Cayman Nava           | ChainSafe Lodestar         | Consensus layer, browser compatibility                        |
+| Paul Harris           | Teku                       | Consensus layer                                               |
+| Mario Vega            | EF Testing team            | Execution Clients Testing, End-to-end tests, State Tests      |
+| Tomasz K. Stanczak    | Nethermind                 | Protocol Engineering, MEV, EVM                                |
+| Mikhail Kalinin       | TXRX                       | Engine API, Consensus Layer, Optimistic Sync, In-protocol PBS |
+| Michael Sproul        | Sigma Prime (Lighthouse)   | Consensus layer, fork choice, block fingerprinting            |
+| DappLion              | Lodestar                   | Consensus layer                                               |
+| Yoav Weiss            | EF Security, AA            | Account Abstraction                                           |
+| Zahary Karadjov       | Nimbus, Metacraft Labs     | Consensus layer, Nim lang                                     |
+| Radek                 |  Prysm                     | Consensus layer, Beacon API, frontend                         |
+
 
 
 ## How to get mentorship

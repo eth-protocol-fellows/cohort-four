@@ -41,50 +41,17 @@ Applying machine learning on for example the network protocol (or it could be on
 
 There could also be more static data being shown such as validator performance, conflicting chains, etc.
 
-### CL light client
+### Alex Stokes
 
-Proposed by Alex Stokes
+`ralexstokes/{beacon-api-client, ssz-rs, ethereum-consensus, mev-rs` on github
 
-Assistance in building out a production-ready consensus layer light client.
+`ethereum/consensus-specs`, `ethereum/builder-specs`
 
-### CL + MEV software
+### RIG Opened Problems
 
-Proposed by Alex Stokes
+By Barnabé Monnot
 
-Stack of CL + MEV software for any Rustaceans 
-
-### Cryptoeconomic models
-
-Proposed by Barnabé Monnot
-
-Expand [economic model](https://twitter.com/barnabemonnot/status/1561194859238531073) or look into applying [rollup econ](https://barnabe.substack.com/p/understanding-rollup-economics-from) framework to existing rollups. Also other projects more practical or more theoretical
-
-### P2P protocol tests
-
-Proposed by Felix
-
-Work on p2p protocol tests for [hive](https://github.com/ethereum/hive).
-
-### By Łukasz Rozmej
-
-- Virtual Machine with native code emission (IL VM)
-- Danksharding prototyping
-- Verkle Tries prototyping
-- Experimental EIP's prototyping
-- Protocol to synchronize traces to replace WarpSync in OE
-
-### Browser tooling
-
-By Cayman Nava
-
-Simple webapps that may become useful, eg: https://enr-viewer.com/
-
-### Debug tools
-
-Tooling useful for debugging CL and EL. 
-
-- [Compiled list by Paritosh](https://notes.ethereum.org/@parithosh/HJQDsoRr5)
-- Progress tracking, discussion in the [issue](https://github.com/ethereum/pm/issues/520)
+Explore Robus Incentives Group Opened Problems https://efdn.notion.site/ROPs-RIG-Open-Problems-c11382c213f949a4b89927ef4e962adf
 
 ### Improving hive for End-to-End Testing
 
@@ -92,36 +59,11 @@ Proposed by Mario Vega
 
 [Hive](https://github.com/ethereum/hive) can evolve into more sophisticated tool for e2e testing which allows to run the Consensus and Execution clients as they would be run by the end users. 
 
-### By Potuz
-Projects may require different protocol knowledge entry level and may end up
-working with different members of the prysmaticlabs team. 
-- Forkchoice fuzzer: Test different attack scenarios for our consensus algorithm. 
-- Continuous benchmarking: Set meaningful realistic benchmarks and integrate them in CI
-- Beacon API compliant validator client: Long term project of rewriting the validator client code to be compatible with the Beacon API instead of prysmaticlabs' internal API. 
-- Type consistency between forkchoice and the beacon-chain package. 
-
-### Consensus client reward APIs
-
-Presently there are no cross-client APIs for calculating the rewards paid to validators for publishing attestations, block proposals and other messages.
-
-This creates an unnecessary barrier to entry for the development of tools like block explorers and GUIs, requiring application devs to reverse-engineer consensus reward code.
-
-To improve the situation it would be great to have a simple HTTP API available in every consensus client that outputs reward data. This project could involve:
-
-- Design and standardisation of the HTTP API spec in [beacon-APIs](https://github.com/ethereum/beacon-APIs).
-- Implementation of production-ready (or proof-of-concept) APIs in one or more consensus clients. Different fellows could implement the APIs in different clients.
-- Design and implementation of a local indexing module to track rewards for nominated validators without a block explorer. This could either be a standalone tool leaning
-  on the APIs, or integrated into a consensus client. For prior work along these lines see Nimbus' [attestation performance tracking](https://nimbus.guide/attestation-performance.html).
-
-Mentor: @michaelsproul (SigP/Lighthouse)
-
-### Stakers' testnet 
+### Ephemery testnet 
 
 By Mario Havel
 
-New testnet which is emphemeral and dedicated to stakers. Feasability of this solutions should be demonstrated by implementation in a client pair. The testnet is emphemeral so instead of just trivial network addition, you need to figure out the mechanism for rollbacks and devops setup. 
-
-Details in this proposal: https://notes.ethereum.org/@mario-havel/stakers-testnet
+Contribute to integration of public ephemeral testnet. Research and feedback the spec, create implementations in clients and/or client testing, end user tooling, e.g. dappnode, nicenode, stereum. Check the [specs](https://github.com/ethereum/EIPs/blob/04369cb50ee6c1894dec868141e8a32e66dc4f16/EIPS/eip-testnet-draft.md) and [network details](https://github.com/ephemery-testnet/ephemery-resources). 
 
 ### Portal Network
 
@@ -140,17 +82,46 @@ By Tim Beiko
 
 An API endpoint that calculates the current supply of ETH. Create basic specification and implementation which should get merged in at least one EL<>CL combo and maybe even the API specs. Ideally, works on multiple clients and you can compare the output.
 
-### Optimism sequencer support for ERC 4337 bundlers
+### By Yoav Weiss
 
-By Yoav Weiss
+#### Optimism sequencer support for ERC 4337 bundlers
 
 Modify the Optimism (Bedrock) sequencer to add a new RPC for ERC-4337 (account abstraction) bundlers. The new RPC will enable submitting a transaction with certain conditions, and the sequencer will guarantee that the transaction will only be sequenced if these conditions are met. The RPC will be designed to mitigate DoS against the sequencer, require only minimal work from the sequencer, and throttle callers with poor inclusion ratio.
 
-### In-protocol deposits flow prototype
+#### ERC-4337 tooling support
 
-By Mikhail Kalinin
+Research about tooling support, identify the missing pieces and add ERC-4337 (account abstraction) support to popular dev tools like Hardhat, Foundry, etc.
 
-- Implement [EIP-6110](https://eips.ethereum.org/EIPS/eip-6110) and related Engine API [changes](https://github.com/ethereum/execution-apis/pull/340) in one of EL clients
-- Implement In-protocol deposits flow [#3177](https://github.com/ethereum/consensus-specs/pull/3177) proposal in one of CL clients
-- Provide developer's feedback to the specification
-- Run a devnet to prove that transition works (wait for transition and turn off the old machinery)
+### By Dapplion (Lodestar)
+
+For cryptographers, help solve practical challenges with SSLE.
+For consensus researchers, explore fork-choice implementation of https://ethresear.ch/t/secret-non-single-leader-election/11789.
+
+### Browser tooling
+
+By Cayman Nava (Lodestar)
+
+Simple webapps that may become useful, eg: https://enr-viewer.com/
+
+### By Tomasz Stanczak (Nethermind)
+
+IL-EVM (superoptimized EVM in C#)
+GPT-RPC
+Paprika - new C# DB optimized for Merkle Tries and Keccaks
+
+### By Zahary (Nimbus)
+
+* Create a single Nimbus binary combining our consensus and execution clients.
+* Create a Verkle tree library in Nim.
+* Introduce out of order and speculative execution in the Nimbus asynchronous EVM to speed up transaction execution when the Ethereum state data must be fetch dynamically from the Portal network.
+* Implement a novel snap sync protocol for the beacon chain.
+* Implement a novel distributed validator setup in the Nimbus beacon node, reducing the risk of validator downtime.
+* Implement a stateless mode for the Nimbus execution client.
+* Implement a management GUI/WebUI for Nimbus.
+* Implement a novel append-only database for the Nimbus beacon node.
+* Implement instant one-shot syncing based on the zero-knowledge proofs from the DendrETH project.
+
+### By Radek (Prysm)
+
+Auditing Beacon APIs in Prysm
+
