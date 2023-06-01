@@ -16,6 +16,7 @@ Here is a list of projects proposed by mentors. Use these project as an inspirat
 - [By Tomasz Stanczak](#by-tomasz-stanczak-nethermind)
 - [By Zahary Karadjov](#by-zahary-nimbus)
 - [Auditing Beacon API](#auditing-beacon-apis-in-prysm)
+- [Devops tooling wishlist](#devops-tooling-wishlist)
 
 ### Previous cohorts
 
@@ -107,3 +108,8 @@ Paprika - new C# DB optimized for Merkle Tries and Keccaks
 
 By Radek
 
+### Devops tooling wishlist
+
+By Pari 
+
+https://github.com/ethpandaops/tooling-wishlist
