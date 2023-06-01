@@ -23,7 +23,7 @@ In this EPF cohort, participants have an opportunity to be mentored by core deve
 | DappLion              | Lodestar                   | Consensus layer                                               |
 | Yoav Weiss            | EF Security, AA            | Account Abstraction                                           |
 | Zahary Karadjov       | Nimbus, Metacraft Labs     | Consensus layer, Nim lang                                     |
-| Radosław Kapka        |  Prysm                     | Consensus layer, Beacon API                                   |
+| Radosław Kapka        | Prysm                      | Consensus layer, Beacon API                                   |
 
 
 
