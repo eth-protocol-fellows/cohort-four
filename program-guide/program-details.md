@@ -67,7 +67,7 @@ Timeline of the 4 month program will follow these stages:
 ### Phase Two
 - Deep dive into identified areas. Learn and familiarize with previous work and current solutions.
 - Connect with chosen mentors and work towards defining a deliverable project.
-- Write and submit a report on the selected problem(s), suggested solutions, and a roadmap for working on the issue throughout the program.
+- Write and submit a [project proposal](/projects/project-template.md) on the selected problem(s), suggested solutions, and a roadmap for working on the issue throughout the program.
 - Report presentation to other participants and select mentors to gather final feedback.
 ### Phase Three
 - Execute project roadmap to complete deliverables

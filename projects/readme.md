@@ -5,7 +5,4 @@ Directory for project proposals. Create a project document based on the [templat
 
 ## Project list
 
-List of projects of EPF cohort four. 
-
-
-- 
+List of projects of EPF cohort four will be here.

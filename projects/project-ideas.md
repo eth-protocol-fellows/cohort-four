@@ -3,20 +3,19 @@
 Here is a list of projects proposed by mentors. Use these project as an inspiration and if you would like to know more about specific project or work on it, contact corresponding mentor. 
 
 - [Previous cohorts](#previous-cohorts)
-- [prysmctl](#prysmctl)
 - [Security system based on machine learning](#security-system-based-on-machine-learning)
-- [CL light client](#cl-light-client)
-- [CL + MEV software](#cl--mev-software)
-- [Cryptoeconomic models](#cryptoeconomic-models)
+- [Alex Stokes](#alex-stokes)
+- [RIG Opened Problems](#rig-opened-problems)
 - [P2P protocol tests](#p2p-protocol-tests)
-- [By Łukasz Rozmej](#by-lukasz-rozmej)
-- [Browser tooling](#browser-tooling)
-- [Debug tools](#debug-tools)
 - [Improving hive for End-to-End Testing](#improving-hive-for-end-to-end-testing)
-- [By Potuz](#by-potuz)
-- [Consensus client reward APIs](#consensus-client-reward-apis)
-- [Stakers' testnet](#stakers-testnet)
-- [Optimism sequencer support for ERC 4337 bundlers](#optimism-sequencer-support-for-erc-4337-bundlers)
+- [Ephemery testnet](#ephemery-testnet)
+- [API for ETH supply](#api-for-calculating-eth-supply)
+- [By Yoav Weiss](#by-yoav-weiss)
+- [By Dapplion](#by-dapplion-lodestar)
+- [Browser tooling](#browser-tooling)
+- [By Tomasz Stanczak](#by-tomasz-stanczak-nethermind)
+- [By Zahary Karadjov](#by-zahary-nimbus)
+- [Auditing Beacon API](#auditing-beacon-apis-in-prysm)
 
 ### Previous cohorts
 
@@ -26,12 +25,6 @@ In previous cohorts, you can find many up to date ideas which haven't been solve
 - [Project ideas in the second cohort](https://github.com/ethereum-cdap/cohort-zero/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
 - [Project ideas in the third cohort](https://github.com/eth-protocol-fellows/cohort-three/blob/master/projects/project-ideas.md), [Projects executed](https://github.com/eth-protocol-fellows/cohort-three/blob/master/projects/) 
 
-
-### prysmctl
-
-Proposed by Kasey
-
-Prysm has a new accessory cli tool called `prysmctl` that we intend to expand to host various utilities. This work would be self-contained, high value for users and would range from simple (interacting with beacon node apis, replacing prysm.sh) to challenging (orchestrating testnet setup, interacting with the database, debugging tools for ssz values etc).
 
 ### Security system based on machine learning
 
@@ -64,17 +57,6 @@ Proposed by Mario Vega
 By Mario Havel
 
 Contribute to integration of public ephemeral testnet. Research and feedback the spec, create implementations in clients and/or client testing, end user tooling, e.g. dappnode, nicenode, stereum. Check the [specs](https://github.com/ethereum/EIPs/blob/04369cb50ee6c1894dec868141e8a32e66dc4f16/EIPS/eip-testnet-draft.md) and [network details](https://github.com/ephemery-testnet/ephemery-resources). 
-
-### Portal Network
-
-Proposed by Ognyan Genev
-
-#### Beacon Chain Light Client Network implementation in Rust
-- Implementation of Beacon CHain Light Client Network [specs](https://github.com/ethereum/portal-network-specs/pull/166) for [Trin](https://github.com/ethereum/trin) portal network client.
-
-#### Cross-client testing framework for Portal Network clients
-[Axle](https://github.com/ogenev/axle) is a new project, inspired by [Hive](https://github.com/ethereum/hive). The goal is to create a framework for running integration tests against Portal Network clients.
-The project is in a very early stage and greenfield.
 
 ### API for calculating ETH supply
 
@@ -121,7 +103,7 @@ Paprika - new C# DB optimized for Merkle Tries and Keccaks
 * Implement a novel append-only database for the Nimbus beacon node.
 * Implement instant one-shot syncing based on the zero-knowledge proofs from the DendrETH project.
 
-### By Radek (Prysm)
+### Auditing Beacon APIs in Prysm
 
-Auditing Beacon APIs in Prysm
+By Radek
 
