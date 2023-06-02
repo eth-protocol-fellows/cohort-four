@@ -1,6 +1,6 @@
 # Proposed projects
 
-Here is a list of projects proposed by mentors. Use these project as an inspiration and if you would like to know more about specific project or work on it, contact corresponding mentor. 
+Here is a list of projects proposed by mentors. Use these project as an inspiration and if you would like to know more about specific project or work on it, contact corresponding mentor.
 
 - [Previous cohorts](#previous-cohorts)
 - [Security system based on machine learning](#security-system-based-on-machine-learning)
@@ -15,16 +15,16 @@ Here is a list of projects proposed by mentors. Use these project as an inspirat
 - [Browser tooling](#browser-tooling)
 - [By Tomasz Stanczak](#by-tomasz-stanczak-nethermind)
 - [By Zahary Karadjov](#by-zahary-nimbus)
-- [Auditing Beacon API](#auditing-beacon-apis-in-prysm)
+- [Auditing Beacon APIs](#auditing-beacon-apis-in-prysm)
 - [Devops tooling wishlist](#devops-tooling-wishlist)
 
 ### Previous cohorts
 
-In previous cohorts, you can find many up to date ideas which haven't been solved yet. 
+In previous cohorts, you can find many up to date ideas which haven't been solved yet.
 
 - [Project ideas in the first cohort](https://github.com/ethereum-cdap/cohort-one/issues?q=is%3Aissue+Project+idea)
 - [Project ideas in the second cohort](https://github.com/ethereum-cdap/cohort-zero/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
-- [Project ideas in the third cohort](https://github.com/eth-protocol-fellows/cohort-three/blob/master/projects/project-ideas.md), [Projects executed](https://github.com/eth-protocol-fellows/cohort-three/blob/master/projects/) 
+- [Project ideas in the third cohort](https://github.com/eth-protocol-fellows/cohort-three/blob/master/projects/project-ideas.md), [Projects executed](https://github.com/eth-protocol-fellows/cohort-three/blob/master/projects/)
 
 
 ### Security system based on machine learning
@@ -51,13 +51,13 @@ Explore Robus Incentives Group Opened Problems https://efdn.notion.site/ROPs-RIG
 
 Proposed by Mario Vega
 
-[Hive](https://github.com/ethereum/hive) can evolve into more sophisticated tool for e2e testing which allows to run the Consensus and Execution clients as they would be run by the end users. 
+[Hive](https://github.com/ethereum/hive) can evolve into more sophisticated tool for e2e testing which allows to run the Consensus and Execution clients as they would be run by the end users.
 
-### Ephemery testnet 
+### Ephemery testnet
 
 By Mario Havel
 
-Contribute to integration of public ephemeral testnet. Research and feedback the spec, create implementations in clients and/or client testing, end user tooling, e.g. dappnode, nicenode, stereum. Check the [specs](https://github.com/ethereum/EIPs/blob/04369cb50ee6c1894dec868141e8a32e66dc4f16/EIPS/eip-testnet-draft.md) and [network details](https://github.com/ephemery-testnet/ephemery-resources). 
+Contribute to integration of public ephemeral testnet. Research and feedback the spec, create implementations in clients and/or client testing, end user tooling, e.g. dappnode, nicenode, stereum. Check the [specs](https://github.com/ethereum/EIPs/blob/04369cb50ee6c1894dec868141e8a32e66dc4f16/EIPS/eip-testnet-draft.md) and [network details](https://github.com/ephemery-testnet/ephemery-resources).
 
 ### API for calculating ETH supply
 
@@ -106,10 +106,16 @@ Paprika - new C# DB optimized for Merkle Tries and Keccaks
 
 ### Auditing Beacon APIs in Prysm
 
-By Radek
+Currently it's not possible to connect a Prysm validator client (VC) to a non-Prysm beacon node. Before the third cohort started, our VC could interact with the beacon node (BN) only through a Prysm-specific set of gRPC endpoints. EPF's third cohort participants set out on a journey to change this and allow the VC to communicate over HTTP using  Beacon APIs. They got very close to making it happen, and it's probably a matter of weeks before we have a working implementation. That being said, there's still a lot to be done before we can safely advice our users to turn the feature on.
+
+When Beacon APIs were initially implemented, we mostly focused on correctness and didn't pay attention to efficiency. Because of this some endpoints are very unoptimized. They contain expensive loops and don't make use of certain caches. On top of this, server-side handlers are written as gRPC functions, which results in having a middleware layer to convert between HTTP and gRPC. This is very costly. On the contrary, Prysm-specific gRPC endpoints are optimized to make the VC <--> BN communication as fast as possible. We want to eventually deprecate these endpoints in favor of Beacon APIs, but we can't do that if we have to sacrifice too much.
+
+The main idea behind this project is to audit existing Beacon APIs, identify bottlenecks and improvement opportunities, propose and implement optimizations. Ideally all endpoints should be rewritten as HTTP handlers which would remove the middleware layer, but this may be out of scope of this project, unless it gets a lot of popularity and we can split work between multiple participants.
+
+Beacon APIs need you! ;-)
 
 ### Devops tooling wishlist
 
-By Pari 
+By Pari
 
 https://github.com/ethpandaops/tooling-wishlist
