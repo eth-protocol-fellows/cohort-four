@@ -110,7 +110,7 @@ Currently it's not possible to connect a Prysm validator client (VC) to a non-Pr
 
 When initially implementing Beacon APIs, our primary focus was on correctness rather than efficiency. As a result some endpoints are very unoptimized. They contain expensive loops and don't make use of certain caches. Additionally, server-side handlers are written as gRPC functions, necessitating a middleware layer to convert between HTTP and gRPC. This is very costly. On the contrary, Prysm-specific gRPC endpoints are optimized to make the VC <--> BN communication as fast as possible. We want to eventually deprecate these endpoints in favor of Beacon APIs, but we can't do that if we have to sacrifice too much.
 
-The main idea behind this project is to audit existing Beacon APIs, identify bottlenecks and improvement opportunities, propose and implement optimizations. Ideally all endpoints should be rewritten as HTTP handlers which would remove the middleware layer, but this may be out of scope of this project, unless it gets a lot of popularity and we can split work between multiple participants.
+The main idea behind this project is to audit existing Beacon APIs, identify bottlenecks and improvement opportunities, propose and implement optimizations. Ideally all endpoints should be rewritten as HTTP handlers which would remove the middleware layer, but this may be out of scope for this project, unless it gets a lot of popularity and we can split work between multiple participants.
 
 Beacon APIs need you! ;-)
 
