@@ -15,7 +15,7 @@ Here is a list of projects proposed by mentors. Use these project as an inspirat
 - [Browser tooling](#browser-tooling)
 - [By Tomasz Stanczak](#by-tomasz-stanczak-nethermind)
 - [By Zahary Karadjov](#by-zahary-nimbus)
-- [Auditing Beacon APIs](#auditing-beacon-apis-in-prysm)
+- [Auditing Beacon API](#auditing-beacon-apis-in-prysm)
 - [Devops tooling wishlist](#devops-tooling-wishlist)
 
 ### Previous cohorts
@@ -113,6 +113,8 @@ When Beacon APIs were initially implemented, we mostly focused on correctness an
 The main idea behind this project is to audit existing Beacon APIs, identify bottlenecks and improvement opportunities, propose and implement optimizations. Ideally all endpoints should be rewritten as HTTP handlers which would remove the middleware layer, but this may be out of scope of this project, unless it gets a lot of popularity and we can split work between multiple participants.
 
 Beacon APIs need you! ;-)
+
+By Radosław Kapka
 
 ### Devops tooling wishlist
 
