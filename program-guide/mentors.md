@@ -4,6 +4,7 @@ In this EPF cohort, participants have an opportunity to be mentored by core deve
 
 ## Mentors
 
+
 | Name                  | Team                       | Area of focus                                                 |
 | --------------------- | -------------------------- | ------------------------------------------------------------- |
 | Paweł Bylica          | Ipsilon                    | EVM                                                           |
@@ -14,17 +15,20 @@ In this EPF cohort, participants have an opportunity to be mentored by core deve
 | Alex Stokes           | EF Consensus Research      | Consensus layer, MEV, (consensus layer) light clients         |
 | Barnabé Monnot        | EF Robust Incentives Group | Cryptoeconomics, economic modelling, data science             |
 | Kev                   | Independent                | Cryptography, Verkle Trees, Statless                          |
-| Cayman Nava           | ChainSafe Lodestar         | Consensus layer, browser compatibility                        |
 | Paul Harris           | Teku                       | Consensus layer                                               |
 | Mario Vega            | EF Testing team            | Execution Clients Testing, End-to-end tests, State Tests      |
 | Tomasz K. Stanczak    | Nethermind                 | Protocol Engineering, MEV, EVM                                |
 | Mikhail Kalinin       | TXRX                       | Engine API, Consensus Layer, Optimistic Sync, In-protocol PBS |
 | Michael Sproul        | Sigma Prime (Lighthouse)   | Consensus layer, fork choice, block fingerprinting            |
-| DappLion              | Lodestar                   | Consensus layer                                               |
+| Paul Hauner           | Sigma Prime (Lighthouse)   | Consensus layer, code optimisation, rewards profiling         |
+| Cayman Nava           | ChainSafe Lodestar         | Consensus layer, browser compatibility                        |
+| DappLion              | Chainsafe Lodestar         | Consensus layer                                               |
 | Yoav Weiss            | EF Security, AA            | Account Abstraction                                           |
 | Zahary Karadjov       | Nimbus, Metacraft Labs     | Consensus layer, Nim lang                                     |
 | Radosław Kapka        | Prysm                      | Consensus layer, Beacon API                                   |
-
+| Ognyan Genev          | Portal Network             | Portal Network, trin client                                   |
+| Mike Ferris           | Portal Network             | Portal Network, rust, Glados                                  |
+| Justin Florentine     | Besu                       |  Besu, Java,  Ethereum roadmap and EIPs                       |
 
 
 ## How to get mentorship

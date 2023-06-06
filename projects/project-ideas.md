@@ -121,3 +121,31 @@ By Radosław Kapka
 By Pari
 
 https://github.com/ethpandaops/tooling-wishlist
+
+### Portal Network
+
+#### By ogenev
+
+Improve Portal Network interop tests (portal-hive), Portal State Network R&D, Portal DAS network R&D
+
+#### By Mike Ferris
+
+Portal Network Glados: https://github.com/Ethereum/glados
+
+### Lighthouse
+
+#### By Michael Sproul
+
+- Adding and benchmarking new slasher backends. Lighthouse can use either LMDB or MDBX for its slasher backend but we are interested in experimenting with other options like SQLite, Postgres and redb.
+- Similar to the slasher backend, we would like to modularise the beacon node database backend. Currently only LevelDB is supported, but it has several issues and is starting to look quite dated. This project would involve abstracting over the backend, and then adding at least one new one (e.g. SQLite).
+- Implementing improvements to Lighthouse's attestation packing. We have undertaken previous research on this topic, but have yet to implement all of the ideas we decided upon. See: https://lighthouse-blog.sigmaprime.io/optimising-attestation-packing.html and https://github.com/sigp/lighthouse/issues/3733.
+
+#### By Paul Hauner
+
+- P2P network, consensus optimizations, UX improvements, improved monitoring, database optimization.
+
+### Besu
+
+#### By Justin Florentine 
+
+EIP-7002 if it gets approved. We have a wide variety of potential projects to offer and can tailor it to the candidate. Working on protocol will depend on the protocol roadmap, so likely upcoming projects would be EOF and Verkle Trie adoption.
