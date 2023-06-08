@@ -16,6 +16,7 @@ Here is a list of projects proposed by mentors. Use these project as an inspirat
 - [By Tomasz Stanczak](#by-tomasz-stanczak-nethermind)
 - [By Zahary Karadjov](#by-zahary-nimbus)
 - [Auditing Beacon API](#auditing-beacon-apis-in-prysm)
+- [ePBS design and prototyping](#epbs-design-and-prototyping)
 - [Devops tooling wishlist](#devops-tooling-wishlist)
 
 ### Previous cohorts
@@ -104,7 +105,8 @@ Paprika - new C# DB optimized for Merkle Tries and Keccaks
 * Implement a novel append-only database for the Nimbus beacon node.
 * Implement instant one-shot syncing based on the zero-knowledge proofs from the DendrETH project.
 
-### Auditing Beacon APIs in Prysm
+### Prysm
+#### Auditing Beacon APIs in Prysm (By Radosław Kapka)
 
 Currently it's not possible to connect a Prysm validator client (VC) to a non-Prysm beacon node. Before the third cohort started, our VC could interact with the beacon node (BN) only through a Prysm-specific set of gRPC endpoints. EPF's third cohort participants set out on a journey to change this and allow the VC to communicate over HTTP using Beacon APIs. They got very close to making it happen, and it's probably a matter of weeks before we have a working implementation. That being said, there's still a lot to be done before we can safely advise our users to turn the feature on.
 
@@ -114,7 +116,8 @@ The main idea behind this project is to audit existing Beacon APIs, identify bot
 
 Beacon APIs need you! ;-)
 
-By Radosław Kapka
+#### ePBS Design and Prototyping (By Potuz and Terence)
+We are planning to ramp up engineering design space for ePBS and are looking for interested cohort fellows that are torn between research and software engineering. Tasks will include review of the current literature on ePBS, prototyping and writing design documents adapted to the Prysm CL client, and writing production level code. The literature consists mostly writeups by the RIG, which has an open problem on precisely this same topic. In this project we are more interested in deploying a working product, that can be tested in distributed devnets and compatible with EIP 4844. 
 
 ### Devops tooling wishlist
 
