@@ -117,7 +117,7 @@ The main idea behind this project is to audit existing Beacon APIs, identify bot
 Beacon APIs need you! ;-)
 
 #### ePBS Design and Prototyping (By Potuz and Terence)
-We are planning to ramp up engineering design space for ePBS and are looking for interested cohort fellows that are torn between research and software engineering. Tasks will include review of the current literature on ePBS, prototyping and writing design documents adapted to the Prysm CL client, and writing production level code. The literature consists mostly writeups by the RIG, which has an open problem on precisely this same topic. In this project we are more interested in deploying a working product, that can be tested in distributed devnets and compatible with EIP 4844. 
+We are planning to ramp up engineering design space for ePBS and are looking for interested cohort fellows that are torn between research and software engineering. Tasks will include review of the current literature on ePBS, prototyping and writing design documents adapted to the Prysm CL client, and writing production level code. The literature consists mostly writeups by the RIG, which has an open problem on precisely this same topic. In this project we are more interested in deploying a working product, that can be tested in distributed devnets and compatible with EIP4844. 
 
 ### Devops tooling wishlist
 
