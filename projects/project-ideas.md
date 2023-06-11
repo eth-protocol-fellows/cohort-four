@@ -3,7 +3,7 @@
 Here is a list of projects proposed by mentors. Use these project as an inspiration and if you would like to know more about specific project or work on it, contact corresponding mentor.
 
 - [Previous cohorts](#previous-cohorts)
-- [Security system based on machine learning](#security-system-based-on-machine-learning)
+- [Fuzzing](#fuzzing)
 - [Alex Stokes](#alex-stokes)
 - [RIG Opened Problems](#rig-opened-problems)
 - [P2P protocol tests](#p2p-protocol-tests)
@@ -27,13 +27,18 @@ In previous cohorts, you can find many up to date ideas which haven't been solve
 - [Project ideas in the third cohort](https://github.com/eth-protocol-fellows/cohort-three/blob/master/projects/project-ideas.md), [Projects executed](https://github.com/eth-protocol-fellows/cohort-three/blob/master/projects/)
 
 
-### Security system based on machine learning
+### Fuzzing
 
 Proposed by Frederik
 
-Applying machine learning on for example the network protocol (or it could be on other areas too such as on-chain data) to create outliers and enable early warning systems for issues that start occurring is something I feel would be valuable. This could perhaps be a custom built system, or based off on elastic stack or similar existing solution.
+Create new fuzzers for software in order to find potential vulnerabilities, or improve on existing fuzzing frameworks. Networking in particular is an area where this could see some improvements on, but clients on the execution layer and consensus layer could also benefit from additional fuzzing.
+https://github.com/MariusVanDerWijden/tx-fuzz
+https://github.com/MariusVanDerWijden/FuzzyVM
+https://github.com/holiman/goevmlab/
+https://github.com/infosecual/nosy
+https://github.com/ethereum/c-kzg-4844/tree/main/fuzz
+https://github.com/jtraglia/kzg-fuzz
 
-There could also be more static data being shown such as validator performance, conflicting chains, etc.
 
 ### Alex Stokes
 
