@@ -17,6 +17,7 @@ Here is a list of projects proposed by mentors. Use these project as an inspirat
 - [By Zahary Karadjov](#by-zahary-nimbus)
 - [Auditing Beacon API](#auditing-beacon-apis-in-prysm)
 - [ePBS design and prototyping](#epbs-design-and-prototyping)
+- [Separate blobs from payload](#separate-blobs-from-payload)
 - [Devops tooling wishlist](#devops-tooling-wishlist)
 
 ### Previous cohorts
@@ -121,6 +122,11 @@ Beacon APIs need you! ;-)
 (By Potuz and Terence)
 
 We are planning to ramp up engineering design space for ePBS and are looking for interested cohort fellows that are torn between research and software engineering. Tasks will include review of the current literature on ePBS, prototyping and writing design documents adapted to the Prysm CL client, and writing production level code. The literature consists mostly writeups by the RIG, which has an open problem on precisely this same topic. In this project we are more interested in deploying a working product, that can be tested in distributed devnets and compatible with EIP4844. 
+
+#### Separate Blobs from Payload
+(By Kasey, Potuz and Terence) 
+
+This project is about studying the implementation and design space for separation of blobs from the execution payload in Deneb. A rationale for this proposed change can be found [in this Ethereum magician's post](https://ethereum-magicians.org/t/uncouple-blobs-from-the-execution-payload/13059). Tasks include writing design docs for implementation in Prysm, prototyping them, writing (or reviewing) the accompanying consensus layer spec repo pull requests and eventually delivering production code that can be tested on devnets. 
 
 ### Devops tooling wishlist
 
