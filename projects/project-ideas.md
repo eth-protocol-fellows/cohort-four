@@ -172,3 +172,19 @@ EIP-7002 if it gets approved. We have a wide variety of potential projects to of
 #### By HWW
 
 https://notes.ethereum.org/@hww/consensus-specs-wishlist
+
+### Ethereum Deb Repo
+
+By Mario Havel
+
+Tool for crafting deb packages enabling to run whole Eth infrastracture easily and automatically. 
+
+https://notes.ethereum.org/@MarioHavel/ethdebrepo
+
+### Teku
+
+By Mehdi Aouadi  
+
+There are some interesting open issues in the Teku Github repo: 
+- Epics: https://github.com/ConsenSys/teku/issues?q=is%3Aopen+is%3Aissue+label%3AEpic+ 
+- Enhancements: https://github.com/ConsenSys/teku/issues?q=is%3Aopen+is%3Aissue+label%3A%22enhancement+%F0%9F%95%B5%EF%B8%8F%E2%80%8D%E2%99%80%EF%B8%8F%22 

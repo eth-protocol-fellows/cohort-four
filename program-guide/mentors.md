@@ -7,7 +7,8 @@ In this EPF cohort, participants have an opportunity to be mentored by core deve
 
 | Name                  | Team                       | Area of focus                                                 |
 | --------------------- | -------------------------- | ------------------------------------------------------------- |
-| Paweł Bylica          | Ipsilon                    | EVM                                                           |
+| Axic                  | Ipsilon                    | EVM, EOF, Solidity compiler                                   |
+| Paweł Bylica          | Ipsilon                    | EVM, EOF                                                      |
 | Fredrik               | EF Security Research       | General Security                                              |
 | Marius van der Wijden | Geth                       | Execution Layer, EVM, Crypto, Merge                           |
 | Hsiao-Wei Wang        | EF Consensus Research      | Consensus Layer                                               |
@@ -15,7 +16,6 @@ In this EPF cohort, participants have an opportunity to be mentored by core deve
 | Alex Stokes           | EF Consensus Research      | Consensus layer, MEV, (consensus layer) light clients         |
 | Barnabé Monnot        | EF Robust Incentives Group | Cryptoeconomics, economic modelling, data science             |
 | Kev                   | Independent                | Cryptography, Verkle Trees, Statless                          |
-| Paul Harris           | Teku                       | Consensus layer                                               |
 | Mario Vega            | EF Testing team            | Execution Clients Testing, End-to-end tests, State Tests      |
 | Tomasz K. Stanczak    | Nethermind                 | Protocol Engineering, MEV, EVM                                |
 | Mikhail Kalinin       | TXRX                       | Engine API, Consensus Layer, Optimistic Sync, In-protocol PBS |
@@ -28,7 +28,10 @@ In this EPF cohort, participants have an opportunity to be mentored by core deve
 | Radosław Kapka        | Prysm                      | Consensus layer, Beacon API                                   |
 | Ognyan Genev          | Portal Network             | Portal Network, trin client                                   |
 | Mike Ferris           | Portal Network             | Portal Network, rust, Glados                                  |
-| Justin Florentine     | Besu                       |  Besu, Java,  Ethereum roadmap and EIPs                       |
+| Justin Florentine     | Besu                       | Besu, Java,  Ethereum roadmap and EIPs                        |
+| Mehdi Aouadi          | Teku                       | Consensus Layer, software enginneering/architecture           |
+| Paul Harris           | Teku                       | Consensus layer                                               |
+| Georgios Konstantopoulos | Paradigm / Reth         | Execution layer, Rust and reth client                         |
 
 
 ## How to get mentorship
