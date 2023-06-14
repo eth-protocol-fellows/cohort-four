@@ -34,12 +34,20 @@ In previous cohorts, you can find many up to date ideas which haven't been solve
 Proposed by Frederik
 
 Create new fuzzers for software in order to find potential vulnerabilities, or improve on existing fuzzing frameworks. Networking in particular is an area where this could see some improvements on, but clients on the execution layer and consensus layer could also benefit from additional fuzzing.
+
 https://github.com/MariusVanDerWijden/tx-fuzz
+
 https://github.com/MariusVanDerWijden/FuzzyVM
+
 https://github.com/holiman/goevmlab/
+
 https://github.com/infosecual/nosy
+
 https://github.com/ethereum/c-kzg-4844/tree/main/fuzz
+
 https://github.com/jtraglia/kzg-fuzz
+
+https://github.com/sigp/beacon-fuzz
 
 
 ### Alex Stokes
