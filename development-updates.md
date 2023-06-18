@@ -10,7 +10,7 @@ Phase one is the very beggining of the cohort. First few weeks are dedicated to 
 
 | Name/GH                           | Week 0                                                                              | Week 1 | Week 2 | 
 | --------------------------------- | ----------------------------------------------------------------------------------- | ------ | ------ | 
-[Camille](github.com/camillecorti)|[Update 1](https://github.com/camillecorti/SedVit.art/blob/f63a1a87966cdb6ddd3fe20d838de70592030d72/week%20zero%20EPF%20Research%20.md.diff)
+[Camille](github.com/camillecorti)|[Update 1](https://github.com/camillecorti/SedVit.art/blob/f63a1a87966cdb6ddd3fe20d838de70592030d72/week%20zero%20EPF%20Research%20.md)
 [Mario](github.com/taxmeifyoucan) | [Update 1][def] |        |        |    
 |                                   |                                                                                     |        |        |    
 
