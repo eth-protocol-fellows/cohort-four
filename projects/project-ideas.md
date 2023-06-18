@@ -19,6 +19,12 @@ Here is a list of projects proposed by mentors. Use these project as an inspirat
 - [ePBS design and prototyping](#epbs-design-and-prototyping)
 - [Separate blobs from payload](#separate-blobs-from-payload)
 - [Devops tooling wishlist](#devops-tooling-wishlist)
+- [Portal Network](#portal-network)
+- [Lighthouse](#lighthouse)
+- [Besu](#besu)
+- [Conesnsus specs](#consensus-specs)
+- [Ethereum Deb Repo](#ethereum-deb-repo)
+- [Teku](#teku)
 
 ### Previous cohorts
 
