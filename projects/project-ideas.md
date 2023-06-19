@@ -25,6 +25,7 @@ Here is a list of projects proposed by mentors. Use these project as an inspirat
 - [Conesnsus specs](#consensus-specs)
 - [Ethereum Deb Repo](#ethereum-deb-repo)
 - [Teku](#teku)
+- [Ipsilon](#ipsilon)
 
 ### Previous cohorts
 
@@ -202,3 +203,11 @@ By Mehdi Aouadi
 There are some interesting open issues in the Teku Github repo: 
 - Epics: https://github.com/ConsenSys/teku/issues?q=is%3Aopen+is%3Aissue+label%3AEpic+ 
 - Enhancements: https://github.com/ConsenSys/teku/issues?q=is%3Aopen+is%3Aissue+label%3A%22enhancement+%F0%9F%95%B5%EF%B8%8F%E2%80%8D%E2%99%80%EF%B8%8F%22 
+
+### Ipsilon
+
+Research around the EVM, specifically (but limited to):
+- EOF-compatible 4337
+- Consensus-level eth supply calculation and exposing it as an opcode
+- EVM memory repricing -- analysis and proposing a solution
+- EVM analysis and design of transfer functions (executing and non-executing)
