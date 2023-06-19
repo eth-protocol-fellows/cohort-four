@@ -10,7 +10,8 @@ Phase one is the very beggining of the cohort. First few weeks are dedicated to 
 
 | Name/GH                           | Week 0                                                                              | Week 1 | Week 2 | 
 | --------------------------------- | ----------------------------------------------------------------------------------- | ------ | ------ | 
-| [Mario](github.com/taxmeifyoucan) | [Update 1](https://github.com/taxmeifyoucan/ephemeral-testnet/blob/master/specs.md) |        |        |    
+[Camille](github.com/camillecorti)|[Update 1](https://github.com/camillecorti/SedVit.art/blob/f63a1a87966cdb6ddd3fe20d838de70592030d72/week%20zero%20EPF%20Research%20.md)
+[Mario](github.com/taxmeifyoucan) | [Update 1][def] |        |        |    
 |                                   |                                                                                     |        |        |    
 
 ## Phase 2
@@ -40,3 +41,6 @@ The final weeks of the cohort should mark the finalization of your project. Subm
 | Name/GH | Final dev update | Project presentation |
 | ------- | ---------------- | -------------------- |
 |         |                  |                      |
+
+
+[def]: https://github.com/taxmeifyoucan/ephemeral-testnet/blob/master/specs.md
