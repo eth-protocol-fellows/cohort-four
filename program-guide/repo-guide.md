@@ -62,3 +62,5 @@ When submitting a PR, make sure you are using the latest master branch. Otherwis
 
 When merging someone else's PR, use your best judgement and ask if you are unsure. 
 
+If your IDE or system creates some hidden config files (e.g. `.vscode/...), please make sure you don't upload them to the repo by updating the gitignore. 
+
