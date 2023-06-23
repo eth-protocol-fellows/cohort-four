@@ -7,7 +7,7 @@ Learn more about EPF in [Program details](./program-guide/program-details.md) an
 ## Getting started
 
 The EPF is fully permissionless and open program. Anybody is welcome to participate. All resources and work being done can be found in this repository. 
-[Applications](https://forms.gle/9CJidyBmSJVxYn899) for the fourth cohort are currently open. 
+[Applications](https://forms.gle/9CJidyBmSJVxYn899) for the fourth cohort are currently closed. 
 
 To get started, review the resources in the [program guide](/program-guide/README.md) and [FAQ](/program-guide/faq.md). This repository is the main coordination tool for participants. To start using it, check the [guide for participating](/program-guide/participation-guide.md) and open a PR to add your development updates. 
 
