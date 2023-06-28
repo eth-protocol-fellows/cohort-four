@@ -12,7 +12,7 @@ The pull request for this issue can be found [here](https://github.com/sigp/ligh
 
 I have a rough draft of my potential project proposal [here](https://hackmd.io/@B8vIxNUfSeC2Mhu5CBwSNw/B1WNEPHu2)
 
-And some notes on what I've done so far [here](https://hackmd.io/6W9QPfw_TzyZT8nH6ub2dQ)
+And some notes on what I've done so far [here](https://hackmd.io/@B8vIxNUfSeC2Mhu5CBwSNw/SyzE-0r_3)
 
 Can find more details about this specific issue in the lighthouse github repo: [Add more slasher backends (redb, sqlite, postgres)](https://github.com/sigp/lighthouse/issues/4424)
 
