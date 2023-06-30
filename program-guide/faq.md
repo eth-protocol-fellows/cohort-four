@@ -23,7 +23,7 @@ Here are some frequently asked questions about EPF program.
 - **Will there be an interview process?**
     - Yes. After reviewing applications, select applicants will be scheduled for an interview. 
 - **How many applicants will be accepted in the first cohort?**
-    - The exact number depends on number of applications and capacity of mentors. We are targeting between 20 and 30 participants.
+    - The exact number depends on number of applications, budget, and capacity of mentors. We are targeting between 20 and 30 participants.
 - **Can I still participate even if I am not selected in this cohort?**
     - Yes. Being "selected" into the program is really just the group that we'll be working directly with to provide funding. The program is going to happen in the "open", meaning that anyone who wants to participate can be a part of the program with the same resources (aside from funding) as those that are "selected". Those that participate in a permissionless fashion may be eligible for a stipend after displaying aptitude and dedication.
 
