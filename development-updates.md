@@ -54,6 +54,16 @@ Phase one is the very begining of the cohort. The first few weeks are dedicated 
 | [Teri](https://github.com/T-ess)                               |                                                                                                                                         | [Update 1](https://hackmd.io/@teri-b/HJwjlwFqh)                                          |                                                       |
 | [Wenceslas (0x5f3759df)](https://github.com/wenceslas-sanchez) | N/A                                                                                                                                     | [Update 1](https://hackmd.io/@Orlogskapten/S1QdDDTt3)                                    | [Update 2](https://hackmd.io/@Orlogskapten/SyYSwhb9h) |
 
+<<<<<<< HEAD
+=======
+| Name/GH                           | Week 0                                                                              | Week 1 | Week 2 | 
+| --------------------------------- | ----------------------------------------------------------------------------------- | ------ | ------ | 
+[Camille](github.com/camillecorti)|[Update 1](https://github.com/camillecorti/SedVit.art/blob/f63a1a87966cdb6ddd3fe20d838de70592030d72/week%20zero%20EPF%20Research%20.md)
+[Eitan](https://github.com/eserilev)|[Update 1](https://hackmd.io/@B8vIxNUfSeC2Mhu5CBwSNw/rJ8njJ1O2)|
+[Mario](github.com/taxmeifyoucan) | [Update 1][def] |        |        |
+| [Luke](github.com/ltfschoen) | [Update 1 (Draft)](./projects/zk-wave.md) |        |        |    
+|                                   |                                                                                     |        |        |    
+>>>>>>> zk-wave draft update 1
 
 ## Phase 2
 
