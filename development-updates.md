@@ -2,11 +2,11 @@
 
 This document includes all development updates by contributors to EPF cohort 4. [Learn more](/program-guide/repo-guide.md#development-updates) about creating your development updates.
 
-Add your name alphabetically and link your updates to corresponding tables bellow by opening a PR. Iterate numbers of your updates and always place them into the current week. Editing a big raw markdown table can cause problems, use a tool for editing md or transforming from other format. 
+Add your name alphabetically and link your updates to corresponding tables below by opening a PR. Iterate numbers of your updates and always place them into the current week. Editing a big raw markdown table can cause problems, use a tool for editing md or transforming from other format. 
 
 ## Phase 1
 
-Phase one is the very beggining of the cohort. First few weeks are dedicated to general learning about the EPF program, Ethereum protocol as whole and it's development. 
+Phase one is the very begining of the cohort. The first few weeks are dedicated to general learning about the EPF program, Ethereum protocol as whole and it's development. 
 
 | Name/GH                           | Week 0                                                                              | Week 1 | Week 2 | 
 | --------------------------------- | ----------------------------------------------------------------------------------- | ------ | ------ | 
@@ -17,7 +17,7 @@ Phase one is the very beggining of the cohort. First few weeks are dedicated to 
 
 ## Phase 2
 
-With the gained insight into the protocol, following weeks serve as a deep dive into a chosen topic. By the first month, you should finish the initial research about a specific problem and propose a project roadmap. 
+With the gained insight into the protocol, the following weeks serve as a deep dive into a chosen topic. By the first month, you should finish the initial research about a specific problem and propose a project, inluding a roadmap. Get some ideas from the [project proposal template](https://github.com/eth-protocol-fellows/cohort-four/blob/master/projects/project-template.md)
 
 
 | Name/GH | Week 3 | Week 4 | Project proposal |
@@ -26,7 +26,7 @@ With the gained insight into the protocol, following weeks serve as a deep dive 
 
 ## Phase 3
 
-The actual project development, main part of the program. Post here regular updates on your progress during the development phase, share your issues and successes with others.
+The actual project development is the main part of the program. Post your regular progress updates here during the development phase, share your issues and successes with others.
 
 
 | Name/GH | Week 5 | Week 6 | Week 7 | Week 8 | Week 9 | Week 10 | Week 11 | Week 12 | Week 13 | Week 14 | Week 15 |
