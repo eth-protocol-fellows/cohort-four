@@ -16,6 +16,7 @@ Here are some starting points for learning about the Ethereum protocol.
 ### Yellow Paper
 - Yellow Paper: https://ethereum.github.io/yellowpaper/paper.pdf  (accompanying cheat sheet: [Cheat sheet link](https://github.com/benjaminion/YellowPaper_CheatSheet/blob/master/YPCheatSheet.pdf))
     - Walkthrough of the Yellow paper: https://www.lucassaldanha.com/ethereum-yellow-paper-walkthrough-1/
+    - An in-depth discussion of the Yellow Paper on Youtube: https://youtu.be/e84V1MxRlYs
     - Visual Guide to the Yellow Paper: https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf
 
 ### Contributing to Ethereum Ecosystem
