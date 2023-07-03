@@ -35,9 +35,10 @@ Here are some starting points for learning about the Ethereum protocol.
    - Why Proof of Stake? (Vitalik Buterin): https://vitalik.ca/general/2020/11/06/pos2020.html
    - The Merge: https://ethereum.org/en/eth2/merge/
    - Clients (Coding Languages of Ethereum 2): https://ethereum.org/en/eth2/get-involved/#clients
-   - Ben Edgington ETH2 book: https://eth2book.info/
    - LMD Ghost Fork Choice Algorithm: https://medium.com/@aditya.asgaonkar/bitwise-lmd-ghost-an-efficient-cbc-casper-fork-choice-rule-6db924e57d1f
-   - The Beacon Chain Specification: https://github.com/ethereum/annotated-spec/tree/master
+   - Anotated Beacon Chain Specification:
+       - Ben Edgington ETH2 book: https://eth2book.info/ 
+       - By Vitalik https://github.com/ethereum/annotated-spec/tree/master
 
 ### Current Research and EIPS
 - Research Forums: https://ethresear.ch/
