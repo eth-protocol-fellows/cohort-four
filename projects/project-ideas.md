@@ -26,7 +26,7 @@ Here is a list of projects proposed by mentors. Use these project as an inspirat
 - [Ethereum Deb Repo](#ethereum-deb-repo)
 - [Teku](#teku)
 - [Ipsilon](#ipsilon)
-- [JSON-RPC improvements]()
+- [JSON-RPC improvements](#json-rpc-improvements)
 
 ### Previous cohorts
 
