@@ -6,7 +6,7 @@ In this folder, you can find organizational and other useful materials to get yo
 - [FAQ](/program-guide/faq.md)
 - [Guide for participation](/program-guide/participation-guide.md)
 - [Guide for using this repository](/program-guide/repo-guide.md)
-- [Mentorship guide](https://github.com/eth-protocol-fellows/cohort-three/tree/master/program-guide)
+- [Mentorship guide](/program-guide/mentors.md)
 
 ## Technical resources
 
