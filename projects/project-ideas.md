@@ -182,6 +182,10 @@ Portal Network Glados: https://github.com/Ethereum/glados
 
 EIP-7002 if it gets approved. We have a wide variety of potential projects to offer and can tailor it to the candidate. Working on protocol will depend on the protocol roadmap, so likely upcoming projects would be EOF and Verkle Trie adoption.
 
+#### By Simon Dudley
+
+As above, can be flexible with projects. There's always performance optimisation and automated regression testing work to do that will have a big impact.
+
 ### Consensus specs
 
 #### By HWW

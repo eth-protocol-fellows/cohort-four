@@ -16,6 +16,7 @@ Here are some starting points for learning about the Ethereum protocol.
 ### Yellow Paper
 - Yellow Paper: https://ethereum.github.io/yellowpaper/paper.pdf  (accompanying cheat sheet: [Cheat sheet link](https://github.com/benjaminion/YellowPaper_CheatSheet/blob/master/YPCheatSheet.pdf))
     - Walkthrough of the Yellow paper: https://www.lucassaldanha.com/ethereum-yellow-paper-walkthrough-1/
+    - An in-depth discussion of the Yellow Paper on Youtube: https://youtu.be/e84V1MxRlYs
     - Visual Guide to the Yellow Paper: https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf
 
 ### Contributing to Ethereum Ecosystem
@@ -34,7 +35,10 @@ Here are some starting points for learning about the Ethereum protocol.
    - Why Proof of Stake? (Vitalik Buterin): https://vitalik.ca/general/2020/11/06/pos2020.html
    - The Merge: https://ethereum.org/en/eth2/merge/
    - Clients (Coding Languages of Ethereum 2): https://ethereum.org/en/eth2/get-involved/#clients
-   - Ben Edgington ETH2 book: https://eth2book.info/
+   - LMD Ghost Fork Choice Algorithm: https://medium.com/@aditya.asgaonkar/bitwise-lmd-ghost-an-efficient-cbc-casper-fork-choice-rule-6db924e57d1f
+   - Anotated Beacon Chain Specification:
+       - Ben Edgington ETH2 book: https://eth2book.info/ 
+       - By Vitalik https://github.com/ethereum/annotated-spec/tree/master
 
 ### Current Research and EIPS
 - Research Forums: https://ethresear.ch/
