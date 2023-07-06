@@ -63,7 +63,7 @@ Timeline of the 4 month program will follow these stages:
 ### Phase One
 - Initial meeting with individual participants, interviewing and providing program orientation.
 - Initial group session, presenting the introduction to the program and areas of focus.
-- Learn about chosen problems, form teams and create a write up of a topic they are interested in based on input from mentors.
+- Learn about chosen problems and create a write up of a topic of interest based on input from mentors.
 ### Phase Two
 - Deep dive into identified areas. Learn and familiarize with previous work and current solutions.
 - Connect with chosen mentors and work towards defining a deliverable project.
@@ -71,11 +71,12 @@ Timeline of the 4 month program will follow these stages:
 - Report presentation to other participants and select mentors to gather final feedback.
 ### Phase Three
 - Execute project roadmap to complete deliverables
-- Publish weekly progress updates.
+- Publish weekly development updates.
 - Weekly group calls (stand up) with participants and mentors.
 ### Program End
 - Project wrap up and looking forward to further contributing to the Ethereum ecosystem
 - Project showcase to group and mentors
+- In-person event at Devconnect in Istanbul
 
 During the entire process, participants will have access to [mentors](./mentors.md) and the core developer community for things like answering questions and getting feedback on ideas. Participants should not expect the core developers to actively guide them.
 
