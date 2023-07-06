@@ -26,6 +26,7 @@ Here is a list of projects proposed by mentors. Use these project as an inspirat
 - [Ethereum Deb Repo](#ethereum-deb-repo)
 - [Teku](#teku)
 - [Ipsilon](#ipsilon)
+- [JSON-RPC improvements](#json-rpc-improvements)
 
 ### Previous cohorts
 
@@ -215,3 +216,25 @@ Research around the EVM, specifically (but limited to):
 - Consensus-level eth supply calculation and exposing it as an opcode
 - EVM memory repricing -- analysis and proposing a solution
 - EVM analysis and design of transfer functions (executing and non-executing)
+
+### JSON-RPC improvements
+
+by @lightclient
+
+#### Specification and Testing
+There are a ton of open tasks available in [`ethereum/execution-apis`](https://github.com/ethereum/execution-apis) (check the issues). For thoe unfamiliar, this is the canonical specification for the Ethereum JSON-RPC.
+
+Depending on your interest / experience there are lot possibilities:
+* resolve outstanding spec issues - there are still a lot of small errors in the spec. Many issues have been opened and there are likely more
+* improve render spec layout - we have some idea for how the rendered website could also be improved
+* add more documentation - the rendered web format has the possibility of adding a "description" field and it is currently not utilized
+* improve devex - writing new methods and testing them still isn't the best, a lot of improvements could be had if someone spent some time to look into it
+* better testing coverage - right now we have some really simple tests generated using [`rpctestgen`](https://github.com/lightclient/rpctestgen), but it barely scratches the surface
+
+#### REST wrapper
+
+[Some people](https://twitter.com/peter_szilagyi/status/1671798947411554306?s=20) don't like the JSON-RPC. Although I don't think clients will drop JSON-RPC or create a totally new API anytime soon, we could experiment with a wrapper around the JSON-RPC. This would essentially be a middleware application that "serves" a REST API and converts the queries to the desired JSON-RPC request and shuttle the response back to the caller in the expected REST format.
+
+Main tasks would be:
+* spec out an Ethereum REST API
+* implement middleware application
