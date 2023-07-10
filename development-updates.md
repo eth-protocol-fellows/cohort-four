@@ -15,6 +15,7 @@ Phase one is the very begining of the cohort. The first few weeks are dedicated 
 | [Camille](github.com/camillecorti)   | [Update 1](https://github.com/camillecorti/SedVit.art/blob/f63a1a87966cdb6ddd3fe20d838de70592030d72/week%20zero%20EPF%20Research%20.md) | [Update 2](https://github.com/camillecorti/SedVit.art/blob/main/week%20one.md)       |        |
 | [Eitan](https://github.com/eserilev) | [Update 1](https://hackmd.io/@B8vIxNUfSeC2Mhu5CBwSNw/rJ8njJ1O2)                                                                         |        |        |
 | [Eniko](github.com/eenagy)           | [Update 1][https://hackmd.io/@eenagy/r16O7JVKn]                                                                                         |        |        |
+| [Geemo](https://github.com/GeemoCandama) | [Update 1](https://hackmd.io/@geemo/ryTB4ZUYh)                                                                                      |        |        |
 |                                      |                                                                                                                                         |        |        |
 
 ## Phase 2
