@@ -5,34 +5,35 @@ In this EPF cohort, participants have an opportunity to be mentored by core deve
 ## Mentors
 
 
-| Name                  | Team                       | Area of focus                                                 |
-| --------------------- | -------------------------- | ------------------------------------------------------------- |
-| Axic                  | Ipsilon                    | EVM, EOF, Solidity compiler                                   |
-| Paweł Bylica          | Ipsilon                    | EVM, EOF                                                      |
-| Fredrik               | EF Security Research       | General Security                                              |
-| Marius van der Wijden | Geth                       | Execution Layer, EVM, Crypto, Merge                           |
-| Hsiao-Wei Wang        | EF Consensus Research      | Consensus Layer                                               |
-| Piper Merriam         | Portal Network             | Execution Layer, EVM, Networking, Client Design               |
-| Alex Stokes           | EF Consensus Research      | Consensus layer, MEV, (consensus layer) light clients         |
-| Barnabé Monnot        | EF Robust Incentives Group | Cryptoeconomics, economic modelling, data science             |
-| Kev                   | Independent                | Cryptography, Verkle Trees, Statless                          |
-| Mario Vega            | EF Testing team            | Execution Clients Testing, End-to-end tests, State Tests      |
-| Tomasz K. Stanczak    | Nethermind                 | Protocol Engineering, MEV, EVM                                |
-| Mikhail Kalinin       | TXRX                       | Engine API, Consensus Layer, Optimistic Sync, In-protocol PBS |
-| Michael Sproul        | Sigma Prime (Lighthouse)   | Consensus layer, fork choice, block fingerprinting            |
-| Paul Hauner           | Sigma Prime (Lighthouse)   | Consensus layer, code optimisation, rewards profiling         |
-| Cayman Nava           | ChainSafe Lodestar         | Consensus layer, browser compatibility                        |
-| DappLion              | Chainsafe Lodestar         | Consensus layer                                               |
-| Yoav Weiss            | EF Security, AA            | Account Abstraction                                           |
-| Zahary Karadjov       | Nimbus, Metacraft Labs     | Consensus layer, Nim lang                                     |
-| Radosław Kapka        | Prysm                      | Consensus layer, Beacon API                                   |
-| Ognyan Genev          | Portal Network             | Portal Network, trin client                                   |
-| Mike Ferris           | Portal Network             | Portal Network, rust, Glados                                  |
-| Justin Florentine     | Besu                       | Besu, Java,  Ethereum roadmap and EIPs                        |
-| Simon (siladu)        | Besu                       | Besu, Java, Engine API, EIPs                                  |
-| Mehdi Aouadi          | Teku                       | Consensus Layer, software enginneering/architecture           |
-| Paul Harris           | Teku                       | Consensus layer                                               |
-| Georgios Konstantopoulos | Paradigm / Reth         | Execution layer, Rust and reth client                         |
+| Name                     | Team                       | Area of focus                                                 |
+| ------------------------ | -------------------------- | ------------------------------------------------------------- |
+| Axic                     | Ipsilon                    | EVM, EOF, Solidity compiler                                   |
+| Paweł Bylica             | Ipsilon                    | EVM, EOF                                                      |
+| Fredrik                  | EF Security Research       | General Security                                              |
+| Marius van der Wijden    | Geth                       | Execution Layer, EVM, Crypto, Merge                           |
+| Hsiao-Wei Wang           | EF Consensus Research      | Consensus Layer                                               |
+| Piper Merriam            | Portal Network             | Execution Layer, EVM, Networking, Client Design               |
+| Alex Stokes              | EF Consensus Research      | Consensus layer, MEV, (consensus layer) light clients         |
+| Barnabé Monnot           | EF Robust Incentives Group | Cryptoeconomics, economic modelling, data science             |
+| Kev                      | Independent                | Cryptography, Verkle Trees, Stateless                         |
+| Ignacio                  | Stateless team             | Verkle Trees                                                  |
+| Mario Vega               | EF Testing team            | Execution Clients Testing, End-to-end tests, State Tests      |
+| Tomasz K. Stanczak       | Nethermind                 | Protocol Engineering, MEV, EVM                                |
+| Mikhail Kalinin          | TXRX                       | Engine API, Consensus Layer, Optimistic Sync, In-protocol PBS |
+| Michael Sproul           | Sigma Prime (Lighthouse)   | Consensus layer, fork choice, block fingerprinting            |
+| Paul Hauner              | Sigma Prime (Lighthouse)   | Consensus layer, code optimisation, rewards profiling         |
+| Cayman Nava              | ChainSafe Lodestar         | Consensus layer, browser compatibility                        |
+| DappLion                 | Chainsafe Lodestar         | Consensus layer                                               |
+| Yoav Weiss               | EF Security, AA            | Account Abstraction                                           |
+| Zahary Karadjov          | Nimbus, Metacraft Labs     | Consensus layer, Nim lang                                     |
+| Radosław Kapka           | Prysm                      | Consensus layer, Beacon API                                   |
+| Ognyan Genev             | Portal Network             | Portal Network, trin client                                   |
+| Mike Ferris              | Portal Network             | Portal Network, rust, Glados                                  |
+| Justin Florentine        | Besu                       | Besu, Java,  Ethereum roadmap and EIPs                        |
+| Simon (siladu)           | Besu                       | Besu, Java, Engine API, EIPs                                  |
+| Mehdi Aouadi             | Teku                       | Consensus Layer, software enginneering/architecture           |
+| Paul Harris              | Teku                       | Consensus layer                                               |
+| Georgios Konstantopoulos | Paradigm / Reth            | Execution layer, Rust and reth client                         |
 
 
 ## How to get mentorship
