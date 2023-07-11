@@ -16,7 +16,7 @@ Phase one is the very begining of the cohort. The first few weeks are dedicated 
 | [Eitan](https://github.com/eserilev) | [Update 1](https://hackmd.io/@B8vIxNUfSeC2Mhu5CBwSNw/rJ8njJ1O2)                                                                         |        |        |
 | [Eniko](github.com/eenagy)           | [Update 1][https://hackmd.io/@eenagy/r16O7JVKn]                                                                                         |        |        |
 | [Geemo](https://github.com/GeemoCandama) | [Update 1](https://hackmd.io/@geemo/ryTB4ZUYh)                                                                                      |        |        |
-|                                      |                                                                                                                                         |        |        |
+|[Marcos](https://sites.google.com/view/marcosvillagra/)     | [Update](https://hackmd.io/@UPfOaQgcQTifeXz-5Dd-cQ/week0)     |        |
 
 ## Phase 2
 
