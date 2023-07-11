@@ -8,15 +8,16 @@ Add your name alphabetically and link your updates to corresponding tables below
 
 Phase one is the very begining of the cohort. The first few weeks are dedicated to general learning about the EPF program, Ethereum protocol as whole and it's development.
 
-| Name/GH                              | Week 0                                                                                                                                  | Week 1 | Week 2 |
-| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- | ------ | ------ |
-| [Ankur](github.com/ankurdubey521)    | [Update 1](https://hackmd.io/lbxmhPFmTOO44gkqepodYA)                                                                                    |        |        |
-| [Behkod](https://github.com/behkod)  | [Update 1](https://hackmd.io/@behkod/epf-c4-w0-u1)                                                                                      |        |        |
-| [Camille](github.com/camillecorti)   | [Update 1](https://github.com/camillecorti/SedVit.art/blob/f63a1a87966cdb6ddd3fe20d838de70592030d72/week%20zero%20EPF%20Research%20.md) | [Update 2](https://github.com/camillecorti/SedVit.art/blob/main/week%20one.md)       |        |
-| [Eitan](https://github.com/eserilev) | [Update 1](https://hackmd.io/@B8vIxNUfSeC2Mhu5CBwSNw/rJ8njJ1O2)                                                                         |        |        |
-| [Eniko](github.com/eenagy)           | [Update 1][https://hackmd.io/@eenagy/r16O7JVKn]                                                                                         |        |        |
-| [Geemo](https://github.com/GeemoCandama) | [Update 1](https://hackmd.io/@geemo/ryTB4ZUYh)                                                                                      |        |        |
-|[Naman](https://github.com/namn-grg)                                      |   [Update 1](https://hackmd.io/@namngrg/epf4w1)                                                                                                                                      |        |        |
+| Name/GH                                                 | Week 0                                                                                                                                  | Week 1                                                                         | Week 2 |
+| ------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------ |
+| [Ankur](github.com/ankurdubey521)                       | [Update 1](https://hackmd.io/lbxmhPFmTOO44gkqepodYA)                                                                                    |                                                                                |        |
+| [Behkod](https://github.com/behkod)                     | [Update 1](https://hackmd.io/@behkod/epf-c4-w0-u1)                                                                                      |                                                                                |        |
+| [Camille](github.com/camillecorti)                      | [Update 1](https://github.com/camillecorti/SedVit.art/blob/f63a1a87966cdb6ddd3fe20d838de70592030d72/week%20zero%20EPF%20Research%20.md) | [Update 2](https://github.com/camillecorti/SedVit.art/blob/main/week%20one.md) |        |
+| [Eitan](https://github.com/eserilev)                    | [Update 1](https://hackmd.io/@B8vIxNUfSeC2Mhu5CBwSNw/rJ8njJ1O2)                                                                         |                                                                                |        |
+| [Eniko](github.com/eenagy)                              | [Update 1](https://hackmd.io/@eenagy/r16O7JVKn)                                                                                         |                                                                                |        |
+| [Geemo](https://github.com/GeemoCandama)                | [Update 1](https://hackmd.io/@geemo/ryTB4ZUYh)                                                                                          |                                                                                |        |
+| [Marcos](https://sites.google.com/view/marcosvillagra/) | [Update](https://hackmd.io/@UPfOaQgcQTifeXz-5Dd-cQ/week0)                                                                               |                                                                                |        |
+| [Naman](https://github.com/namn-grg)                    | [Update 1](https://hackmd.io/@namngrg/epf4w1)                                                                                           |                                                                                |        |
 
 ## Phase 2
 
