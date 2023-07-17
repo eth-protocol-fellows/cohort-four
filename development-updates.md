@@ -36,6 +36,7 @@ Phase one is the very begining of the cohort. The first few weeks are dedicated 
 | [Naman](https://github.com/namn-grg)                    | [Update 1](https://hackmd.io/@namngrg/epf4w1)                                                                                           |                                                                                |        |
 | [Nitanshu](https://github.com/nlok5923)                 | [Update 1](https://hackmd.io/@UDlNLrplT3WgO-8vEVdQjA/HJuNtIW93)                                                                         |                                                                                |        |
 | [Roy](https://github.com/roycncn/)                      | [Update 1](https://hackmd.io/@royz/cohort4-week0)                                                                                       |                                                                                |        |
+| [Balaji Pachai](https://github.com/balajipachai/)                      | [Update 1](https://hackmd.io/@-x2d35CsRZO-6wA3tor6ag/balajipachai)                                                                                       |                                                                                |        |
 
 ## Phase 2
 
