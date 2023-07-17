@@ -24,7 +24,7 @@ Phase one is the very begining of the cohort. The first few weeks are dedicated 
 | [Marcos](https://sites.google.com/view/marcosvillagra/) | [Update](https://hackmd.io/@UPfOaQgcQTifeXz-5Dd-cQ/week0)                                                                               |                                                                                |        |
 | [Mohas](https://github.com/mohasdev)                    | [Update](https://hackmd.io/@Mohas/HklrvE3Fh)                                                                               |                                                                                |        |
 | [Naman](https://github.com/namn-grg)                    | [Update 1](https://hackmd.io/@namngrg/epf4w1)                                                                                           |                                                                                |        |
-| [Wenceslas (0x5f3759df)](https://github.com/wenceslas-sanchez) | | [Update](https://hackmd.io/@Orlogskapten/S1QdDDTt3) | [Update](https://hackmd.io/@Orlogskapten/SyYSwhb9h) |
+| [Wenceslas (0x5f3759df)](https://github.com/wenceslas-sanchez) | | [Update](https://hackmd.io/@Orlogskapten/S1QdDDTt3) | |
 
 ## Phase 2
 
