@@ -49,7 +49,11 @@ Here are some starting points for learning about the Ethereum protocol.
    - Block Chain Scalability: https://vitalik.ca/general/2021/05/23/scaling.html
    - Stateless Ethereum: https://blog.ethereum.org/2019/12/30/eth1x-files-state-of-stateless-ethereum/
    - Kate Commitments: https://hackmd.io/yqfI6OPlRZizv9yPaD-8IQ?view#Background
+   - Danksharding: https://ethereum.org/en/roadmap/danksharding/
 
 ### Sharding
    - Overview: https://ethereum.org/en/eth2/shard-chains/
    - Why Sharding? (Vitalik Buterin): https://vitalik.ca/general/2021/04/07/sharding.html
+
+### Privacy
+   - zkOracle Documentation (Hyper Oracle): https://docs.hyperoracle.io/

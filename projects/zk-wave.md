@@ -63,9 +63,13 @@
     * Connect with chosen mentors and work towards defining a deliverable project scope of work
     * Write and submit this [project proposal](/projects/project-template.md) on the selected problem(s), suggested solutions, and a roadmap for working on the issue throughout the program.
     * Report presentation to other participants and select mentors to gather final feedback.
-* [ ] 20230715 W2 Dev update & Standup call & Office hours
-    * Execute project roadmap to complete deliverables
+* [X] 20230715 W2 Dev update & Standup call & Office hours
+    * Contacted Suning Yao who confirmed that zkOracle that was mentioned at ethresear.ch has a solution being developed by @HyperOracle
+    * Reviewed the whole zkWasm-C codebase but did not really understand it since I had not yet read the Hyper Oracle documentation https://docs.hyperoracle.io/. I was not able to run it because I could not find the project/ directory, so raised this issue https://github.com/DelphinusLab/zkWasm-C/issues/5, however more recently this week I discovered the project/ directory in a specific commit, so if time permits I will revisit that repository.
+    * Read through the Hyper Oracle documentation here https://docs.hyperoracle.io/ and summarised it with hand-written notes to try to understand how it works so when I read more code implementations then hopefully it will make sense.
+    * Initial thoughts on issues to contribute to add to the roadmap for working on throughout the program is to create examples, which should help reinforce how it works and help the community, and since they are open issues in the zkGraph repository here https://github.com/hyperoracle/zkgraph/issues that were only opened in the past few weeks, and since it is written in TypeScript it should be an achievable goal. 
 * [ ] 20230722 W3 Standup call & Office hours
+    * Execute project roadmap to complete deliverables
 * [ ] 20230731 W4 Dev update & Standup call & Office hours & Demo day
 * [ ] 20230807 W5 Standup call & Office hours
 * [ ] 20230815 W6 Dev update & Standup call & Office hours
@@ -115,5 +119,14 @@
     * [Ethereum Wiki](https://ethereum.org/en/deprecated-software/#documentation-and-information-sources) 
     * [Ethereum Research forum](https://ethresear.ch/)
     * [Ethereum Magicians forum](https://ethereum-magicians.org/)
+    * [Ethereum Project Management](https://github.com/ethereum/pm)
 * ZK
     * See README at [https://github.com/ltfschoen/zk](https://github.com/ltfschoen/zk)
+* Ethereum
+    * Sigma Prime https://lighthouse-book.sigmaprime.io
+    * RETH (Ethereum Protocol implementation)
+        * https://github.com/paradigmxyz/reth
+    * Akuna (old Ethereum implementation)
+        * https://github.com/akula-bft/akula
+* Other
+    * Tooling wishlist - https://github.com/ethpandaops/tooling-wishlist
