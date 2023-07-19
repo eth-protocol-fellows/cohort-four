@@ -16,6 +16,7 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 ## Weekly Updates
 
 - [Week 0](https://hackmd.io/msw-q59mQ1WIEy2s0qwbSQ?view)
+- [Week 1](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/B1fzDR492)
 
 ## Working On
 
