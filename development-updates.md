@@ -42,6 +42,7 @@ Phase one is the very begining of the cohort. The first few weeks are dedicated 
 | [Nitanshu](https://github.com/nlok5923)                 | [Update 1](https://hackmd.io/@UDlNLrplT3WgO-8vEVdQjA/HJuNtIW93)                                                                         |                                                                                |        |
 | [Roy](https://github.com/roycncn/)                      | [Update 1](https://hackmd.io/@royz/cohort4-week0)                                                                                       |                                                                                |        |
 | [Wenceslas (0x5f3759df)](https://github.com/wenceslas-sanchez) | | [Update](https://hackmd.io/@Orlogskapten/S1QdDDTt3) | |
+| [Manav Darji](https://github.com/manav2401)                      | [Update 0](https://hackmd.io/@manav2401/epf-week0-updates) | [Update 1](https://hackmd.io/@manav2401/epf-week1-updates)                                                                                |        |
 
 ## Phase 2
 
