@@ -53,6 +53,7 @@ Phase one is the very begining of the cohort. The first few weeks are dedicated 
 | [Roy](https://github.com/roycncn/)                             | [Update 1](https://hackmd.io/@royz/cohort4-week0)                                                                                       | [Update 1](https://hackmd.io/@DreWhyte/B1CzieOch)                                        |        |
 | [Wenceslas (0x5f3759df)](https://github.com/wenceslas-sanchez) |                                                                                                                                         | [Update](https://hackmd.io/@Orlogskapten/S1QdDDTt3)                                      |        |
 | [Lincoln](https://github.com/murrlincoln)                      |                                                                                                                                         | [Update 1](https://lincolnm.notion.site/Update-1-bcb98b43cd244df590d0f99af9e63bfc?pvs=4) |        |
+| [Dragan](https://github.com/dragan2234)                      |                                                                                                                                         | [Update 1](https://hackmd.io/pUlZYRpdS-mDjJjaGFFTjQ?view) |        |
 
 ## Phase 2
 
