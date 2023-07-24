@@ -12,6 +12,7 @@ In [Vitalik's recent "3 transitions" post](https://vitalik.ca/general/2023/06/09
 He further illustrated the idea of **Stealth Address** with a [more detailed post](https://https://vitalik.ca/general/2023/01/20/stealth.html) and [ERC-5564](https://https://eips.ethereum.org/EIPS/eip-5564) associated with it. However, this is not the first time that **Stealth Address** was proposed. Let's start from a literature review.
 
 ## A Literature Review
+### Research
 - 17 April 2011; The most basic Stealth Address (SA) technique was invented by user ‘bytecoin’ in bitcoin forum
 user ‘bytecoin’. Untraceable transactions which can contain a secure message are inevitable. 2011. https://bitcointalk.org/index.php?topic=5965.0
 - 2013, Nicolas van Saberhagen in CryptoNote’s white paper. https://www.semanticscholar.org/paper/CryptoNote-v-2.0-Saberhagen/5bafdd891c1459ddfd22d71412d5365de723fb23
@@ -24,4 +25,12 @@ https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=8416&context=sis_rese
 - 3 July 2020, Gary Yu, Blockchain Stealth Address Schemes, https://eprint.iacr.org/2020/548.pdf, 
 - 2021, Mexchange: A privacy-preserving blockchain-based framework for health information exchange using ring signature and stealth address,
 - ##2022, Pdksap: Perfected double-key stealth address protocol without temporary key leakage in blockchain. NO DH but peers for no  temporary key leakage https://sci-hub.se/https://ieeexplore.ieee.org/document/9209929
-- 25 June 2023, BasedSAP. BaseSAP is a fully open and reusable stealth address protocol that can reliably offer stealth addresses at the application layer of programmable blockchains such as Ethereum. e Secp256k1 elliptic curve, stealth address protocols based on elliptic curve pairings or generated using lattice-based cryptography. https://arxiv.org/pdf/2306.14272.pdf 
+- 25 June 2023, BasedSAP. BaseSAP is a fully open and reusable stealth address protocol that can reliably offer stealth addresses at the application layer of programmable blockchains such as Ethereum. e Secp256k1 elliptic curve, stealth address protocols based on elliptic curve pairings or generated using lattice-based cryptography. https://arxiv.org/pdf/2306.14272.pdf
+
+### EIP
+
+
+## Draft Proposal for Ethereum Research
+The Stealth Address (SA) prevents the public association of a blockchain transaction’s output with a recipient’s wallet address, effectively concealing the actual destination address of the transaction. As vitalik highlighted the practical and privacy-preserving implementation of SA in the application layer of programmable blockchains such as Ethereum, we propose a SA protocol with Fully Homomorphic Encryption (FHE) to 1) prevent quantum computing attacks based on Learning with Error (LWE) security assumption; 2) help the receiver outsource the computation of checking the entire chain for stealth addresses containing assets without revealing his view key. (https://hackmd.io/IoJ0bYf8SJiN-t9-x3USYA)
+
+
