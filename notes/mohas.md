@@ -18,17 +18,18 @@ I think the idea submited by mentor Frederik is a great idea , i'm very interest
 ## Development Updates
 
 - [Week 0](https://hackmd.io/@Mohas/HklrvE3Fh)
+- [Week 1](https://hackmd.io/@Mohas/H1oimF5qn)
 
 ## Recommandations / informations / tips
 
 <details>
-<summary>**Which programming language to choose ?**</summary>
+<summary>Which programming language to choose ?</summary>
 <br>
 Based on my research and some fuzzing experts Go and Rust are the best choices to make a fuzzer.
 </details>
 
 <details>
-<summary>**Should I create a fuzzer or contribute to an existing fuzzer**</summary>
+<summary>Should I create a fuzzer or contribute to an existing fuzzer</summary>
 <br>
 It depends on your preference, but according to a feedback contributing to an already existing project seems more doable if you do not have prior skills in fuzzing.
 </details>
@@ -42,6 +43,8 @@ It depends on your preference, but according to a feedback contributing to an al
 - [Rust By Practice](https://practice.rs/why-exercise.html)
 
 - [The rust lang book video playlist ](https://www.youtube.com/watch?v=OX9HJsJUDxA&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8&ab_channel=Let%27sGetRusty)
+
+- [Rustlings](https://github.com/rust-lang/rustlings)
 
 **Ethereum ressources :**
 
