@@ -28,7 +28,11 @@ https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=8416&context=sis_rese
 - 25 June 2023, BasedSAP. BaseSAP is a fully open and reusable stealth address protocol that can reliably offer stealth addresses at the application layer of programmable blockchains such as Ethereum. e Secp256k1 elliptic curve, stealth address protocols based on elliptic curve pairings or generated using lattice-based cryptography. https://arxiv.org/pdf/2306.14272.pdf
 
 ### EIP
+- BIP 0047 (https://en.bitcoin.it/wiki/BIP_0047)
+- BIP 352 (https://github.com/bitcoin/bitcoin/pull/28122)
 
+### Protocol
+- Umbra (- https://app.umbra.cash/)
 
 ## Draft Proposal for Ethereum Research
 The Stealth Address (SA) prevents the public association of a blockchain transaction’s output with a recipient’s wallet address, effectively concealing the actual destination address of the transaction. As vitalik highlighted the practical and privacy-preserving implementation of SA in the application layer of programmable blockchains such as Ethereum, we propose a SA protocol with Fully Homomorphic Encryption (FHE) to 1) prevent quantum computing attacks based on Learning with Error (LWE) security assumption; 2) help the receiver outsource the computation of checking the entire chain for stealth addresses containing assets without revealing his view key. (https://hackmd.io/IoJ0bYf8SJiN-t9-x3USYA)
