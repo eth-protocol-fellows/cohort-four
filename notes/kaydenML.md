@@ -15,13 +15,26 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 
 ## Weekly Updates
 
-- [Week 0](https://hackmd.io/msw-q59mQ1WIEy2s0qwbSQ?view)
+- [Week 0](https://hackmd.io/msw-q59mQ1WIEy2s0qwbSQ?view) 
 - [Week 1](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/B1fzDR492)
+- [Week 2](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/S1t-Tmyon)
 
-## Working On
+## Working plan for next week
 
-https://github.com/ethereum/glados/pull/136
+- Do more research into the Portal Network as well as Glados to try gain a even better understanding of them and a better understanding of everything works and what they do.
 
+
+- Continuing to Look into intresting data that I can display on the page through different graphs and looking for way's that I can improve glados in its entirety trying to make Glados look nicer. 
+
+- I plan to make a list of idea's for my next contributions and interesting data that i can display through different graphs on the page.
+
+- I plan on Styling the rest of the pages to match the UI of the index page that created in my PR https://github.com/ethereum/glados/pull/136 where I styled the main page to make it look nice and created a pie chart using d3.js libraries to display how many nodes are on the network and which clients they are so trin, fluffy, ultralight, and unknown" and plan it in figma first and then get feedback for improvements and get a idea how they would like glados to look before diving into development.
+
+- Investgating adititional indexes to help imporve preformance
+
+- I have also read the portal-network-specs git Readme section I plan to read the rest of the specificstion documents for week 3 at https://github.com/ethereum/portal-network-specs 
+
+- https://ethereum.org/en/developers/docs/ Going to be reading and looking into more foundational topic's
 ## Links And Resources
 
 **Glados Github:**
