@@ -62,7 +62,7 @@ With the gained insight into the protocol, the following weeks serve as a deep d
 
 | Name/GH | Week 3 | Week 4 | Project proposal |
 | ------- | ------ | ------ | ---------------- |
-|         |        |        |                  |
+| Ella | [Update 3](https://hackmd.io/fQpEbLYVS02c_J1XpSq28w) |        | [Project Proposal-Placeholder](https://hackmd.io/@xfmoi/SkCW0NNoh) |
 
 ## Phase 3
 
