@@ -26,4 +26,4 @@ See you on the other side 🌌
 
 ## Research Updates:
 - [Week 0 & Week 1](https://hackmd.io/@phklive/ry9CV64o2)
-- [Week 2 & Week 3]() (WIP)
+- Week 2 & Week 3 (WIP)
