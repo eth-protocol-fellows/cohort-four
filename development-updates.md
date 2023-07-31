@@ -56,13 +56,14 @@ Phase one is the very begining of the cohort. The first few weeks are dedicated 
 | [Roy](https://github.com/roycncn/)                             | [Update 1](https://hackmd.io/@royz/cohort4-week0)                                                                                       | [Update 1](https://hackmd.io/@DreWhyte/B1CzieOch)                                        |                                                                                                                  |
 | [Teri](https://github.com/T-ess)                               |                                                                                                                                         | [Update 1](https://hackmd.io/@teri-b/HJwjlwFqh)                                          |                                                                                                                  |
 | [Wenceslas (0x5f3759df)](https://github.com/wenceslas-sanchez) | N/A                                                                                                                                     | [Update 1](https://hackmd.io/@Orlogskapten/S1QdDDTt3)                                    | [Update 2](https://hackmd.io/@Orlogskapten/SyYSwhb9h)                                                            |
+
 ## Phase 2
 
 With the gained insight into the protocol, the following weeks serve as a deep dive into a chosen topic. By the first month, you should finish the initial research about a specific problem and propose a project, inluding a roadmap. Get some ideas from the [project proposal template](https://github.com/eth-protocol-fellows/cohort-four/blob/master/projects/project-template.md)
 
 | Name/GH | Week 3 | Week 4 | Project proposal |
 | ------- | ------ | ------ | ---------------- |
-|         |        |        |                  |
+| [Jordan Coppard](https://github.com/tsujp)         | [Update 3](https://hackmd.io/@tsujp/Sk2bdySoh)       |        |                  |
 
 ## Phase 3
 
