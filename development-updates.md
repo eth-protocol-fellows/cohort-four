@@ -68,6 +68,7 @@ With the gained insight into the protocol, the following weeks serve as a deep d
 | ------- | ------ | ------ | ---------------- |
 | Ella | [Update 3](https://hackmd.io/fQpEbLYVS02c_J1XpSq28w) |        | [Project Proposal-Placeholder](https://hackmd.io/@xfmoi/SkCW0NNoh) |
 | [Jordan Coppard](https://github.com/tsujp)         | [Update 3](https://hackmd.io/@tsujp/Sk2bdySoh)       |        |                  |
+| [Marcos](https://sites.google.com/view/marcosvillagra/) | [Update 3.1](https://hackmd.io/@mdvillagra/HyeUucZsh) |  |        |
 
 ## Phase 3
 
