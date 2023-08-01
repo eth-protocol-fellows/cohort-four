@@ -9,3 +9,5 @@ I haven't decided on the project yet! However, I'm interested in doing research 
 ## Weekly Updates 
 
 * [Update 1](https://hackmd.io/@4lu5v4BOS4WAtRe0t21Xqw/epfupdate1)
+
+* [Update 2](https://hackmd.io/@0xScarFace/SkN8ZmLih)
