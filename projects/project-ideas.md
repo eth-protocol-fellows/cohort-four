@@ -39,7 +39,7 @@ In previous cohorts, you can find many up to date ideas which haven't been solve
 
 ### Fuzzing
 
-Proposed by Frederik
+Proposed by Fredrik Svantes
 
 Create new fuzzers for software in order to find potential vulnerabilities, or improve on existing fuzzing frameworks. Networking in particular is an area where this could see some improvements on, but clients on the execution layer and consensus layer could also benefit from additional fuzzing.
 
