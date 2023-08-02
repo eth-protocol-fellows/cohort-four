@@ -70,10 +70,10 @@ With the gained insight into the protocol, the following weeks serve as a deep d
 | ------- | ------ | ------ | ---------------- |
 | Ella | [Update 3](https://hackmd.io/fQpEbLYVS02c_J1XpSq28w) |        | [Project Proposal-Placeholder](https://hackmd.io/@xfmoi/SkCW0NNoh) |
 | [Jordan Coppard](https://github.com/tsujp)         | [Update 3](https://hackmd.io/@tsujp/Sk2bdySoh)       |        |                  |
+| [Wenceslas (0x5f3759df)](https://github.com/wenceslas-sanchez)        | [Update 0](https://hackmd.io/@Orlogskapten/rkE6FYHs3)       |        |                  |
 | [Marcos](https://sites.google.com/view/marcosvillagra/) | [Update 3.1](https://hackmd.io/@mdvillagra/HyeUucZsh) |  |        |
 | Pat Stiles | [Update 3](https://hackmd.io/@ZZhqXtsPTHawMbCDb4ZkaA/HJj4cBrjh) | | |
 
-## Phase 3
 ## Phase 3
 
 The actual project development is the main part of the program. Post your regular progress updates here during the development phase, share your issues and successes with others.
