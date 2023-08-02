@@ -58,6 +58,7 @@ Phase one is the very beginning of the cohort. The first few weeks are dedicated
 | [Roy](https://github.com/roycncn/)                             | [Update 1](https://hackmd.io/@royz/cohort4-week0)                                                                                       | [Update 1](https://hackmd.io/@DreWhyte/B1CzieOch)                                        |                                                                                                                  |
 | [Scar Face](https://github.com/scarfacedotcom)                 | [Update 0](https://hackmd.io/@4lu5v4BOS4WAtRe0t21Xqw/epfupdate1)                                                                        |                                                                                          |                                                                                                                  |
 | [Teri](https://github.com/T-ess)                               |                                                                                                                                         | [Update 1](https://hackmd.io/@teri-b/HJwjlwFqh)                                          |                                                                                                                  |
+| [Tomás Arjovsky](https://github.com/arkenan)                   |                                                                                                                                         |                                                                                          | [Update 2](https://hackmd.io/@ft-mkp6jQ5egGIMYqmACGA/SJBdp9So2)                                                  |
 | [Tomás Grüner](https://github.com/MegaRedHand)                 |                                                                                                                                         |                                                                                          | [Update 1](https://hackmd.io/@MegaRedHand/rJWtCQBsn)                                                          |
 | [Wenceslas (0x5f3759df)](https://github.com/wenceslas-sanchez) | N/A                                                                                                                                     | [Update 1](https://hackmd.io/@Orlogskapten/S1QdDDTt3)                                    | [Update 2](https://hackmd.io/@Orlogskapten/SyYSwhb9h)                                                            |
 
@@ -72,6 +73,7 @@ With the gained insight into the protocol, the following weeks serve as a deep d
 | [Marcos](https://sites.google.com/view/marcosvillagra/) | [Update 3.1](https://hackmd.io/@mdvillagra/HyeUucZsh) |  |        |
 | Pat Stiles | [Update 3](https://hackmd.io/@ZZhqXtsPTHawMbCDb4ZkaA/HJj4cBrjh) | | |
 
+## Phase 3
 ## Phase 3
 
 The actual project development is the main part of the program. Post your regular progress updates here during the development phase, share your issues and successes with others.
