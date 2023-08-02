@@ -37,4 +37,13 @@ https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=8416&context=sis_rese
 ## Draft Proposal for Ethereum Research
 The Stealth Address (SA) prevents the public association of a blockchain transaction’s output with a recipient’s wallet address, effectively concealing the actual destination address of the transaction. As vitalik highlighted the practical and privacy-preserving implementation of SA in the application layer of programmable blockchains such as Ethereum, we propose a SA protocol with Fully Homomorphic Encryption (FHE) to 1) prevent quantum computing attacks based on Learning with Error (LWE) security assumption; 2) help the receiver outsource the computation of checking the entire chain for stealth addresses containing assets without revealing his view key. (https://hackmd.io/IoJ0bYf8SJiN-t9-x3USYA)
 
+## Research Proposal
+We published an improvement proposal on Ethereum Research: https://ethresear.ch/t/fhe-dksap-fully-homomorphic-encryption-based-dual-key-stealth-address-protocol/16213/3
+
+## Next Step
+- Improve existing FHE-DKSAP solution
+- Finalize the implementation of FHE-DKSAP
+- Benchmarking FHE-DKSAP
+- Develop use cases to adopt FHE-DKSAP
+
 
