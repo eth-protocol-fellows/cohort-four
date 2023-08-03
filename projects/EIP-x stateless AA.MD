@@ -5,8 +5,8 @@ Stateless Account abstraction that scales Ethereum.
 
 Ethereum's state grows rapidly, burdening consensus nodes with 35 GB state and 100 GB with proofs, increasing every six months. 
 The increasing state size hampers scalability, imposing storage and processing burdens on nodes. Participants pay one-time costs perpetually,
-raising economic concerns. Additionally, ERC-4337 wallets incur elevated gas costs (~42000 gas for basic operations) due to multiple storage read/write costs, business logic overhead, and log payments not required in EOAs. A stateless based solution is essential to maintain  Ethereum's efficiency and long-term viability. Additionally, the light clients, which do not store the entire state but rely on simplified verification mechanisms, struggle to efficiently access and  validate the state data against the mainnet. The lack of a concise and constant-sized proof of the current state limits light clients' ability to interact with the blockchain seamlessly.
-Therefore we Propose a stateless Account abstraction model which doesn't force any change in the current Ethereum core but can solve the above problems at the account level.
+raising economic concerns. Additionally, ERC-4337 wallets incur elevated gas costs (~42000 gas for basic operations) due to multiple storage read/write costs, business logic overhead, and log payments not required in EOAs. A stateless-based solution is essential to maintain  Ethereum's efficiency and long-term viability. Additionally, the light clients, which do not store the entire state but rely on simplified verification mechanisms, struggle to efficiently access and  validate the state data against the mainnet. The lack of a concise and constant-sized proof of the current state limits light clients' ability to interact with the blockchain seamlessly.
+Therefore we Propose a stateless Account abstraction model which doesn't force any change in the current Ethereum core but can solve the above problems at the account level. The advantage of having succint zk proof of the state is that it is possible to broadcast it across the nodes. Currently, to validate a block, light clients must request the state piece by piece, and this results in many light clients frequently burdening the full node altogether.
 
 
 ## Project description
@@ -117,14 +117,6 @@ to the ERC-4337 flow to better support stateless account abstraction. Collaborat
 
 By following this roadmap, the development team can create a functional MVP showcasing the benefits of the hybrid witness sharing and stateless account abstraction proposal without the dependency on Verkle trees or protocol-level changes. The MVP can serve as a powerful demonstration of the proposed solution's potential and open up new possibilities for the Ethereum community.
 
-
-## Possible challenges
-
-Users need to ensure that the necessary data (e.g., account balance, contract code) is available and properly validated during transaction 
-processing. This may require additional protocols or mechanisms to efficiently generate and validate these proofs.
-Smart Contract Interactions: With stateless account abstraction, smart contract interactions may require additional considerations.
-For instance, when a contract interacts with other contracts, it needs to obtain and validate the required state information 
-during execution.
 
 ## Goal of the project
 
