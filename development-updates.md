@@ -60,6 +60,7 @@ Phase one is the very beginning of the cohort. The first few weeks are dedicated
 | [Tomás Arjovsky](https://github.com/arkenan)                   |                                                                                                                                         |                                                                                          | [Update 2](https://hackmd.io/@ft-mkp6jQ5egGIMYqmACGA/SJBdp9So2)                                                  |
 | [Tomás Grüner](https://github.com/MegaRedHand)                 |                                                                                                                                         |                                                                                          | [Update 1](https://hackmd.io/@MegaRedHand/rJWtCQBsn)                                                             |
 | [Wenceslas (0x5f3759df)](https://github.com/wenceslas-sanchez) | N/A                                                                                                                                     | [Update 1](https://hackmd.io/@Orlogskapten/S1QdDDTt3)                                    | [Update 2](https://hackmd.io/@Orlogskapten/SyYSwhb9h)                                                            |
+| [Manav Darji](https://github.com/manav2401)                    | [Update 0](https://hackmd.io/@manav2401/epf-week0-updates)                                                   | [Update 1](https://hackmd.io/@manav2401/epf-week1-updates)                                     |  [Update 2](https://hackmd.io/@manav2401/epf-week2-updates)      |  |
 
 ## Phase 2
 
@@ -119,6 +120,7 @@ With the gained insight into the protocol, the following weeks serve as a deep d
 | [Tomás Arjovsky](https://github.com/arkenan)                   |                                                                 |        |                                                                    |
 | [Tomás Grüner](https://github.com/MegaRedHand)                 |                                                                 |        |                                                                    |
 | [Wenceslas (0x5f3759df)](https://github.com/wenceslas-sanchez) | [Update 0](https://hackmd.io/@Orlogskapten/rkE6FYHs3)           |        |                                                                    |
+| [Manav Darji](https://github.com/manav2401)                     | [Update 3](https://hackmd.io/@manav2401/epf-week3-updates)                  |        |                                                                    |
 
 
 ## Phase 3
