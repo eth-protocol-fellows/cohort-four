@@ -118,7 +118,7 @@ With the gained insight into the protocol, the following weeks serve as a deep d
 | [Scar Face](https://github.com/scarfacedotcom)                 |                                                                 |        |                                                                    |
 | [Teri](https://github.com/T-ess)                               |                                                                 |        |                                                                    |
 | [Tomás Arjovsky](https://github.com/arkenan)                   |                                                                 |        |                                                                    |
-| [Tomás Grüner](https://github.com/MegaRedHand)                 |                                                                 |        |                                                                    |
+| [Tomás Grüner](https://github.com/MegaRedHand)                 | [Update 2](https://hackmd.io/@MegaRedHand/B1woxF0oh)           |        |                                                                    |
 | [Wenceslas (0x5f3759df)](https://github.com/wenceslas-sanchez) | [Update 0](https://hackmd.io/@Orlogskapten/rkE6FYHs3)           |        |                                                                    |
 | [Manav Darji](https://github.com/manav2401)                     | [Update 3](https://hackmd.io/@manav2401/epf-week3-updates)                  |        |                                                                    |
 
