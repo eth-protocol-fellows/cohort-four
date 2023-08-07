@@ -62,6 +62,8 @@ Phase one is the very beginning of the cohort. The first few weeks are dedicated
 | [Wenceslas (0x5f3759df)](https://github.com/wenceslas-sanchez) | N/A                                                                                                                                     | [Update 1](https://hackmd.io/@Orlogskapten/S1QdDDTt3)                                    | [Update 2](https://hackmd.io/@Orlogskapten/SyYSwhb9h)                                                            |
 | [Manav Darji](https://github.com/manav2401)                    | [Update 0](https://hackmd.io/@manav2401/epf-week0-updates)                                                   | [Update 1](https://hackmd.io/@manav2401/epf-week1-updates)                                     |  [Update 2](https://hackmd.io/@manav2401/epf-week2-updates)      |  |
 
+| [AdedamolXL](https://github.com/AdedamolaXL)                    | [Update 0](https://github.com/eth-protocol-fellows/cohort-four/blob/master/notes/adedamolaxl)                                                   | [Update 1]                                     |  [Update 2](https://hackmd.io/raMCTmcJSeql0D8OF3wVsQ)      |  |
+
 ## Phase 2
 
 With the gained insight into the protocol, the following weeks serve as a deep dive into a chosen topic. By the first month, you should finish the initial research about a specific problem and propose a project, inluding a roadmap. Get some ideas from the [project proposal template](https://github.com/eth-protocol-fellows/cohort-four/blob/master/projects/project-template.md)
