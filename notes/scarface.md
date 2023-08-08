@@ -11,3 +11,5 @@ I haven't decided on the project yet! However, I'm interested in doing research 
 * [Update 1](https://hackmd.io/@4lu5v4BOS4WAtRe0t21Xqw/epfupdate1)
 
 * [Update 2](https://hackmd.io/@0xScarFace/SkN8ZmLih)
+
+* [Update 3](https://hackmd.io/-ZQmbzE6T5GuBS7hBPX6IA)
