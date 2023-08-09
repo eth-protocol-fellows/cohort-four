@@ -155,5 +155,5 @@ project to be successful with all the goals I wanted to achieve.
   Specs](https://github.com/ethereum/portal-network-specs)
 - [Execution Canonical Transaction Index Network
   spec](https://github.com/ethereum/portal-network-specs/blob/master/canonical-transaction-index-network.md)
-
+- [Project presentation slides](https://github.com/eth-protocol-fellows/cohort-four/blob/master/notes/danielrachi/daniel-project-proposal-slides.pdf)
 
