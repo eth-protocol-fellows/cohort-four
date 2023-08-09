@@ -20,6 +20,7 @@ I think the idea submited by mentor Frederik is a great idea , i'm very interest
 - [Week 0](https://hackmd.io/@Mohas/HklrvE3Fh)
 - [Week 1](https://hackmd.io/@Mohas/H1oimF5qn)
 - [Week 2](https://hackmd.io/@Mohas/BJUFJGSih)
+- [Week 3](https://hackmd.io/@Mohas/B17HvMTin)
 
 ## Recommandations / informations / tips
 
@@ -59,7 +60,16 @@ It depends on your preference, but according to a feedback contributing to an al
 
 - [Secureum Mind Map](https://github.com/x676f64/secureum-mind_map)
 
+- [Devp2p specification repo](https://github.com/ethereum/devp2p)
+
+- [Network Layer article from ethereum](https://ethereum.org/en/developers/docs/networking-layer/)
+
 Fuzzing ressources :
 
 - [Fuzzing Labs Academy](https://academy.fuzzinglabs.com/)
+
 - [GamozoLabs Youtube Channel](https://www.youtube.com/@gamozolabs/featured)
+
+- [Fuzz Book](https://www.fuzzingbook.org/)
+
+- [Fuzzing repo](https://github.com/google/fuzzing)
