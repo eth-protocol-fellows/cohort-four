@@ -66,4 +66,9 @@ Complete success for the project would be an optimal attestation packing impleme
 ## Resources
 
 Aggregation: https://github.com/sigp/lighthouse/pull/4507 \
-Packing: https://github.com/sigp/lighthouse/pull/4542
+Packing: https://github.com/sigp/lighthouse/pull/4542 \
+Previous Work: \
+https://lighthouse-blog.sigmaprime.io/docs/satalia-01-problem-definition.pdf \
+https://lighthouse-blog.sigmaprime.io/docs/satalia-02-exact-approaches.pdf \
+https://lighthouse-blog.sigmaprime.io/docs/satalia-03-results.pdf \
+https://github.com/michaelsproul/optimising-attestation-packing-satalia
