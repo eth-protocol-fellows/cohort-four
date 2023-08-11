@@ -19,8 +19,16 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - [Week 1](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/B1fzDR492)
 - [Week 2](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/S1t-Tmyon)
 - [Week 3](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/HkVl5dhjh)
+- [Week 4](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/Bytjmsfh3)
 
 ## Working on Next 
+
+
+- finish writing the test I've been working on that will prevent the problem that we where having with migrations that I fixed last week.
+
+
+- Continue to look into writing tests in rust so I can become really good because it's a very important skill to have while contributing to the portal network.
+
 
 - dynamically load each dashboard component
 
@@ -40,7 +48,7 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - continue aesthetic refinements where needed
 
 
-- Continuing to Look into more intresting data that I can display on the page through different graphs and looking for way's that I can improve glados in its entirety trying to make Glados look nicer. 
+- Look into more intresting data that I can display on the page through different graphs and looking for way's that I can improve glados in its entirety trying to make Glados look nicer and continue to add onto my list of contributions. 
 
 
 - Continue to do more research into the Portal Network as well as Glados to try gain a even better understanding of them and a better understanding of everything works and what they do.
@@ -57,6 +65,7 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 **Active Pr Links:**
 
 - https://github.com/ethereum/glados/pull/136
+- https://github.com/ethereum/glados/pull/145
 
 **Merged Pr Links:**
 - https://github.com/ethereum/glados/pull/137
