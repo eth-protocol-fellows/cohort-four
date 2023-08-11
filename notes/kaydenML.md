@@ -18,23 +18,44 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - [Week 0](https://hackmd.io/msw-q59mQ1WIEy2s0qwbSQ?view) 
 - [Week 1](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/B1fzDR492)
 - [Week 2](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/S1t-Tmyon)
+- [Week 3](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/HkVl5dhjh)
+- [Week 4](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/Bytjmsfh3)
 
-## Working plan for next week
-
-- Do more research into the Portal Network as well as Glados to try gain a even better understanding of them and a better understanding of everything works and what they do.
+## Working on Next 
 
 
-- Continuing to Look into intresting data that I can display on the page through different graphs and looking for way's that I can improve glados in its entirety trying to make Glados look nicer. 
+- finish writing the test I've been working on that will prevent the problem that we where having with migrations that I fixed last week.
 
-- I plan to make a list of idea's for my next contributions and interesting data that i can display through different graphs on the page.
 
-- I plan on Styling the rest of the pages to match the UI of the index page that created in my PR https://github.com/ethereum/glados/pull/136 where I styled the main page to make it look nice and created a pie chart using d3.js libraries to display how many nodes are on the network and which clients they are so trin, fluffy, ultralight, and unknown" and plan it in figma first and then get feedback for improvements and get a idea how they would like glados to look before diving into development.
+- Continue to look into writing tests in rust so I can become really good because it's a very important skill to have while contributing to the portal network.
 
-- Investgating adititional indexes to help imporve preformance
 
-- I have also read the portal-network-specs git Readme section I plan to read the rest of the specificstion documents for week 3 at https://github.com/ethereum/portal-network-specs 
+- dynamically load each dashboard component
 
-- https://ethereum.org/en/developers/docs/ Going to be reading and looking into more foundational topic's
+
+- unify the content and network dashboards into a single front-page view
+
+
+- display where in the world the clients are located 
+
+
+- display recently seen nodes 
+
+
+- display log2(node_id()) will be a range of 1 to 256
+
+
+- continue aesthetic refinements where needed
+
+
+- Look into more intresting data that I can display on the page through different graphs and looking for way's that I can improve glados in its entirety trying to make Glados look nicer and continue to add onto my list of contributions. 
+
+
+- Continue to do more research into the Portal Network as well as Glados to try gain a even better understanding of them and a better understanding of everything works and what they do.
+
+
+- Look into more ethereum resources to increase my knowledge of ethereum over all.
+
 ## Links And Resources
 
 **Glados Github:**
@@ -44,7 +65,9 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 **Active Pr Links:**
 
 - https://github.com/ethereum/glados/pull/136
+- https://github.com/ethereum/glados/pull/145
 
 **Merged Pr Links:**
 - https://github.com/ethereum/glados/pull/137
 - https://github.com/ethereum/trin/pull/748
+- https://github.com/ethereum/glados/pull/144
