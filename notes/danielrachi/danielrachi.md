@@ -5,3 +5,4 @@
 - [Portal Network](https://hackmd.io/@danielrachi/ry5aR6Tqn)
 - [Verkle Trees](https://hackmd.io/@danielrachi/rkHgdBsqn)
 - [Kademlia DHT](https://hackmd.io/@danielrachi/SkQuHtMi2)
+- [Trin Architecture](https://hackmd.io/@danielrachi/r1mn3fx3n)
