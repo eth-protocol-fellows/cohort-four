@@ -34,6 +34,7 @@ The goal of this project is to create a Verkle Tree library in Nim & to add to t
 - [Advaita Saha](https://github.com/advaita-saha)
 - [Godspower Eze](https://github.com/Godspower-Eze)
 - [Naman Garg](https://github.com/namn-grg)
+- [Agnish Ghosh](https://github.com/agnxsh)
 
 ### Mentors
 - [Zahary Karadjov](https://github.com/zah)
