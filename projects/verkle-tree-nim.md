@@ -38,6 +38,7 @@ The goal of this project is to create a Verkle Tree library in Nim & to add to t
 
 ### Mentors
 - [Zahary Karadjov](https://github.com/zah)
+- [Ignacio](https://github.com/jsign)
 
 ## Resources
 - [Nim Verkle Repo](https://github.com/status-im/nim-eth-verkle)
