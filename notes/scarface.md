@@ -15,3 +15,7 @@ I haven't decided on the project yet! However, I'm interested in doing research 
 * [Update 3](https://hackmd.io/-ZQmbzE6T5GuBS7hBPX6IA)
 
 * [Update 4](https://hackmd.io/@0xScarFace/epfweek3)
+
+* [Update 4](https://hackmd.io/@0xScarFace/epfweek4)
+
+* [Update 5](https://hackmd.io/@0xScarFace/epfweek4b)
