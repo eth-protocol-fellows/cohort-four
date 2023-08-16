@@ -26,7 +26,7 @@ Beyond this, technical details for the various endpoints are out of the scope of
 
 ## Roadmap
 
-As of August 15, HTTP handlers have been implemented for 6 of the 27 handlers.
+As of August 15, HTTP handlers have been implemented for 6 of the 27 endpoints.
 
 The majority of this work has been contributed by the Prysm team, while I am currently working on my second endpoint.
 Other fellows have also expressed interest in contributing to the project, so the exact timeline will vary according to these factors.
