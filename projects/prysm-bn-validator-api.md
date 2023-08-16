@@ -4,6 +4,8 @@ Implementing the standard Ethereum Beacon API for validator clients in the Prysm
 
 ## Motivation
 
+> When Prysm first started we advocated strongly for gRPC to be used for validator <> beacon communication, but in the end the standard enshrined an OpenAPI spec known as the Beacon Node API ([here](https://ethereum.github.io/beacon-APIs/) and [here](https://github.com/ethereum/beacon-APIs/)).
+
 In production, the Prysm beacon node exposes a GRPC API for consumption by the Prysm validator.
 
 As a result of the standard Ethereum [spec](https://ethereum.github.io/beacon-APIs/#/Validator), this implementation is incompatible with other validator clients.
@@ -26,9 +28,10 @@ Beyond this, technical details for the various endpoints are out of the scope of
 
 ## Roadmap
 
-As of August 15, HTTP handlers have been implemented for 6 of the 27 endpoints.
+The Prysm validator uses 27 endpoints from the Beacon API, and some have already been implemented as HTTP handlers by the team.
 
-The majority of this work has been contributed by the Prysm team, while I am currently working on my second endpoint.
+As of August 15, I am working on my [second endpoint](https://github.com/prysmaticlabs/prysm/issues/12635#issuecomment-1679895593), after [prysm/#12634](https://github.com/prysmaticlabs/prysm/pull/12634) and some other related [PRs](https://github.com/prysmaticlabs/prysm/pulls?q=is%3Apr+author%3Aanukul).
+
 Other fellows have also expressed interest in contributing to the project, so the exact timeline will vary according to these factors.
 
 I am aiming towards implementing 1-3 endpoints a week, so this should be within scope for the 13 weeks until Devconnect.
