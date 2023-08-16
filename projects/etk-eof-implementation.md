@@ -80,7 +80,8 @@ The main goal of this project can be divided into two categories:
 
 ### Mentors
 
-[Andrei Maiboroda](https://github.com/gumb0)
+[Andrei Maiboroda](https://github.com/gumb0) - EOF spec
+[Lightclient](https://github.com/lightclient) - ETK codebase
 
 ## Resources
 
