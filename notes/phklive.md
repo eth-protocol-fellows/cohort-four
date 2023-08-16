@@ -25,5 +25,6 @@ See you on the other side 🌌
 (To follow my journey, you can also read the updates below 👇)
 
 ## Research Updates:
-- [Week 0 & Week 1](https://hackmd.io/@phklive/ry9CV64o2)
-- Week 2 & Week 3 (WIP)
+- [EPF Report: Weeks 0 & 1 - EPF4, new opportunities, preparation and Ethereum](https://hackmd.io/@phklive/ry9CV64o2)
+- [EPF Report: Weeks 2 & 3 - ErlangVM, ELixir and grasping Ethereum 2 consensus layer](https://hackmd.io/@phklive/S140CRVi2)
+- Weeks 4 & 5 (WIP)
