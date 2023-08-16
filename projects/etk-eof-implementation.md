@@ -6,7 +6,15 @@ ETK: Ethereum Object Format (EOF) implementation and more...
 
 The current on-chain EVM bytecode lacks a defined structure, resulting in repetitive JUMPDEST analyses at runtime, thus introducing overhead and stalling feature evolution. 
 
-The EOF, as described by the relevant EIP, offers a structured and extensible container for the EVM, validated at deploy time, eliminating the need for runtime validation. By doing so, it provides clear separation between code and data. This distinction is crucial for on-chain code validators, like those in layer-2 scaling solutions (e.g., Optimism), allowing for easier implementation, improved reliability, and potential gas savings.
+The EOF, as described by the relevant EIPs, offers a structured and extensible container for the EVM, validated at deploy time, eliminating the need for runtime validation. By doing so, it provides clear separation between code and data. This distinction is crucial for on-chain code validators, like those in layer-2 scaling solutions (e.g., Optimism), allowing for easier implementation, improved reliability, and potential gas savings.
+
+The [EVM Toolkit](https://github.com/quilt/etk) (or ETK) is a collection of tools for creating and analyzing smart contract programs on the Ethereum Virtual Machine. So far it consists of an assembler (eas) and a disassembler (disease). 
+
+The assembler converts human-readable mnemonics (ex. sload, push2) into the raw bytes the EVM interpreter expects and provides some facilities like labels and macros to write highly efficient code in a simple way.
+
+The disassembler does the opposite, converting raw bytes into human-readable mnemonics allowing users to analyze code produced for the EVM in a much more user-friendly language.
+
+Although still in an experimental stage, ETK aims not only to be an assembly language for the EVM, but also an analysis tool (including a tool based on the Z3 theorem proving engine for analyzing EVM bytecode) for advanced users. Keeping its implementation up to date is fundamental if we want to increase its user base and improve the security of the code deployed on the ethereum network.
 
 ## Project description
 
@@ -58,7 +66,7 @@ Regarding the implementation per se, while it is difficult to predict how long t
 
 - The EOF specification is still in draft status, so it is possible that some changes will be made to it during the development of the project. 
 - A bug in a compiler can be a big problem (and it is even worse when the deployed code is immutable). Extensive testing is needed.
-- The EOF specification is not yet implemented in any language, so there are no examples to take as a reference.
+- As the spec moves forward day by day, there is not yet a 100% finalized reference implementation in any language to take as a reference.
 
 ## Goal of the project
 
