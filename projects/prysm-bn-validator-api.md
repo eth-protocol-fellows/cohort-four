@@ -8,7 +8,7 @@ Implementing the standard Ethereum Beacon API for validator clients in the Prysm
 
 In production, the Prysm beacon node exposes a GRPC API for consumption by the Prysm validator.
 
-As a result of the standard Ethereum [spec](https://ethereum.github.io/beacon-APIs/#/Validator), this implementation is incompatible with other validator clients.
+As a result of the standard Ethereum [spec](https://ethereum.github.io/beacon-APIs/?urls.primaryName=dev#/ValidatorRequiredApi), this implementation is incompatible with other validator clients.
 
 Implementing the standard API will allow different validators to be run with the Prysm beacon node, furthering client diversity.
 
