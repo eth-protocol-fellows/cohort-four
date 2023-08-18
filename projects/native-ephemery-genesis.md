@@ -12,9 +12,11 @@ I am writing client-side integrations for the ephemeral testnet and validating t
 
 *Why Ephemery?*
 
-There are multiple benefits for having a short-lived testnet made available directly through existing clients and infrastructure. 
+There are multiple benefits for having a short-lived testnet made available directly through existing clients and infrastructure.
 
-For more information on these benefits, see Mario's write-up, [Testnet for Stakers](https://notes.ethereum.org/@mario-havel/stakers-testnet).
+The periodic resetting of the test network effectively erases the onchain activity that occured during that iteration. This reduces the impact of accumulated network bloat, seen with other testnets, and results in lower resource requirements for testnet users (also conveniently lowering the barrier to entry for running the testnet in the first place).
+
+In particular, the reset feature optimises for short-term validator testing, reducing the burden on longer-running testnets.
 
 ## Contributions to Lodestar + stretch goals
 
@@ -123,3 +125,4 @@ Mario Havel, pk910, dapplion @ chainsafe
 [Lodestar fork](https://github.com/atkinsonholly/lodestar)
 [Ephemery open issues](https://github.com/ephemery-testnet/ephemery-resources/issues/1)
 [Draft EIP](https://github.com/ethereum/EIPs/blob/04369cb50ee6c1894dec868141e8a32e66dc4f16/EIPS/eip-testnet-draft.md)
+[Testnet for Stakers](https://notes.ethereum.org/@mario-havel/stakers-testnet)
