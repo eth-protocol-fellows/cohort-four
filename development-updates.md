@@ -176,7 +176,7 @@ The actual project development is the main part of the program. Post your regula
 | [Marcos](https://sites.google.com/view/marcosvillagra/)        |        |        |        |        |        |         |         |         |         |         |         |         |
 | [Martin Paulucci](https://github.com/mpaulucci)                |        |        |        |        |        |         |         |         |         |         |         |         |
 | [Enc(Mason)](https://github.com/Mason-Mind)                    |        |        |        |        |        |         |         |         |         |         |         |         |
-| [Mohas](https://github.com/mohasdev)                           |        |        |        |        |        |         |         |         |         |         |         |         |
+| [Mohas](https://github.com/mohasdev)                           |[Update 6](https://hackmd.io/@Mohas/B1u4z2163)        |        |        |        |        |         |         |         |         |         |         |         |
 | [Naman](https://github.com/namn-grg)                           |        |        |        |        |        |         |         |         |         |         |         |         |
 | [Nilufer](https://github.com/niluferokay)                      |        |        |        |        |        |         |         |         |         |         |         |         |
 | [Nitanshu](https://github.com/nlok5923)                        |        |        |        |        |        |         |         |         |         |         |         |         |
