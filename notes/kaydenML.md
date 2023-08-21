@@ -10,7 +10,7 @@ Hi my name is Kayden Moroz Liebl and i am very excited to participate in this ye
 
 - Glados
 
-I’m interested on working hard on Glados because I believe that it suits my skill set the best and is a great place to improve myself and learn and am planing on working hard creating interesting ways to visualize important data through different graphs on the page and trying to make everything look nicer and cleaner as well as the main page of glados. In this pull request I created a pie chart to display how many nodes are on the network and which clients they are so trin, fluffy, ultralight and unknown there's still changes I am working on before this can be merged. I am really interested in working hard and learning many new things during this year's cohort and excited to be able to add interesting and important data to display through different graphs and interesting way's to display information.
+I’m interested on working hard on Glados because I believe that it suits my skill set the best and is a great place to improve myself and learn and am planing on working hard creating interesting ways to visualize important data through different graphs on the page and trying to make everything look nicer and cleaner as well as the main page of glados. I am really interested in working hard and learning many new things as well as making many useful contributions towards glados during this year's cohort and excited to be able to contribute in every way that I can either that be by large or small implementations.
 
 
 ## Weekly Updates
@@ -20,11 +20,18 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - [Week 2](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/S1t-Tmyon)
 - [Week 3](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/HkVl5dhjh)
 - [Week 4](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/Bytjmsfh3)
+- [Week 5](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/S1wFfX23h)
 
 ## Working on Next 
 
 
-- finish writing the test I've been working on that will prevent the problem that we where having with migrations that I fixed last week.
+- Finishing my Project Proposal after recieving feedback from JoshD
+
+
+- Once the Implementation of DHT Census Pr is merged in this PR https://github.com/ethereum/glados/pull/117 I can continue to work on my piechart PR https://github.com/ethereum/glados/pull/136.
+
+
+- reseach more into Kademlia and DiscV5
 
 
 - Continue to look into writing tests in rust so I can become really good because it's a very important skill to have while contributing to the portal network.
@@ -42,7 +49,7 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - display recently seen nodes 
 
 
-- display log2(node_id()) will be a range of 1 to 256
+- graph log2(node_id()) will be a range of 1 to 256
 
 
 - continue aesthetic refinements where needed
@@ -55,7 +62,6 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 
 
 - Look into more ethereum resources to increase my knowledge of ethereum over all.
-
 ## Links And Resources
 
 **Glados Github:**
@@ -66,6 +72,10 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 
 - https://github.com/ethereum/glados/pull/136
 - https://github.com/ethereum/glados/pull/145
+- https://github.com/ethereum/glados/pull/148
+- https://github.com/ethereum/glados/pull/149
+- https://github.com/ethereum/glados/pull/150
+
 
 **Merged Pr Links:**
 - https://github.com/ethereum/glados/pull/137
