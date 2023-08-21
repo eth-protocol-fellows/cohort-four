@@ -61,6 +61,17 @@ The proposed methodology of the previous section will be executed following the 
 
 The main challenge on the execution of the project is the Rust implementation of Poseidon. Having to learn Rust for this project and lack of experience with the language can potentially delay the tasks of the project. Also, the Solidity contract will require some especial algorithms for arithmetic over large prime fields.
 
+## Collaborators
+
+### Fellows
+
+[Marcos Villagra](https://sites.google.com/view/marcosvillagra/)
+
+### Mentors
+
+Ignacio
+Kev
+
 ## Resources
 
 1. Grassi, L., Khovratovich, D., Rechberger, C., Roy, A., & Schofnegger, M. (2021). Poseidon: A new hash function for Zero-Knowledge proof systems. In 30th USENIX Security Symposium (USENIX Security 21) (pp. 519-535). [[link](https://eprint.iacr.org/2019/458.pdf)]
