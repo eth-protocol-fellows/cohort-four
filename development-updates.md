@@ -190,8 +190,6 @@ With the gained insight into the protocol, the following weeks serve as a deep d
 
 The actual project development is the main part of the program. Post your regular progress updates here during the development phase, share your issues and successes with others.
 
-
-
 | Name/GH                                                        | Week 5                                                       | Week 6 | Week 7 | Week 8 | Week 9 | Week 10 | Week 11 | Week 12 | Week 13 | Week 14 | Week 15 | Week 16 |
 | -------------------------------------------------------------- |--------------------------------------------------------------| ------ | ------ | ------ | ------ | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
 | [Abims](https://github.com/mr-abims)                           |                                                              |        |        |        |        |         |         |         |         |         |         |         |
@@ -227,14 +225,14 @@ The actual project development is the main part of the program. Post your regula
 | [Joel Rousseau](https://github.com/v4lproik)                   |                                                              |        |        |        |        |         |         |         |         |         |         |         |
 | [joohhnnn](https://github.com/joohhnnn)                        |                                                              |        |        |        |        |         |         |         |         |         |         |         |
 | [Jordan Coppard](https://github.com/tsujp)                     |                                                              |        |        |        |        |         |         |         |         |         |         |         |
-| [KaydenML](https://github.com/KaydenML)                        | [Update 5](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/S1wFfX23h)                                                 |        |        |        |        |         |         |         |         |         |         |         |
+| [KaydenML](https://github.com/KaydenML)                        | [Update 5](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/S1wFfX23h)    |        |        |        |        |         |         |         |         |         |         |         |
 | [Lincoln](https://github.com/murrlincoln)                      |                                                              |        |        |        |        |         |         |         |         |         |         |         |
 | [Luke](github.com/ltfschoen)                                   | [Update 5](https://hackmd.io/k2xNzibsS8GSgUiGz5gwCQ?view#W5) |        |        |        |        |         |         |        |         |         |         |         |
 | [Manav Darji](https://github.com/manav2401)                    |                                                              |        |        |        |        |         |         |         |         |         |         |         |
 | [Marcos](https://sites.google.com/view/marcosvillagra/)        |                                                              |        |        |        |        |         |         |         |         |         |         |         |
 | [Martin Paulucci](https://github.com/mpaulucci)                |                                                              |        |        |        |        |         |         |         |         |         |         |         |
 | [Enc(Mason)](https://github.com/Mason-Mind)                    |                                                              |        |        |        |        |         |         |         |         |         |         |         |
-| [Mohas](https://github.com/mohasdev)                           |                                                              |        |        |        |        |         |         |         |         |         |         |         |
+| [Mohas](https://github.com/mohasdev)                           |[Update 6](https://hackmd.io/@Mohas/B1u4z2163)        |        |        |        |        |         |         |         |         |         |         |         |
 | [Naman](https://github.com/namn-grg)                           |                                                              |        |        |        |        |         |         |         |         |         |         |         |
 | [Nilufer](https://github.com/niluferokay)                      |                                                              |        |        |        |        |         |         |         |         |         |         |         |
 | [Nitanshu](https://github.com/nlok5923)                        |                                                              |        |        |        |        |         |         |         |         |         |         |         |
