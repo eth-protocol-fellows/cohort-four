@@ -53,6 +53,9 @@ The developed fuzzers and testing methodologies will remain valuable tools for o
 Non for now, interested in collaborating?? hit me up here: [Adaaku Peter](https://www.twitter.com/scarfacedotsol)
 
 ### Resources
+- [Geth](https://github.com/ethereum/go-ethereum)
+[Devp2p Specifications] (https://github.com/ethereum/devp2p)
+The project's repo (to be added)
 
 * [Devp2p Specification](https://github.com/ethereum/devp2p)
 * [Official Go implementation of the Ethereum protocol](https://github.com/ethereum/go-ethereum)
