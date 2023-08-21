@@ -1,6 +1,14 @@
 ## Motivation
 (What problem is your project is solving? Why is it important and what area of the protocol will be affected?)
+### My Goal
+My goal for EFP is to deepen my understanding on Ethereum and explore how to improve its privacy protection with cryptographic techniques. In my previous experience, I participated into many large-scale transactional system designs. Most of them have public transactions for verification and auditing purpose, but also have private transactions to protect the privacy of senders and receivers (in a regualated way). There is no doubt that as Ethereum becoming to a world computer, there are many use cases requiring privacy protection on transactions. I think this is a must-have (glad to see Valtalik has the same vision in his "Three Transition" blog). Then the question is how, especially as a forward compatible solution on top of the exisitng design of Ethereum. This is my major mission through EFP and I do believe it will be a great contribution to Ethereum Ecosystem.
+### Success Metrics
+- Identify and study the state of the art of privacy-preserving transaction mechnisims on Ethereum (Stealth Address and others) 
+- Propose and implement an improvement of existing mechnisims
+- Benchmark and study to what extends the improvement is
+- Explore the integration with Ethereum systems
 
+## Background
 In the Ethereum ecosystem, privacy stands as one of the most significant and unresolved challenges. On a public blockchain like Ethereum, all information, including ENS names (Ethereum Name Service), POAPs (Proof of Attendance Protocol), NFTs (Non-Fungible Tokens), and transaction data, is inherently public. This transparency is a fundamental characteristic of public blockchains, enabling anyone to access and verify the data recorded on the blockchain. Thus, it highlights the importance of privacy-enhancing technologies and protocols to protect sensitive information and user identities in certain applications and use cases. 
 One of the key solutions to privacy protection in Ethereum is to cut off the public association of the receipt's address. The Stealth Address (SA) prevents the public association of a blockchain transaction with the recipient's wallet address. SA effectively conceals the actual destination address of the transaction. It is critical to protect the privacy of recipients and cut off social engineering attacks on transaction flow. 
 Based on our knowledge, all research did not resolve to meet overall requirements on 
@@ -91,6 +99,8 @@ To use Paillier, we should use the library: from the import paillier and after t
 - Alice secret key generation and encryption
 - Bob's final key recovery and stealth address generation
 
+Managing new types of key pairs, such as those introduced by FHE-DKSAP with Paillier, presents a significant consideration for wallet implementations. In the FHE-DKSAP scheme, storing the secret key of FHE directly within eth wallet is not a feasible approach. To establish a suitable storage solution, it becomes imperative to place this private key in a public domain, such as on blockchain. When necessitated, the FHE private key can then be decrypted using the wallet's secret key. Conversely, the public key of FHE, just like the public key of other common EOA, can be directly imported into eth wallet.
+
 ## Roadmap
 (What is your proposed timeline? Outline parts of the project and insight on how much time it will take to execute them.)
 - Finalize the proposal of the project (Done)
@@ -117,6 +127,7 @@ The communication cost, computation cost and the complexity of implementing full
 
 ## Fellows
 (Are there any fellows working with you on this project?)
+@Mason-Mind
 
 ## Mentors
 (Which mentors are helping you with the project?)
