@@ -1,6 +1,4 @@
-# Project Template
-
-ETK: Ethereum Object Format (EOF) implementation and more...
+# ETK: Ethereum Object Format (EOF) implementation
 
 ## Motivation
 
@@ -80,8 +78,8 @@ The main goal of this project can be divided into two categories:
 
 ### Mentors
 
-[Andrei Maiboroda](https://github.com/gumb0) - EOF spec
-[Lightclient](https://github.com/lightclient) - ETK codebase
+- [Andrei Maiboroda](https://github.com/gumb0) - EOF spec
+- [Lightclient](https://github.com/lightclient) - ETK codebase
 
 ## Resources
 
@@ -94,7 +92,7 @@ The main goal of this project can be divided into two categories:
 - [EIP-6206: EOF - JUMPF instruction](https://eips.ethereum.org/EIPS/eip-6206)
 - [EIP-663: Unlimited SWAP and DUP instructions](https://eips.ethereum.org/EIPS/eip-663)
 - [EIP-7069: Revamped CALL instructions (does not require EOF)](https://eips.ethereum.org/EIPS/eip-7069)
-- [ETK](https://github.com/quilt/etk)
+- [Ethereum Toolkit](https://github.com/quilt/etk)
 
 ## More...
 
