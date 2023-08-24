@@ -82,9 +82,8 @@ So once I have correctly integrated the devp2p implementation by modifying the g
 
 For the fuzzing, there are a lot of fuzzing techniques; the goal will be to identify the most appropriate, integrate them in priority, and then use the maximum number of different techniques in order to have the most results.
 
-For the fuzzing test, at first I will start by sending messages on a private network. This will allow me to test the first reactions to fuzzing and potentially detect issues on the devp2p or issues that are specific to the nodes.
+For the fuzzing test I will send messages on a private network. This will allow me to test the  reactions to fuzzing and potentially detect issues on the devp2p or issues that are specific to the nodes (example: a message crashes a node using geth but the same message does not cause anything on reth).
 
-Then, once I have tested this well, I plan to launch my fuzzing directly on a public testnet in order to interact with other nodes, which will use other implementations of ethereum. This could make it possible to find vulnerabilities on the devp2p but also other vulnerabilities specific to various implementations of ethereum (example: a message crashes a node using geth but the same message does not cause anything on reth).
 
 ## Roadmap
 
@@ -130,11 +129,12 @@ Personally, my goal is to contribute to the security of ethereum, so continuing 
 
 ### Mentors
 
-[Fredrik Svantes] (https://github.com/fredriksvantes)
+- [Fredrik Svantes](https://github.com/fredriksvantes)
+- [Marius van der Wijden](https://github.com/MariusVanDerWijden)
 
 
 ## Resources
 
 - [Geth](https://github.com/ethereum/go-ethereum)
-[Devp2p Specifications] (https://github.com/ethereum/devp2p)
-The project's repo (to be added)
+- [Devp2p Specifications](https://github.com/ethereum/devp2p)
+- The project's repo (to be added)
