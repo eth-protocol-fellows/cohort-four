@@ -17,3 +17,4 @@ Research and development around core Ethereum protocol is very rich. Many topics
    - This guide contains many sources for orientation, not only for the R&D Discord but all of Ethereum R&D.
    - If you find anything useful which would fit in there, feel free to contribute by expanding it.
 - `Advanced` category in [Ethereum.org developer docs](https://ethereum.org/en/developers/docs/standards/) can get you started on many current protocol dev topics
+- [Ethereum.org's roadmap page](https://ethereum.org/en/roadmap/#looking-for-specific-technical-upgrades) has excellent articles explaining changes coming to the protocol.

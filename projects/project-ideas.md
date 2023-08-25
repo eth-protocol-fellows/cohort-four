@@ -39,7 +39,7 @@ In previous cohorts, you can find many up to date ideas which haven't been solve
 
 ### Fuzzing
 
-Proposed by Frederik
+Proposed by Fredrik Svantes
 
 Create new fuzzers for software in order to find potential vulnerabilities, or improve on existing fuzzing frameworks. Networking in particular is an area where this could see some improvements on, but clients on the execution layer and consensus layer could also benefit from additional fuzzing.
 
@@ -175,7 +175,11 @@ Portal Network Glados: https://github.com/Ethereum/glados
 
 #### By Paul Hauner
 
-- P2P network, consensus optimizations, UX improvements, improved monitoring, database optimization.
+- Simulated staking performance metrics: Adding functionality to Lighthouse to "pretend" to create attestations and retrospectively assess their performance. This would give a lot more datapoints (e.g., a consistent 32 per epoch, rather than 1 per epoch with a single validator) and assist in making qualitative judgements about Beacon Node performance.
+- Memory usage analysis: Getting more information at runtime about which data structures are consuming memory (e.g., using things like [`deepsize`](https://docs.rs/deepsize/latest/deepsize/)). Our information at the moment is quite limited and I suspect there's some low-hanging memory optimization fruit if we just had more visibility.
+- Scheduler analysis: Lighthouse has a scheduler called the [`BeaconProcessor`](https://github.com/sigp/lighthouse/tree/unstable/beacon_node/beacon_processor) which it uses for queuing and quality-of-service. It would be interesting to have pie-chart style metrics to show which work types are taking how much percentage of total running time. This may highlight areas for optimisation.
+- Missed block metrics: Lighthouse has long been missing a critical metric for when blocks are missed by local validators. See [sigp/lighthouse#3414](https://github.com/sigp/lighthouse/issues/3414).
+- Remove need for portable/modern builds: Our upstream crypto library has recently [enabled CPU feature auto-detection](https://github.com/supranational/blst/issues/10#event-9775970264) which means Lighthouse no longer needs separate modern/portable builds. This involves grokking some assembly, dealing with FFI in Rust and our Github Actions-based release pipeline.
 
 ### Besu
 
