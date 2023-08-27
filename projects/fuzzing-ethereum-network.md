@@ -135,6 +135,6 @@ Personally, my goal is to contribute to the security of ethereum, so continuing 
 
 ## Resources
 
+- [D4C (project repo)](https://github.com/mohasdev/D4C)
 - [Geth](https://github.com/ethereum/go-ethereum)
 - [Devp2p Specifications](https://github.com/ethereum/devp2p)
-- The project's repo (to be added)
