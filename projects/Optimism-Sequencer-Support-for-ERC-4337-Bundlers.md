@@ -1,5 +1,5 @@
 # Optimism Sequencer Support for ERC 4337 Bundlers
-Assisting in the completion and testing of the RPC API for Optimism sequencer support for ERC 4337 bundlers, along with designing a robust reputation or Sybil resistance system.
+Extension and Implementation of `eth_sendRawTransactionConditional()`
 
 ## Summary
 Assisting in the completion and testing of the RPC API for Optimism sequencer support for ERC 4337 bundlers, along with designing a robust reputation or Sybil resistance system.
@@ -32,5 +32,5 @@ To design `eth_sendRawTransactionConditional()` that can be used on the mainnet 
 ## Resources
 1. [GitHub Repository](https://github.com/ethereum/go-ethereum/compare/master...tynes:go-ethereum:eip4337)
 2. [EIP-4337](https://eips.ethereum.org/EIPS/eip-4337?ref=blog.oplabs.co)
-3. [HackMD](https://hackmd.io/Jx1B9GLiQ-eltQe7L0FwzQ)
+3. [API-Specification](https://hackmd.io/Jx1B9GLiQ-eltQe7L0FwzQ)
 4. [Blog Post](https://blog.oplabs.co/erc-4337-and-account-abstraction/)
