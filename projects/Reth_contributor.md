@@ -6,7 +6,7 @@ Become a core contributor for [Reth](https://github.com/paradigmxyz/reth), a new
 
 Client diversity is one of the most important features of Ethereum as it helps to further decentralise the network. Right now there are already several implementations for the Ethereum protocol, divided in consensus and execution clients, as you can see from the image below.
 
-![client_diversity.png](Reth_contributor/client_diversity.png)
+![client_diversity](https://ethereum.org/static/247bd1fc708353287dbbca4f26b68716/7831d/client-diversity.png)
 
 Reth is an execution client and it’s the first one written in the Rust language, another good thing since it creates diversity also on the programming languages used for Ethereum clients. It aims to be very fast (Rust language is known for its speed and reliability) and optimised in order to be able to satisfy different users:
 
@@ -36,15 +36,130 @@ Every smaller issue has its own mini-proposal within the overall project proposa
 
 // THIS IS A WORK-IN-PROGRESS LIST
 
-[**add defaults to some rpc server cli args**](Reth_contributor/add_defaults_to_some_rpc_server_cli_args.md)
+<details>
+  <summary>add defaults to some rpc server cli args</summary>
 
-[**feat: store logs in different folders based on the chain**](Reth_contributor/feat_store_logs_in_different_folders_based_on_the_chain.md)
+  PR: https://github.com/paradigmxyz/reth/pull/3969  
 
-[**ask for confirmation during reth db drop**](Reth_contributor/ask_for_confirmation_during_reth_db_drop.md)
+  **Motivation**  
+  The following fields of `RpcServerArgs` do not have to be an `Option`.
 
-[**feat: add rpc server metrics into dashboard**](Reth_contributor/feat_add_rpc_server_metrics_into_dashboard.md)
+  - `auth_addr`
+  - `ws_addr`
+  - `ws_port`
+  - `http_addr`
+  - `http_port`
 
-[**feat: add flag to CLI to disable colour coding of console output**](Reth_contributor/feat_add_flag_to_CLI_to_disable_colour_coding.md)
+  **Project Description**  
+  Add a default value so it can be displayed in help and remove the Option.  
+
+  **Specification**  
+  First I studied the `clap` crate in order to be able to understand the issue and solve it easily. You can find my documentation about it here: [Clap crate](https://www.notion.so/Clap-crate-393be7f219514973a333f8608116dcbd?pvs=21).
+
+  Then I just added the `default_value_t` annotation in all of the above mentioned fields with its correspondent value:
+
+  - `IpAddr::V4(Ipv4Addr::LOCALHOST)` for ip addresses
+  - `constants::DEFAULT_HTTP_RPC_PORT`
+  - `constants::DEFAULT_WS_RPC_PORT`
+
+</details>
+
+<details>
+  <summary>feat: store logs in different folders based on the chain</summary>
+
+  PR: https://github.com/paradigmxyz/reth/pull/3948  
+
+  **Motivation**  
+  Currently logs are output to ~/.cache/reth/logs/reth.log, even if there are multiple nodes running on different chains.
+
+  **Project Description**  
+  Instead, logs should be output to `~/.cache/reth/logs/<chain>/reth.log`, or moved to the already-chain-specific `--datadir`. For example:
+
+  `~/.cache/reth/logs/mainnet/reth.log`
+
+  `~/.cache/reth/logs/sepolia/reth.log` 
+
+  **Specification**  
+  When `--log.persistent` flag is enabled, logs are now stored in different folders based on the chain or in the already-chain-specific `--datadir`.
+
+  Examples (no `--datadir` flag):
+
+  `~/.cache/reth/logs/mainnet/reth.log`
+
+  `~/.cache/reth/logs/sepolia/reth.log`
+
+  Examples (with `--datadir` flag):
+
+  `~/custom-data-dir/reth.log`
+
+  In order to do that, I added a `chain` field in the `Cli` struct with the `global = true` annotation and made the logs folder be based on that specific flag.
+
+  ```rust
+  // add network name to logs dir
+  self.logs.log_directory = self.logs.log_directory.join(self.chain.chain.to_string());
+  ```
+
+</details>
+
+<details>
+  <summary>ask for confirmation during reth db drop</summary>
+
+  PR: https://github.com/paradigmxyz/reth/pull/4118  
+
+  **Motivation**  
+  It's a shame when a fully synced mainnet database is accidentally deleted.
+
+  **Project Description**  
+  Let's ask for the interactive confirmation by default and add a -f / --force flag to explicitly bypass this confirmation.
+
+  **Specification**  
+  Add a `-f`/ `--force` flag to the `reth db drop` command. If not passed by the user, it always asks for confirmation before dropping the db. If the user passes the `-f`/`--force` flag it bypasses the confirmation and immediately drops the db.
+
+  I added a bool argument `force` to the `Drop` subcommand and made the logic be dependent on that value: if it is set (to true), then when you call the drop subcommand it immediately drops the database. Otherwise it asks for confirmation before dropping it.
+
+</details>
+
+<details>
+  <summary>feat: add rpc server metrics into dashboard</summary>
+
+  PR: https://github.com/paradigmxyz/reth/pull/4078  
+
+  **Motivation**  
+  New set of metrics for rpc server added in #3913 but are currently not tracked in the grafana dashboard.
+
+  **Project Description**  
+  Integrate in dashboard:
+
+  - active requests
+  - histogram
+  - active websocket connections
+
+  **Specification**  
+  I added all those metrics in three different charts using standard Grafana JSON format. Actually I had never worked on grafana metrics so it was very interesting to understand how that works in details and be able to create dashbaords based on metrics exposed by Reth.
+
+</details>
+
+<details>
+  <summary>feat: add flag to CLI to disable colour coding of console output</summary>
+
+  PR: https://github.com/paradigmxyz/reth/pull/4033  
+
+  **Motivation**  
+  Add cli flag that is going to disable the colour coding of console output, it is particularly annoying with docker logs that would contain ansci encoding.
+
+  **Project Description**  
+  Add cli flag that is going to disable the colour coding of console output, it is particularly annoying with docker logs that would contain ansci encoding.
+
+  **Specification**  
+  I added a `color` flag to the `Cli` struct that accepts three different `ColorMode`:
+
+  - `always`: colors on.
+  - `auto`: usually does some environment detection, but for now it's ok if it just behaves as `always`.
+  - `never`: colors off.
+
+  Then I changed the signature of the logs tracing function to also accept a `ColorMode` and set colors accordingly.
+
+</details>
 
 ## Roadmap
 
