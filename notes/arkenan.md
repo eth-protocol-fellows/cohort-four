@@ -10,5 +10,6 @@ I'm joined by Martin Paulucci, Tomás Grüner and Paul-Henry Kajfasz in building
 
 ## Update links:
 
-- [Update 2](https://hackmd.io/@ft-mkp6jQ5egGIMYqmACGA/SJBdp9So2)
-- [Update 3](https://hackmd.io/6x43ZTkmSL2YKxdZe5E9KQ)
+- [Week 2](https://hackmd.io/@ft-mkp6jQ5egGIMYqmACGA/SJBdp9So2)
+- [Week 3](https://hackmd.io/6x43ZTkmSL2YKxdZe5E9KQ)
+- [Week 5](https://hackmd.io/ElVH25hKTuKxMjMMrFRbNQ)
