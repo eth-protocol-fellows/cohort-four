@@ -10,7 +10,7 @@ Hi my name is Kayden Moroz Liebl and i am very excited to participate in this ye
 
 - Glados
 
-I’m interested on working hard on Glados because I believe that it suits my skill set the best and is a great place to improve myself and learn and am planing on working hard creating interesting ways to visualize important data through different graphs on the page and trying to make everything look nicer and cleaner as well as the main page of glados. In this pull request I created a pie chart to display how many nodes are on the network and which clients they are so trin, fluffy, ultralight and unknown there's still changes I am working on before this can be merged. I am really interested in working hard and learning many new things during this year's cohort and excited to be able to add interesting and important data to display through different graphs and interesting way's to display information.
+I’m interested on working hard on Glados because I believe that it suits my skill set the best and is a great place to improve myself and learn and am planing on working hard creating interesting ways to visualize important data through different graphs on the page and trying to make everything look nicer and cleaner as well as the main page of glados. I am really interested in working hard and learning many new things as well as making many useful contributions towards glados during this year's cohort and excited to be able to contribute in every way that I can either that be by large or small implementations.
 
 
 ## Weekly Updates
@@ -20,14 +20,31 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - [Week 2](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/S1t-Tmyon)
 - [Week 3](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/HkVl5dhjh)
 - [Week 4](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/Bytjmsfh3)
+- [Week 5](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/S1wFfX23h)
+- [Week 6](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/SynHLNBTh)
 
 ## Working on Next 
 
 
-- finish writing the test I've been working on that will prevent the problem that we where having with migrations that I fixed last week.
+- Finish my Project Proposal for tuesday when I'm presenting.
 
 
-- Continue to look into writing tests in rust so I can become really good because it's a very important skill to have while contributing to the portal network.
+- The Content Dashboard loads really slow so improving the speed that it loads. Here's an example of how i could achieve this by splitting the content page into several pages that each do fewer queries, 90% of the time we just want the latest data so this would be a good solution into solving this issue
+
+
+- Implementing breadcrumb links to imrprove navigation
+
+
+- Implementing Top Navigation to also imrpove the navigation of glados
+
+
+- Once the Implementation of DHT Census Pr is merged in this PR https://github.com/ethereum/glados/pull/117 I can continue to work on my piechart PR https://github.com/ethereum/glados/pull/136.
+
+
+- reseach more into Kademlia and DiscV5
+
+
+- Continue to look into writing tests in rust to become very skilled at writing test's
 
 
 - dynamically load each dashboard component
@@ -36,26 +53,24 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - unify the content and network dashboards into a single front-page view
 
 
-- display where in the world the clients are located 
-
-
-- display recently seen nodes 
-
-
-- display log2(node_id()) will be a range of 1 to 256
-
-
 - continue aesthetic refinements where needed
 
 
-- Look into more intresting data that I can display on the page through different graphs and looking for way's that I can improve glados in its entirety trying to make Glados look nicer and continue to add onto my list of contributions. 
-
-
-- Continue to do more research into the Portal Network as well as Glados to try gain a even better understanding of them and a better understanding of everything works and what they do.
+- Improve my understanding of Glados and the Portal Network even more
 
 
 - Look into more ethereum resources to increase my knowledge of ethereum over all.
 
+**Graph Ideas**
+- the average data radius in the network 
+
+- the estimated total storage within a given network
+
+- A map graph that has dots on it that displays where in the world the clients are located 
+
+- display recently seen nodes 
+
+- graph log2(node_id()) will be a range of 1 to 256
 ## Links And Resources
 
 **Glados Github:**
@@ -66,6 +81,12 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 
 - https://github.com/ethereum/glados/pull/136
 - https://github.com/ethereum/glados/pull/145
+- https://github.com/ethereum/glados/pull/148
+- https://github.com/ethereum/glados/pull/149
+- https://github.com/ethereum/glados/pull/150
+- https://github.com/ethereum/glados/pull/151
+- https://github.com/ethereum/glados/pull/152
+
 
 **Merged Pr Links:**
 - https://github.com/ethereum/glados/pull/137

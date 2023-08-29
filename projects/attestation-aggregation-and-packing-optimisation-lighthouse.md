@@ -64,7 +64,7 @@ Complete success for the project would be an optimal attestation packing impleme
 [Michael Sproul](https://github.com/michaelsproul) and [Paul Hauner](https://github.com/paulhauner)
 
 ## Resources
-
+Presentation: [Optimizing Attestation Aggregation and Packing](https://docs.google.com/presentation/d/1uigrSd6j57fhsTWpcQX2cYnSTgUwWP6z6RLy0UH9xYQ/edit?usp=sharing) \
 Aggregation: https://github.com/sigp/lighthouse/pull/4507 \
 Packing: https://github.com/sigp/lighthouse/pull/4542 \
 Previous Work: \
