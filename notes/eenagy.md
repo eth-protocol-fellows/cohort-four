@@ -14,6 +14,12 @@
 
 [Creating debian packages](https://hackmd.io/@eenagy/SyQs2P1hh)
 
-## Project proposal
+### Week 4 - 5
 
-TBD, waiting for the program start to decide on.
+[Automation of packaging (wrong direction), realigning](https://hackmd.io/@eenagy/rk_i_52ph)
+
+### Week 6 - 7
+
+[Reprepro - debcrafter ](https://hackmd.io/@eenagy/SkWu39nTn)
+
+## Project proposal
