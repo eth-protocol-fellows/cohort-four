@@ -105,7 +105,7 @@ If you are interested let me know.
 
 ### Mentors
 
-Mário Havel (@taxmeifyoucan) Martinzs (@???)
+Mário Havel (@taxmeifyoucan) Martinzs (@kixunil)
 
 ## Resources
 
