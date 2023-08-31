@@ -82,7 +82,9 @@ Another goal is to read and document learnings in hackmd articles, design boards
 ### Mentors
 
 [Barnabe Monnot](https://github.com/barnabemonnot) 
+
 [Terrence Tsao](https://github.com/terencechain)
+
 [Mike Neuder](https://github.com/michaelneuder)
 
 ## Resources
@@ -90,3 +92,4 @@ Another goal is to read and document learnings in hackmd articles, design boards
 [PEPC FAQs](https://efdn.notion.site/PEPC-FAQ-0787ba2f77e14efba771ff2d903d67e4#a2d2d17abe90414e88d667ad10d91afe)
 [PEPC Original Proposal](https://ethresear.ch/t/unbundling-pbs-towards-protocol-enforced-proposer-commitments-pepc/13879?u=barnabe)
 [Studying Ethereum Censorship](https://hackmd.io/@oLeaCeNDTl-O01HPNj9_sw/B1-3hBojh)
+[PEPC Design Doc](https://docs.google.com/document/d/1wa4J48lYqgnFz3JbCIrR97LIX7S5Z5_SjPG2ZTZQUgE/edit)
