@@ -93,3 +93,4 @@ Another goal is to read and document learnings in hackmd articles, design boards
 [PEPC Original Proposal](https://ethresear.ch/t/unbundling-pbs-towards-protocol-enforced-proposer-commitments-pepc/13879?u=barnabe)
 [Studying Ethereum Censorship](https://hackmd.io/@oLeaCeNDTl-O01HPNj9_sw/B1-3hBojh)
 [PEPC Design Doc](https://docs.google.com/document/d/1wa4J48lYqgnFz3JbCIrR97LIX7S5Z5_SjPG2ZTZQUgE/edit)
+[PEPC Implementation Notes](https://hackmd.io/cvl87wD-T1y13qoJlWWB-Q)
