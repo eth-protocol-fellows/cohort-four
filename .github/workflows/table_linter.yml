@@ -31,7 +31,6 @@ jobs:
       pull-requests: write
 
     steps:
-
       # Git Checkout
       - name: Checkout Code
         uses: actions/checkout@v3
@@ -41,12 +40,8 @@ jobs:
 
       - name: MegaLinter
         uses: oxsecurity/megalinter/flavors/documentation@v7.3.0
-
         id: ml
-
-    
         env:
-
           VALIDATE_ALL_CODEBASE: >-
             ${{
               github.event_name == 'push' &&
@@ -57,11 +52,8 @@ jobs:
 
           # ADD YOUR CUSTOM ENV VARIABLES HERE OR DEFINE THEM IN A FILE
           # .mega-linter.yml AT THE ROOT OF YOUR REPOSITORY
-
-          # Uncomment to disable copy-paste and spell checks
           ENABLE_LINTERS: MARKDOWN_MARKDOWN_TABLE_FORMATTER
-          GITHUB_COMMENT_REPORTER: false 
-
+          
       # Upload MegaLinter artifacts
       - name: Archive production artifacts
         uses: actions/upload-artifact@v3
