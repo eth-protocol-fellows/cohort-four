@@ -1,7 +1,6 @@
 ---
 name: MD Table Linter for dev updates 
 
-
 on:
   push:
 
@@ -15,6 +14,7 @@ env:
   APPLY_FIXES: all
   APPLY_FIXES_EVENT: pull_request
   APPLY_FIXES_MODE: commit
+  GITHUB_COMMENT_REPORTER: false
 
 concurrency:
   group: ${{ github.ref }}-${{ github.workflow }}
@@ -31,7 +31,6 @@ jobs:
       pull-requests: write
 
     steps:
-
       # Git Checkout
       - name: Checkout Code
         uses: actions/checkout@v3
@@ -41,10 +40,7 @@ jobs:
 
       - name: MegaLinter
         uses: oxsecurity/megalinter/flavors/documentation@v7.3.0
-
         id: ml
-
-    
         env:
 
           VALIDATE_ALL_CODEBASE: >-
@@ -55,10 +51,6 @@ jobs:
 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-          # ADD YOUR CUSTOM ENV VARIABLES HERE OR DEFINE THEM IN A FILE
-          # .mega-linter.yml AT THE ROOT OF YOUR REPOSITORY
-
-          # Uncomment to disable copy-paste and spell checks
           ENABLE_LINTERS: MARKDOWN_MARKDOWN_TABLE_FORMATTER
 
       # Upload MegaLinter artifacts
