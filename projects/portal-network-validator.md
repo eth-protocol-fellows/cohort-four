@@ -18,6 +18,8 @@ I will research how to _enable validators to run a [portal](https://github.com/e
 
 ## Specification
 
+Some issues might be raised about the security and trust assumptions of this setup. I don't think this is something to be concerned about, Portal data is fully validated. However, something worth pointing out is that this setup would be highly experimental, and probably won't reach production level quality for months or even years. This is something that has to be extensively warned in the documentation that comes out of the project.
+
 My project's output will consist of:
 
 - **Research Documents**: Where I give detailed technical explanations of what I find.
@@ -32,7 +34,7 @@ Both options provide significant challenges:
 
 When _enabling validators to propose blocks_, the CL client needs to get an `ExecutionPayload`. Two approaches can be taken here: a) The portal client builds the block, or b) Someone else builds the block and the portal client validates it and broadcasts it (think about MEV-boost or any other form of PBS).
 
-When _enabling validators to attest to blocks_, things get trickier. To attest to a block, a normal validator would have to execute all transactions in that block... using its EL node.
+When _enabling validators to attest to blocks_, things get trickier. To attest to a block, a normal validator would have to execute all transactions in that block... using its EL node. For my project, this can probably be achieved by using some [Reth](https://github.com/paradigmxyz/reth) modules as libraries, but further investigation is needed.
 
 To keep my project tightly scoped, I'll focus on figuring out how to enable validators to _propose empty blocks built externally_. Other features like attesting, building blocks, processing non-empty blocks, and serving beacon API data will be left for later.
 
