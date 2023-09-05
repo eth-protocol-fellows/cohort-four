@@ -18,6 +18,7 @@ Here are some starting points for learning about the Ethereum protocol.
     - Walkthrough of the Yellow paper: https://www.lucassaldanha.com/ethereum-yellow-paper-walkthrough-1/
     - An in-depth discussion of the Yellow Paper on Youtube: https://youtu.be/e84V1MxRlYs
     - Visual Guide to the Yellow Paper: https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf
+    - An in-depth walkthrough of the Yellow paper: https://github.com/vlnistor/AnnotatedEthereumYellowPaper/blob/main/README.md
 
 ### Contributing to Ethereum Ecosystem
   - EIP-1 (i.e. how Ethereum Improvement Proposals Work): https://eips.ethereum.org/EIPS/eip-1

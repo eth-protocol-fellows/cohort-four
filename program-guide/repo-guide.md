@@ -25,8 +25,9 @@ You can also check out development updates from [previous cohorts](https://githu
 You should: 
 
 - Post your first update within the first week of starting into the program, write about your initial research. 
-- Post your update somewhere public. Using the main [`development-updates.md` document](/development-updates.md) is fine. An external blog, hackmd or forum post are also great.
-- *if* you post your update somewhere external, you should provide a URL referencing your development update in the [`development-updates.md` document](/development-updates.md).
+- Post your update somewhere public. Link it in the main [`development-updates.md` document](/development-updates.md). Publishing using an external blog, hackmd or forum post are all great.
+- *if* you post your update somewhere external, make sure to provide a URL referencing your development update in the [`development-updates.md` document](/development-updates.md).
+- Make sure the markdown table is properly formatted before you push your commits. You can use a local IDE with markdown support, hackmd or [table formatting tool](https://github.com/nvuillam/markdown-table-formatter). 
 - Share your development update to current thread in R&D Discord `#protocol-fellowship` channel 
 
 
@@ -34,13 +35,13 @@ You should:
 
 Project deliverables should be posted in various open places such as the Research forum, the Ethereum Magicians forums, github gists, hackmd documents and this repository. 
 
-Create a document under the path `/notes/<project-name>.md`. This document should include: 
+Create a document under the path `/notes/<project-name>.md`. Take inspiration for writing your project from the [project template](/projects/project-template.md). Generally, your project document should include: 
 
 - Basic description of project you are working on, scope, goals and roadmap
 - All neccessary links to repos where development is happening, documentation, research posts and technical background 
 - List of participants working on the project
 
- This document can be created later in the program when your project is mature enough and you are ready to present it.
+This document can be created later in the program when your project is mature enough and you are ready to present it. It's generally recommend around month into the fellowship, weeks 4-6. 
 
 
 ### Using `/notes/<your-name>.md`
