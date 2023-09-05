@@ -22,6 +22,28 @@ User Story: Simplifying Ethereum Node Installation for Debian Users
 
 **So that** I can actively participate in the Ethereum ecosystem, contribute to its activities, and stay up-to-date with the network developments.
 
+## User stories
+
+**As a** node runner
+**I want** to use apt-get to dowload the software
+**So that I** can save time and cognitive resources
+
+**As a** node admin
+**I want** to be offered defaults or configurations
+**So that I** can simplify the admin tasks
+
+**As a** developer
+**I want** to distribute my software much more easily
+**So that I** can focus on much more important tasks related to the software I'm developing
+
+**As a** community member
+**I want** to know where to point people who want to run a node
+**So I** can say running a node is easy
+
+**As a** security auditor
+**I want** to run tests or audits against the packages and settings
+**So I** can advise for best practices or flag security vulnerabilities or fix security holes by modifying the package
+
 ## Project description
 
 The proposed solution contains two parts
