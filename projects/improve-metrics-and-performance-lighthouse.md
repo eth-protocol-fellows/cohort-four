@@ -24,7 +24,7 @@ As part of trying to improve Lighthouse metric and performance, I will work on s
 
 1. **Expose the Missed block metrics within the monitored pool of validators**
     - More and more users are interested in having more metrics directly exposed in the CL, especially metrics that can give them more insight about their (pool of) validators and how well they perform. Alerting can easily be added then.
-    - They are several areas that we need to consider here (Paul Hauner described in 4 phases [here](https://github.com/sigp/lighthouse/issues/3414)):
+    - They are several areas that we need to consider here ([Paul Hauner described it thoroughly in 4 phases](https://github.com/sigp/lighthouse/issues/3414)):
         - How do we detect a missed block (a.k.a. a "skipped slot")?
         - How do we know who the proposer was for the skipped slot?
         - How to reduce false-positives.
@@ -61,7 +61,7 @@ The project would be considered when more metrics will be exposed in LH.
 
 Adding the missed blocks for a pool of validators is a good first step to get myself more familiar with the architecture of LH and consists of a first decent challenge as there’s few technical requirements to take into account (eg. understand more components of the code base more information need to be queried from different components of the code (cache, state, etc) making sure that the performance are acceptable.
 
-Then I will be moving to add more metrics in the different tasks scheduled by the `[BeaconProcessor](https://github.com/sigp/lighthouse/tree/unstable/beacon_node/beacon_processor)` which would allow the devs to have a better visibility of the different processing time of each task at runtime.
+Then I will be moving to add more metrics in the different tasks scheduled by the [BeaconProcessor](https://github.com/sigp/lighthouse/tree/unstable/beacon_node/beacon_processor) which would allow the devs to have a better visibility of the different processing time of each task at runtime.
 
 Then creating a workflow that would allow the devs to simulate different kind of scenarios challenging the performance of their client and allowing them to more easily improve certain part of the code.
 
