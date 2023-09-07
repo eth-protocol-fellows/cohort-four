@@ -37,7 +37,7 @@ As part of trying to improve Lighthouse metric and performance, I will work on s
 3. **Simulated staking performance metrics**
     - Adding functionality to Lighthouse to "pretend" to create attestations and retrospectively assess their performance.
     - This would give a lot more datapoints (e.g., a consistent 32 per epoch, rather than 1 per epoch with a single validator) and assist in making qualitative judgements about Beacon Node performance.
-    - This would also be able to - in combination of adding metric to the BeaconProcessor - to see potential performance issues or bottleneck and even highlight areas for optimisation and allow the team to more easily play with optimisation (trying different Rust dispatch modes) as well as spotting potential performance issues.
+    - This would also be able to - in combination of adding metrics to the BeaconProcessor - to see potential performance issues or bottleneck and even highlight areas for optimisation and allow the team to more easily play with optimisation (trying different Rust dispatch modes) as well as spotting potential performance issues.
 
 ## Roadmap
 
