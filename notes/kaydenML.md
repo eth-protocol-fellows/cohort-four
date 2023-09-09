@@ -47,12 +47,6 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 
 - Look into more ethereum resources to increase my knowledge of ethereum over all.
 
-**Graph Ideas**
-- the average data radius of nodes on the network
-- estimated total storage within a given network
-- A map graph that has dots on it that displays where in the world the clients are located 
-- display recently seen nodes 
-- graph log2(node_id()) will be a range of 1 to 256
 ## Links And Resources
 
 **Glados Github:**
