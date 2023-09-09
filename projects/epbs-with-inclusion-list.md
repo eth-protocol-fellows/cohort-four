@@ -6,23 +6,28 @@ Implementing a proof of concept for ePBS with inclusion list support in both con
 
 *What problem is your project is solving? Why is it important and what area of the protocol will be affected?*
 
+
 Currently, in Ethereum, the [PBS (proposer builder seperation)](https://ethresear.ch/t/proposer-block-builder-separation-friendly-fee-market-designs/9725) is seen in out of protocol systems like flashbots where the existing validators outsource block building to external entities. These external entities are sophisticated actors who can capture MEV and produce a block with much higher value (or juice) as compared to validators running on normal hardware. This design relies on a very small set of trusted entities called Relays which are responsible for proposer builder communication. At present, more than 90% of blocks in the network are broadcasted by 10 active relays. This introduces centralized risks and also makes the network more vulnerable to censorship.
 
 As a result, [this](https://ethresear.ch/t/why-enshrine-proposer-builder-separation-a-viable-path-to-epbs/15710) post advocates for having an in-protocol (enshrined) implementation of PBS as it can make the whole process more decentralized, censorship resistant and trustless. Moreover, having the block building process in-protocol makes the builders more accountable for their actions and makes the process more transparent.
+
+Enshrined Proposer-Builder Separation (ePBS) is part of Ethereum's path toward better control over, if not mitigation of, non-user-value-additive MEV capture as well as enabling fully stateless validators whilst decreasing the chances of validator centralisation. Toxic or "bad" MEV is a major contributor of increased L1 transaction fees (especially when there is congestion or contention in MEV strategies) and a source of unfair transacting such as searchers front-running or sandwiching other users. Although the full extent of tactical and strategic MEV on Ethereum is not known, its effects are increasingly being discovered and studied.
 
 ## Project description
 
 *What is your proposed solution?*
 
-As enshrining PBS is a complex problem and multuple designs have been proposed for the same, the goal is to implement a PoC for the PTC (Payload Timliness Committee) design along with inclusion list.
+As enshrining PBS is a complex problem and multiple designs have been proposed for the same, the goal is to implement a PoC for the PTC (Payload Timliness Committee) design along with inclusion list in the Prysm consensus client and geth execution client.
 
 ## Specification
 
 *How will you implement your solutions? Give details and more technical information on the project.*
 
-There are quite a few research articles available for ePBS and as mentioned above, multiple designs have been proposed. Potuz and Terrence from the Prysm team have been involved in the discussions and have voted to go with the [PTC (Payload Timliness Committee) design](https://ethresear.ch/t/payload-timeliness-committee-ptc-an-epbs-design/16054). It is an updated design of another design initial proposed by Vitalik called [Two-slot PBS](https://ethresear.ch/t/two-slot-proposer-builder-separation/10980).
+There are quite a few research articles available for ePBS and as mentioned above, multiple designs have been proposed. The project involves reviewing existing proposals and literature. Potuz and Terrence from the Prysm team have been involved in the discussions and have voted to go with the [PTC (Payload Timliness Committee) design](https://ethresear.ch/t/payload-timeliness-committee-ptc-an-epbs-design/16054). It is an updated design of another design initial proposed by Vitalik called [Two-slot PBS](https://ethresear.ch/t/two-slot-proposer-builder-separation/10980).
 
-This requires changes in both the consensus as well as the execution layer. Potuz and Terrence have been working on the consensus specs and the plan is to fully understand them, review them and implement them in the Prysm consensus client. For execution layer, the specs (and an EIP) will be written at a later stage (and I hopefully plan to contribute to writing that as well) and the chosen client is Geth. The plan is to break down the whole implementation into different components and iteratively build out the required feature. Moreover, with ePBS, an inclusion list design proposed [here](https://ethresear.ch/t/no-free-lunch-a-new-inclusion-list-design/16389) will also be implemented for preventing censorship as both of them are complementary to each other.
+This requires changes in both the consensus as well as the execution layer. Potuz and Terrence have been working on the consensus specs and the plan is to fully understand them, review them and implement them in the Prysm consensus client. For execution layer, the specs (and an EIP) will be written at a later stage (and I hopefully plan to contribute to writing that as well) and the chosen client is Geth. The plan is to break down the whole implementation into different components and iteratively build out the required feature. Moreover, with ePBS, an inclusion list design proposed [here](https://ethresear.ch/t/no-free-lunch-a-new-inclusion-list-design/16389) will also be implemented for preventing censorship as both of them are complementary to each other. 
+
+The fellows involved in this project will be initially involved in discussing about the implementation plan post reviewing the specs proposed. Initially, we'll get involved in general contributions and then modules to implement/modify will be divided internally.
 
 The end goal is to build a working PoC with following features:
 1. Builders as highly staked validators sending bids for bulding the next block without revealing the transactions. The validator of the respective slot can choose a bid and propose the beacon block. After a round of voting on the blinded beacon block, builder reveals the payload (i.e. list of transactions) which will be voted upon by the PTC committee.
@@ -64,8 +69,8 @@ The end goal of the project is to review the existing literature, specs and have
 As it's a huge project, yes there are other fellows also working on this with me. 
 - [Anshal Shukla](https://github.com/anshalshukla)
 - [Chirag Mehta](https://github.com/Chirag018)
+- [Ella](https://github.com/0xfmoi)
 - [NC](https://github.com/naviechan) (An external participant)
-- [Ella](https://github.com/0xfmoi) (Haven't discussed with her yet, but saw her proposal on the same topic)
 
 ### Mentors
 
