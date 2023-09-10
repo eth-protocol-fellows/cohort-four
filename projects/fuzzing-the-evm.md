@@ -1,57 +1,79 @@
-# Fuzzing the EVM
+# Fuzzing the Dencun protocol changes
 
 ## Motivation
 
-For the Ethereum protocol, with its continuous updates and ever-increasing adoption, it is vital to keep it as secure as possible by identifying and addressing any security flaws before they are discovered and exploited by malicious actors. This project aims to enhance the security of the Ethereum protocol by fuzz-testing its various aspects. Fuzzing is a software testing method that has proven essential in other domains; it involves providing invalid, unexpected, or random inputs to a computer program to uncover bugs or other vulnerabilities.
+For the Ethereum protocol, with its continuous updates and ever-increasing adoption, it is vital to keep it secure. This means identifying and addressing any security flaws before they are discovered and exploited by malicious actors.
 
-Here's why it is essential in the context of Ethereum:
+Here are the primary reasons why fuzzing is essential in the context of Ethereum:
+* It can help identify vulnerabilities that, if exploited, might lead to significant financial losses.
+* It can help gain an understanding of the system's constraints, revealing inefficiencies within the protocol that can be optimized.
+* It can be more cost-efficient than manual testing, allowing for broad coverage and the automation of testing, leading to quicker detection and resolution of issues.
 
-* **Preventing Financial Loss** - Fuzzing can help identify vulnerabilities that, if exploited, can lead to significant financial losses.
-* **Performance Optimization** - Fuzzing can help gain an understanding of the system's constraints, revealing inefficiencies within the protocol that can be optimized.
-* **Cost-Efficient Testing** - Fuzzing can be more cost-efficient than manual testing, allowing for broad coverage and the automation of testing, leading to quicker detection and resolution of issues.
+This project aims to enhance the security of the Ethereum protocol by fuzz testing and improving the tooling to support the upcoming protocol changes, more specifically the [Dencun](https://www.ethereumcatherders.com/dencun/) upgrade.
 
 It is crucial to note that even though fuzzing is a valuable tool in the security testing arsenal, it is not a silver bullet, and it is not guaranteed to find any or all vulnerabilities.
 
 ## Project description
 
-The goal of the project is to create a set of tools and gradually advance them by incorporating various fuzzing techniques and capabilities. These will be used for identifying vulnerabilities in different parts of the protocol, with a focus on the latest protocol changes. The project will start with the execution layer, specifically the EVM, but the design should be configurable and can later be extended to support other parts of the protocol. The main target is to test minority clients (`Reth/Erigon/...`), which may have more issues, as well as majority clients to ensure that they are not vulnerable to the same problems. As part of the effort to improve the security of the Ethereum protocol, the project will aim to contribute back to the clients/specs if any bugs are found and to enhance existing fuzzing tools.
+The objective of this project is to enhance the existing fuzzers and ensure compatibility with the upcoming [Dencun](https://www.ethereumcatherders.com/dencun/) changes.
+[Dencun](https://www.ethereumcatherders.com/dencun/) is a combination of two upgrades including a range of EIPs - Deneb: for the Consensus Layer upgrade, and Cancun, for the Execution Layer upgrade.
+
+* [EIP-4844: Proto-Danksharding](https://eips.ethereum.org/EIPS/eip-4844)
+* [EIP-1153: Transient storage opcodes](https://eips.ethereum.org/EIPS/eip-1153)
+* [EIP-5656: MCOPY - Memory copying instruction](https://eips.ethereum.org/EIPS/eip-5656)
+* [EIP-6780: SELFDESTRUCT only in same transaction](https://eips.ethereum.org/EIPS/eip-6780)
+* [EIP-4788: Beacon block root in the EVM](https://eips.ethereum.org/EIPS/eip-4788)
+* [EIP-7044: Perpetually Valid Signed Voluntary Exits](https://eips.ethereum.org/EIPS/eip-7044)
+* [EIP-6988: Elected block proposer has not been slashed](https://eips.ethereum.org/EIPS/eip-6988)
+* [EIP-7045: Increase max attestation inclusion slot](https://eips.ethereum.org/EIPS/eip-7045)
+
+As part of the effort to enhance the tooling, the project will contribute back to the clients and the test suite if any bugs are discovered. By conducting fuzz tests and identifying potential vulnerabilities, the aim is to address edge cases in client implementations and ensure consistent results across them.
 
 ## Specification
 
-Implement a set of CLI tools to test the newer protocol upgrades, that could exploit vulnerabilities in the Ethereum Virtual Machine.
+The upgrade encompasses several EIPs related to the EVM, such as EIP-4844, EIP-1153, EIP-5656, and EIP-6780. The focus of this project is primarily on these changes.
 
-Here's a breakdown of the steps that might be required to implement the solution:
-1. Generate a valid corpus, based on existing data from specs, unit tests, real-world data, or newer protocol upgrades as a starting point.
-2. Mutate the corpus and generate new inputs that are arbitrary, but still hold the structure as the original inputs to cover deep code paths of the protocol.
-3. Report the inputs that cause crashes or other unexpected behavior.
-4. Track the code coverage and identify areas that are not covered.
+For the testing process, the fuzzing tools I intend to utilize and contribute to are [FuzzyVM](https://github.com/MariusVanDerWijden/FuzzyVM) and [goevmlab](https://github.com/holiman/goevmlab). Both of these tools are written in Go and rely on several major libraries, notably [go-ethereum](https://github.com/ethereum/go-ethereum) and [go-fuzz](https://github.com/dvyukov/go-fuzz)
+
+1. Execute fuzz tests to pinpoint potential limitations in the tools, given that there are not many documented issues.
+
+2. Add support in [FuzzyVM](https://github.com/MariusVanDerWijden/FuzzyVM) for testing the [Dencun](https://www.ethereumcatherders.com/dencun/) changes and respectively the necessary changes in [goevmlab](https://github.com/holiman/goevmlab).
+
+3. [goevmlab](https://github.com/holiman/goevmlab) currently lacks support for the Reth evm. This presents a potential area for enhancement. There are also issues not particularly related to the [Dencun](https://www.ethereumcatherders.com/dencun/) upgrade that can be addressed:
+  * https://github.com/holiman/goevmlab/issues/12
+  * https://github.com/holiman/goevmlab/issues/4
+
+4. Execute differential fuzz tests against several clients: [geth](https://github.com/ethereum/go-ethereum), [erigon](https://github.com/ledgerwatch/erigon), [nethermind](https://github.com/NethermindEth/nethermind), [besu](https://github.com/hyperledger/besu) and [reth](https://github.com/paradigmxyz/reth) to identify any client inconsistencies.
+
+5. If bugs are discovered, contribute fixes back to the clients.
+
+6. Improve the [tests](https://github.com/ethereum/tests) to cover edge cases, especially if the fuzzing results indicate crashes or other unexpected behaviors.
+
 
 ## Roadmap
 
-**Local test setup**
+Many unknown factors can affect the project's timeline, such as the complexity of the necessary changes, the time taken to familiarize with the existing codebase and the number of bugs discovered. The timeline provided below is a tentative estimate.
 
-1. Set up a local private network for testing - **~2-4 days**
+**Implementation & Fuzzing**
 
-**CLI implementation & Fuzzing**
+1. Implement the necessary changes into the existing fuzzing tools - **4 weeks**
+2. Conduct fuzz tests and identify limitations of the tools - **4 weeks**
+3. Contribute back to the clients and tests if any bugs are discovered - **ongoing**
 
-1. Use existing fuzzing tools and identify their limitations and aspects of the protocol that are not covered - **~2 weeks**
-2. Implement custom CLI tools to fuzz the newer protocol changes and identify critical areas within Ethereum to target - **~4 weeks**
-3. Use the custom tools to fuzz test - **~4 weeks**
-4. Contribute back to the clients/specs if any bugs are found - **ongoing**
+**After the EPF ends**
 
-**Improvements - after the EPF end**
-
-1. Analyze issues encountered during fuzzing - **ongoing**
-2. Implement enhancements based on findings - **ongoing**
+1. Implement enhancements based on any issues encountered during the fuzzing process - **ongoing**
 
 ## Possible challenges
 
-* Setting up a proper testing environment that accurately resembles real-world scenarios for different client combinations may be challenging.
+* Exploring the changes of the upcoming protocol update is time-consuming and requires a deep understanding of the Ethereum protocol.
+* The client teams are still working and have [different progress](https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/cancun.md#implementation-progresss) on implementing the changes that are going to be tested.
+* The fuzzing tools depend on existing infrastructure that does not fully support the changes. For example, the [state tests](https://github.com/ethereum/tests/tree/develop/GeneralStateTests) format does not reflect the changes yet.
 * Finding vulnerabilities might be time-consuming and is not guaranteed.
 
 ## Goal of the project
 
-The project will be considered successful if, by the end of the EPF, actual bugs are found or contributions to existing fuzzing tools, clients, or specs are made.
+The project will be considered successful if, by the end of the EPF, actual bugs are found or contributions to existing fuzzing tools, clients, or tests are made.
 
 ## Collaborators
 
@@ -65,10 +87,24 @@ The project will be considered successful if, by the end of the EPF, actual bugs
 
 ## Resources
 
-Project repo:
+Project repo
 * [fuzzetha](https://github.com/radkomih/fuzzetha)
 
-Existing fuzzing tools:
-* [goevmlab](https://github.com/holiman/goevmlab/)
+Fuzzing tools
 * [FuzzyVM](https://github.com/MariusVanDerWijden/FuzzyVM)
-* [txparse](https://github.com/holiman/txparse)
+* [goevmlab](https://github.com/holiman/goevmlab/)
+
+Tests and test tools
+* [tests](https://github.com/ethereum/tests)
+* [retesteth](https://github.com/ethereum/retesteth)
+* [hive](https://github.com/ethereum/hive)
+
+EL specs
+* [execution specs](https://github.com/ethereum/execution-specs)
+
+EL clients
+* [geth](https://github.com/ethereum/go-ethereum)
+* [erigon](https://github.com/ledgerwatch/erigon)
+* [nethermind](https://github.com/NethermindEth/nethermind)
+* [besu](https://github.com/hyperledger/besu)
+* [reth](https://github.com/paradigmxyz/reth)
