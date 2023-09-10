@@ -46,7 +46,8 @@ gantt
     Cache                             :2023-10-29, 7d
     
     section Empirical
-    Optimistic tests         :active, 2023-08-14, 23d
+    Optimistic tests         :active, 2023-08-14, 50d
+    Documentation enhancement         :active 2023-09-10, 23d
 
 ```
 
