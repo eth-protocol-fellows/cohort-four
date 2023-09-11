@@ -26,51 +26,27 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - [Week 5](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/S1wFfX23h)
 - [Week 6](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/SynHLNBTh)
 - [Week 7](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/SkDUd50an)
+- [Week 8](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/SJcjUNtC2)
+
 
 ## Working on Next 
 
-- I'm going to continue to help implement the DHT Census as much as I can considering it's giving my great learning oppertunitiy and the current graph I'm working on requires it to be Implemented and other graphs I'm wanting to implement
+- Continuing to work on and work with Micheal Farris to finish the DHT Census implementation as much as I can.
 
+- Next I'm going to be looking into dynamically loading everything on the Content Dashboard which will great improve the runtime complexity, currently glados's Content Dashboard loads fairly slow so I'm wanting to begin implementing this as soon as I can
 
-- Implementing Segmental Control features to seperate the Content Dashboard page into different sections and improve runtime complexity
+- Navigation Imrpovments I'm going to be looking it next now that I've implemented Segmental Control to the Content Dashboard, as time goes on I might come up with other navigational feature to implement
+    - Nav Bar/ Top Navigation Feature 
+    - Breadcrumb Links
 
+- A big percentage of the Portal Network is turning up red at the moment so I might look a bit into that
 
-- Implementing breadcrumb links to improve navigation
+- Do more research into the Portal Network, Glados, DiscV5, Kademlia and more.
 
-
-- Implementing Top Navigation to also imrpove the navigation of glados
-
-
-- Once the Implementation of the DHT Census Pr is merged https://github.com/ethereum/glados/pull/117. I can continue to work on my piechart PR https://github.com/ethereum/glados/pull/136 and begin working on some of the other graphs I want to implement that require this like
-    - the average data radius of nodes on the network
-    - estimated total storage within a given network
-
-
-- Do more research into Kademlia and DiscV5
-
-
-- continue aesthetic refinements where needed
-
-
-- Improve my understanding of Glados and the Portal Network even more
-
+- Continue UI improvments where needed, where probably going to be showing glados at Dev Connect so we want glados looking as clean as possible
 
 - Look into more ethereum resources to increase my knowledge of ethereum over all.
 
-**Graph Ideas**
-- the average data radius of nodes on the network
-
-
-- estimated total storage within a given network
-
-
-- A map graph that has dots on it that displays where in the world the clients are located 
-
-
-- display recently seen nodes 
-
-
-- graph log2(node_id()) will be a range of 1 to 256
 ## Links And Resources
 
 **Glados Github:**
@@ -81,24 +57,19 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 
 - https://github.com/ethereum/glados/pull/117
 
-
 - https://github.com/ethereum/glados/pull/136
-
 
 - https://github.com/ethereum/glados/pull/149
 
-
 - https://github.com/ethereum/glados/pull/145
-
 
 - https://github.com/ethereum/glados/pull/150
 
+- https://github.com/ethereum/glados/pull/151
 
 - https://github.com/ethereum/glados/pull/152
 
-
-- https://github.com/ethereum/glados/pull/151
-
+- https://github.com/ethereum/glados/pull/156
 
 **Merged Pr Links:**
 - https://github.com/ethereum/glados/pull/137
