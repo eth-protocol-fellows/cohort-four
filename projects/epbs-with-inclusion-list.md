@@ -66,7 +66,8 @@ The end goal of the project is to review the existing literature, specs and have
 
 *Are there any fellows working with you on this project?*
 
-As it's a huge project, yes there are other fellows also working on this with me. 
+As it's a huge project, multiple people will be working on it.
+- [Manav Darji](https://github.com/manav2401)
 - [Anshal Shukla](https://github.com/anshalshukla)
 - [Chirag Mehta](https://github.com/Chirag018)
 - [Ella](https://github.com/0xfmoi)
