@@ -1,4 +1,5 @@
 # REST Wrapper
+
 A RESTful wrapper for Ethereum JSON-RPC API for execution layer.
 
 ## Motivation
@@ -23,20 +24,21 @@ The middleware would have the following components and functionalities:
 2. A JSON-RPC client that sends JSON-RPC requests to an Ethereum node, using the ethclient package. The client would map the request from the REST format to the JSON-RPC format, using a predefined schema that defines the mapping rules. The client would also receive JSON-RPC responses from the Ethereum node and convert them to the REST format, using another predefined schema that defines the conversion rules.
 3. A response handler that sends REST responses back to the user, along with any relevant headers or status codes. The response handler would also handle any errors or exceptions that may occur during the conversion or execution of the requests.
 
-## Roadmap 
+## Roadmap
+
 The proposed timeline for the project is as follows:
 
 ### Phase 1
 
-#### Week 0: 
+#### Week 0:
 
 Introduction and joining discord groups. Getting familiar with the project idea, the mentor, and the cohort.
 
-#### Week 1: 
+#### Week 1:
 
 Exploring and researching the Ethereum protocol and the JSON-RPC API. Reading the Ethereum whitepaper and learning about UTXO, accounts, transactions, blocks, contracts, and events. Reading stories on inevitable ethereum and learning about EIPs.
 
-#### Week 2: 
+#### Week 2:
 
 Finding purpose of life (or proposal for EPF). Choosing the REST wrapper project idea and expressing interest to the mentor. Starting to work on the Ethereum REST API specification, based on the OpenAPI Specification and the Ethereum Execution Layer API Documentation. Proposing some features that would make the REST wrapper more user-friendly, such as using a boolean flag for using integers instead of hashes.
 
@@ -60,20 +62,19 @@ Creating a presentation, doing a presentation with the peers and mentors in stan
 
 - Evaluate and improve the middleware based on feedback and testing. The evaluation would measure the performance, reliability, usability, and compatibility of the middleware. The improvement would address any issues or bugs that may arise, as well as add any enhancements or features that may be requested or suggested.
 
-## Possible challenges 
+## Possible challenges
 
 Some of the difficulties and obstacles that may need to be overcome are:
 
 - The JSON-RPC methods and parameters may not have a clear or natural mapping to the REST format, requiring some design decisions and trade-offs. For example, some JSON-RPC methods may have multiple parameters, whereas some REST APIs may only accept one parameter. Some JSON-RPC methods may return complex or nested data structures, whereas some REST APIs may only return simple or flat data structures (a good practice). Some JSON-RPC methods may have different names or meanings than their REST counterparts, requiring some clarification or explanation (as we have already done some merging of few methods in one call).
 
-- Naturally, the middleware may introduce some *delay* or overhead in the communication between the user and the Ethereum node, affecting the performance or reliability of the requests. For example, the middleware need to parse, validate, map, convert, and handle the requests and responses, which may take some time and resources. The middleware may also depend on some external packages or frameworks, which may have some bugs or vulnerabilities. The middleware may also face some network issues or errors, such as timeouts, connection failures, etc.
+- Naturally, the middleware may introduce some _delay_ or overhead in the communication between the user and the Ethereum node, affecting the performance or reliability of the requests. For example, the middleware need to parse, validate, map, convert, and handle the requests and responses, which may take some time and resources. The middleware may also depend on some external packages or frameworks, which may have some bugs or vulnerabilities. The middleware may also face some network issues or errors, such as timeouts, connection failures, etc.
 
-- The middleware *may need to support different protocols* and transports for communicating with Ethereum nodes in the *future*, such as WebSocket, IPC, etc. Currently, the middleware is at the **wrapper** stage and works mainly with HTTP, which is a widely used and supported protocol that can handle most of the JSON-RPC methods and parameters. However, HTTP is not a full duplex protocol, which means that it only allows one-way communication per request. Therefore, HTTP cannot support some features and functionalities that require bidirectional communication, such as subscriptions or real-time events. WebSocket and IPC are full duplex protocols that enable bidirectional communication over a single connection, which are ideal for subscriptions or real-time events. However, WebSocket and IPC are newer protocols that may not be compatible or allowed by some browsers, servers, proxies, firewalls, etc., requiring some fallback mechanisms or workarounds. Each protocol and transport may have its own advantages and disadvantages, such as speed, reliability, security, etc. The middleware may need to adapt to different scenarios and preferences of the users and the nodes, such as using HTTP for simple queries and WebSocket or IPC for subscriptions or real-time events.
+- The middleware _may need to support different protocols_ and transports for communicating with Ethereum nodes in the _future_, such as WebSocket, IPC, etc. Currently, the middleware is at the **wrapper** stage and works mainly with HTTP, which is a widely used and supported protocol that can handle most of the JSON-RPC methods and parameters. However, HTTP is not a full duplex protocol, which means that it only allows one-way communication per request. Therefore, HTTP cannot support some features and functionalities that require bidirectional communication, such as subscriptions or real-time events. WebSocket and IPC are full duplex protocols that enable bidirectional communication over a single connection, which are ideal for subscriptions or real-time events. However, WebSocket and IPC are newer protocols that may not be compatible or allowed by some browsers, servers, proxies, firewalls, etc., requiring some fallback mechanisms or workarounds. Each protocol and transport may have its own advantages and disadvantages, such as speed, reliability, security, etc. The middleware may need to adapt to different scenarios and preferences of the users and the nodes, such as using HTTP for simple queries and WebSocket or IPC for subscriptions or real-time events.
 
 - The middleware may need to comply with some standards and specifications for defining and documenting the REST API, such as the OpenAPI Specification and the JSON Schema. These standards and specifications may have some rules and constraints that may limit or complicate the design and implementation of the REST API. The middleware will need to **keep up with the updates and changes of these standards and specifications**, as well as the Ethereum JSON-RPC API.
 
-
-## Goal of the project 
+## Goal of the project
 
 The success of the project would be measured by:
 
@@ -81,13 +82,13 @@ The success of the project would be measured by:
 - The functionality and robustness of the middleware application, handling all kinds of requests and responses without errors or exceptions.
 - The usability and accessibility of the middleware application, providing a clear and consistent interface for users to interact with Ethereum nodes.
 
-The end goal of the project is to make it easier and more standard for users to access Ethereum nodes using a RESTful interface, improving the reliability, usability, and compatibility of the communication which will overall contribute in improvement and innovation on Ethereum protocol. 
+The end goal of the project is to make it easier and more standard for users to access Ethereum nodes using a RESTful interface, improving the reliability, usability, and compatibility of the communication which will overall contribute in improvement and innovation on Ethereum protocol.
 
-## Collaborators 
+## Collaborators
 
 ### Fellows
 
-@tsujp
+@[amit0617](https://github.com/amit0617)
 
 ### Mentors
 
