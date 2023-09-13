@@ -6,3 +6,5 @@
 - [Verkle Trees](https://hackmd.io/@danielrachi/rkHgdBsqn)
 - [Kademlia DHT](https://hackmd.io/@danielrachi/SkQuHtMi2)
 - [Trin Architecture](https://hackmd.io/@danielrachi/r1mn3fx3n)
+- [Flashbots Architecture](https://hackmd.io/@danielrachi/HJxXjUwC2)
+
