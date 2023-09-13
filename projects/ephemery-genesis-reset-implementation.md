@@ -44,9 +44,7 @@ The scope of this project will be focussed on:
 
 **Stretch 01:** Implement safety checks to prevent accidental resets, by adding an optional flag with a tag like `--require-manual-reset`
 
-**Stretch 02:** Add another optional flag `--archive chaindata` for genesis management.
-
-**Stretch 03:** Extend the implementation to other clients, starting with an execution client like geth. This will enable a broader user base to benefit from the Ephemery testnet.
+**Stretch 02:** Extend the implementation to other clients, starting with an execution client like geth. This will enable a broader user base to benefit from the Ephemery testnet.
 
 ## Specification
 The original specifications for this project can be found [here](https://github.com/ephemery-testnet/ephemery-resources/blob/master/specs.md). A WIP version based on my understanding, which I plan to update as I progress is also [here](https://github.com/AdedamolaXL/ephemery-resources/blob/master/specs.md).
