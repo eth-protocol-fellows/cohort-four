@@ -79,6 +79,8 @@ Another goal is to read and document learnings in hackmd articles, design boards
 ### Fellows 
 [Bharath V](https://github.com/bharath-123)
 
+[Filip S](https://github.com/fisiroky)
+
 ### Mentors
 
 [Barnabe Monnot](https://github.com/barnabemonnot) 
