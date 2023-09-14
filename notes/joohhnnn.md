@@ -12,6 +12,7 @@ EPF4 is a significant opportunity for me to further develop my skills and knowle
 * [Week5](https://hackmd.io/@joohhnnn/EPF-week5)
 * [Week6](https://hackmd.io/@joohhnnn/EPF-week6)
 * [Week7](https://hackmd.io/@joohhnnn/EPF-week7)
+* [Week8](https://hackmd.io/@joohhnnn/EPF-week8)
 
 ## Selected task
 [Optimism sequencer support for ERC 4337 bundlers](https://github.com/eth-protocol-fellows/cohort-four/blob/master/projects/project-ideas.md#optimism-sequencer-support-for-erc-4337-bundlers)
