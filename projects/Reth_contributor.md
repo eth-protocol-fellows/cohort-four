@@ -2,6 +2,11 @@
 
 Become a core contributor for [Reth](https://github.com/paradigmxyz/reth), a new Ethereum execution client written in Rust!
 
+Here you can find my full project proposal (work-in-progress): [Reth Contributor](https://alessandromazza.notion.site/Project-Proposal-dac64b916b254652a1d2a742865245d9?pvs=4)
+
+## DEPRECATION WARNING
+The following document is deprecated and may no longer be relevant or accurate. Please use the link above for my up-to-date proposal!
+
 ## Motivation
 
 Client diversity is one of the most important features of Ethereum as it helps to further decentralise the network. Right now there are already several implementations for the Ethereum protocol, divided in consensus and execution clients, as you can see from the image below.
