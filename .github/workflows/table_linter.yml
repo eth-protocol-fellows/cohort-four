@@ -5,10 +5,8 @@ on:
   push:
 
   pull_request:
-    branches:
-      - main
-      - master
-    paths: ['/development-updates.md']
+    types:
+      - opened
 
 env:
   APPLY_FIXES: all
@@ -72,7 +70,8 @@ jobs:
           steps.ml.outputs.has_updated_sources == 1 &&
           (
             env.APPLY_FIXES_EVENT == 'all' ||
-            env.APPLY_FIXES_EVENT == github.event_name
+            env.APPLY_FIXES_EVENT == github.event_name ||
+            github.event_name == 'pull_request'
           ) &&
           env.APPLY_FIXES_MODE == 'pull_request' &&
           (
@@ -108,13 +107,15 @@ jobs:
           steps.ml.outputs.has_updated_sources == 1 &&
           (
             env.APPLY_FIXES_EVENT == 'all' ||
-            env.APPLY_FIXES_EVENT == github.event_name
+            env.APPLY_FIXES_EVENT == github.event_name ||
+            github.event_name == 'pull_request'
           ) &&
           env.APPLY_FIXES_MODE == 'commit' &&
           (!contains(fromJSON('["refs/heads/main", "refs/heads/master"]'), github.ref)) &&
           (
             github.event_name == 'push' ||
-            github.event.pull_request.head.repo.full_name == github.repository
+            github.event.pull_request.head.repo.full_name == github.repository ||
+            github.event_name == 'pull_request'
           )
         run: sudo chown -Rc $UID .git/
 

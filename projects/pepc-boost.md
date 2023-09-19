@@ -79,6 +79,8 @@ Another goal is to read and document learnings in hackmd articles, design boards
 ### Fellows 
 [Bharath V](https://github.com/bharath-123)
 
+[Filip S](https://github.com/fisiroky)
+
 ### Mentors
 
 [Barnabe Monnot](https://github.com/barnabemonnot) 
@@ -94,3 +96,6 @@ Another goal is to read and document learnings in hackmd articles, design boards
 [Studying Ethereum Censorship](https://hackmd.io/@oLeaCeNDTl-O01HPNj9_sw/B1-3hBojh)
 [PEPC Design Doc](https://docs.google.com/document/d/1wa4J48lYqgnFz3JbCIrR97LIX7S5Z5_SjPG2ZTZQUgE/edit)
 [PEPC Implementation Notes](https://hackmd.io/cvl87wD-T1y13qoJlWWB-Q)
+[PEPC v2 Design Doc](https://docs.google.com/document/d/1DLse86yGLId2idQUIJbaiGxY_RxMxz3LhtdinbA3q4Q/edit)
+[PEPC-Boost Relayer PR](https://github.com/bharath-123/pepc-boost-relay/pull/2)
+[PEPC-Boost Builder PR](https://github.com/bharath-123/pepc-boost-builder/pull/2)
