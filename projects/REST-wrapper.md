@@ -88,7 +88,7 @@ The end goal of the project is to make it easier and more standard for users to 
 
 ### Fellows
 
-@[amit0617](https://github.com/amit0617)
+[@amit0617](https://github.com/amit0617)
 
 ### Mentors
 
