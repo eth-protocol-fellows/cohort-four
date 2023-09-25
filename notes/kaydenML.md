@@ -28,25 +28,30 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - [Week 7](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/SkDUd50an)
 - [Week 8](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/SJcjUNtC2)
 - [Week 9](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/HJj1OtQkp)
-- [Week 10](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/S1iIpQ61a)
 
 
-### Working on Next
+## Working on Next 
 
-- Now That the DHT Census is Implemented and I have completed my pie chart graph that displays the how many nodes are on the network, I have now began to work on my next graph of the program that will display the average data radius of nodes on the network, here are some of the steps I'm taking to implement the graph.
-	- My first step is to begin making a prototype graph of how to best display information to the page and which graph would be best suited to display the information through
-	- Then researching heavily into how I would like to pull the data I'm looking to display from the database, I first began by looking to see if Trin displays the data radius by running Trin, I then began looking at Trin code to see how Trin gets the data radius. I believe my current biggest challenge is figuring out how to query the certain data I want, but after that I'm fairly confident I will be able to start moving along fairly quickly.
-
-
-- Navigation Improvements and implementations like.
-	- Nav Bar/ Top Navigation Feature
-	- Breadcrumb Links
+- Now That the DHT Census is Implemented I'm going to be finishing implementing my pie chart graph https://github.com/ethereum/glados/pull/136  as soon as I posible can and then start working on implementing some of the other graphs I want to implement that required the DHT Census to be implemented before I could work on them like.
+    - The average data radius of nodes on the network
+    - The estimated total storage within a given network
 
 
-- Continue UI improvements where needed, we might be going to show Glados at Dev Connect so we want Glados looking as clean as possible for when the time arrives.
+- I'm going to be looking into dynamically loading everything on the Content Dashboard which will great improve the runtime complexity, currently glados's Content Dashboard loads fairly slow so I'm wanting to begin implementing this as soon as I can 
 
 
-- Look into more ethereum/portal/network resources to increase my knowledge of ethereum, portal network and Glados over all.
+- Navigation Imrpovments I'm going to be looking it next now that I've implemented Segmental Control to the Content Dashboard, as time goes on I might come up with other navigational feature to implement
+    - Nav Bar/ Top Navigation Feature 
+    - Breadcrumb Links
+
+
+- Do more research into the Portal Network, Glados, DiscV5, Kademlia and more.
+
+
+- Continue UI improvments where needed, where probably going to be showing glados at Dev Connect so we want glados looking as clean as possible
+
+
+- Look into more ethereum resources to increase my knowledge of ethereum over all.
 ## Links And Resources
 
 **Glados Github:**
@@ -54,6 +59,8 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - https://github.com/ethereum/glados
 
 **Active PR's I'm working on and contributing towards:**
+
+- https://github.com/ethereum/glados/pull/136
 
 - https://github.com/ethereum/glados/pull/149
 
