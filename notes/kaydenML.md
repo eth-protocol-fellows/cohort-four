@@ -29,18 +29,51 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - [Week 8](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/SJcjUNtC2)
 - [Week 9](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/HJj1OtQkp)
 - [Week 10](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/S1iIpQ61a)
+- [Week 11](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/SJK8N0Sga)
 
+
+### Quick Summary But I Highly Recommend Reading My Update On HackMD As Well
+
+- Spent a ton of learning/experimenting and working on my query for the graph I'm working on
+
+
+- Spent time researching on how the radius is handled in Trin.
+
+
+- Fixed some issues regarding a few of my PR's after they were reviewed by Piper and a few my Mikem
+
+
+- Decided on a better graph for the data I'm displaying https://d3-graph-gallery.com/graph/density_basic.html
+
+
+- My Pie Chart graph was merged and went live on the Glados site. glados.ethportal.net
+
+
+- Completed my sql query that I had been working on for a few days
+
+
+- Created a PR that displays the audit stats on the home page of Glados which was merged and went live on Glados.
+	- glados.ethportal.net
+	- https://github.com/ethereum/glados/pull/165
+
+
+- Spent some time converting my sql query to sea-query to be able to display it to the page and looping over some code I got from Trin
+
+
+- Hopefully within the next few days I will have completed this graph and began working on my third graph and other things I plan to work on
 
 ### Working on Next
 
-- Now That the DHT Census is Implemented and I have completed my pie chart graph that displays the how many nodes are on the network, I have now began to work on my next graph of the program that will display the average data radius of nodes on the network, here are some of the steps I'm taking to implement the graph.
-	- My first step is to begin making a prototype graph of how to best display information to the page and which graph would be best suited to display the information through
-	- Then researching heavily into how I would like to pull the data I'm looking to display from the database, I first began by looking to see if Trin displays the data radius by running Trin, I then began looking at Trin code to see how Trin gets the data radius. I believe my current biggest challenge is figuring out how to query the certain data I want, but after that I'm fairly confident I will be able to start moving along fairly quickly.
+- Try to hopefully finish up my data Radius Graph within the next few day's or so, then begin working on my third graph
+
+
+- After Piper reviewed my segmental control PR he felt it would be better to just implement it in bootstrap instead of me using my javascript because it's not trivial to maintain or test over the longevity of a project. Here's the bootstrap of how I would go about approaching this sort of thing.
+	- https://getbootstrap.com/docs/5.2/utilities/visibility/
 
 
 - Navigation Improvements and implementations like.
-	- Nav Bar/ Top Navigation Feature
-	- Breadcrumb Links
+    - Nav Bar/ Top Navigation Feature
+    - Breadcrumb Links
 
 
 - Continue UI improvements where needed, we might be going to show Glados at Dev Connect so we want Glados looking as clean as possible for when the time arrives.
@@ -50,6 +83,8 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 
 
 - Writing Tests for bugs that I may find or may come up along the way.
+
+
 ## Links And Resources
 
 **Glados Github:**
@@ -57,8 +92,6 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - https://github.com/ethereum/glados
 
 **Active PR's I'm working on and contributing towards:**
-
-- https://github.com/ethereum/glados/pull/136
 
 - https://github.com/ethereum/glados/pull/149
 
@@ -80,3 +113,7 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - https://github.com/ethereum/glados/pull/145
 
 - https://github.com/ethereum/glados/pull/117
+
+- https://github.com/ethereum/glados/pull/136
+
+- https://github.com/ethereum/glados/pull/165
