@@ -7,4 +7,5 @@
 - [Kademlia DHT](https://hackmd.io/@danielrachi/SkQuHtMi2)
 - [Trin Architecture](https://hackmd.io/@danielrachi/r1mn3fx3n)
 - [Flashbots Architecture](https://hackmd.io/@danielrachi/HJxXjUwC2)
+- [Lighthouse Startup](https://hackmd.io/@danielrachi/S1u2Veflp)
 
