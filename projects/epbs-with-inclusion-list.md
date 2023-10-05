@@ -93,4 +93,4 @@ Resources required for implementation
 - [Engine API specs](https://github.com/naviechan/execution-apis/pull/1)
 
 Implementation / PR links
-- [IL implementation in geth](https://github.com/ethereum/go-ethereum/pull/28011)
+- [IL implementation in geth](https://github.com/manav2401/go-ethereum/pull/1)
