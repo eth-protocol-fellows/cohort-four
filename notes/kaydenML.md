@@ -28,30 +28,63 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - [Week 7](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/SkDUd50an)
 - [Week 8](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/SJcjUNtC2)
 - [Week 9](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/HJj1OtQkp)
+- [Week 10](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/S1iIpQ61a)
+- [Week 11](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/SJK8N0Sga)
 
 
-## Working on Next 
+### Quick Summary But I Highly Recommend Reading My Update On HackMD As Well
 
-- Now That the DHT Census is Implemented I'm going to be finishing implementing my pie chart graph https://github.com/ethereum/glados/pull/136  as soon as I posible can and then start working on implementing some of the other graphs I want to implement that required the DHT Census to be implemented before I could work on them like.
-    - The average data radius of nodes on the network
-    - The estimated total storage within a given network
+- Spent a ton of learning/experimenting and working on my query for the graph I'm working on
 
 
-- I'm going to be looking into dynamically loading everything on the Content Dashboard which will great improve the runtime complexity, currently glados's Content Dashboard loads fairly slow so I'm wanting to begin implementing this as soon as I can 
+- Spent time researching on how the radius is handled in Trin.
 
 
-- Navigation Imrpovments I'm going to be looking it next now that I've implemented Segmental Control to the Content Dashboard, as time goes on I might come up with other navigational feature to implement
-    - Nav Bar/ Top Navigation Feature 
+- Fixed some issues regarding a few of my PR's after they were reviewed by Piper and a few my Mikem
+
+
+- Decided on a better graph for the data I'm displaying https://d3-graph-gallery.com/graph/density_basic.html
+
+
+- My Pie Chart graph was merged and went live on the Glados site. glados.ethportal.net
+
+
+- Completed my sql query that I had been working on for a few days
+
+
+- Created a PR that displays the audit stats on the home page of Glados which was merged and went live on Glados.
+	- glados.ethportal.net
+	- https://github.com/ethereum/glados/pull/165
+
+
+- Spent some time converting my sql query to sea-query to be able to display it to the page and looping over some code I got from Trin
+
+
+- Hopefully within the next few days I will have completed this graph and began working on my third graph and other things I plan to work on
+
+### Working on Next
+
+- Try to hopefully finish up my data Radius Graph within the next few day's or so, then begin working on my third graph
+
+
+- After Piper reviewed my segmental control PR he felt it would be better to just implement it in bootstrap instead of me using my javascript because it's not trivial to maintain or test over the longevity of a project. Here's the bootstrap of how I would go about approaching this sort of thing.
+	- https://getbootstrap.com/docs/5.2/utilities/visibility/
+
+
+- Navigation Improvements and implementations like.
+    - Nav Bar/ Top Navigation Feature
     - Breadcrumb Links
 
 
-- Do more research into the Portal Network, Glados, DiscV5, Kademlia and more.
+- Continue UI improvements where needed, we might be going to show Glados at Dev Connect so we want Glados looking as clean as possible for when the time arrives.
 
 
-- Continue UI improvments where needed, where probably going to be showing glados at Dev Connect so we want glados looking as clean as possible
+- Look into more ethereum/portal/network resources to increase my knowledge of ethereum, portal network and Glados over all.
 
 
-- Look into more ethereum resources to increase my knowledge of ethereum over all.
+- Writing Tests for bugs that I may find or may come up along the way.
+
+
 ## Links And Resources
 
 **Glados Github:**
@@ -59,8 +92,6 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - https://github.com/ethereum/glados
 
 **Active PR's I'm working on and contributing towards:**
-
-- https://github.com/ethereum/glados/pull/136
 
 - https://github.com/ethereum/glados/pull/149
 
@@ -82,3 +113,7 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - https://github.com/ethereum/glados/pull/145
 
 - https://github.com/ethereum/glados/pull/117
+
+- https://github.com/ethereum/glados/pull/136
+
+- https://github.com/ethereum/glados/pull/165
