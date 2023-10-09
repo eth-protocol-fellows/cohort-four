@@ -23,3 +23,14 @@
 [Reprepro - debcrafter ](https://hackmd.io/@eenagy/SkWu39nTn)
 
 ## Project proposal
+
+[Eth deb repo](../projects/eth-deb-repository.md)
+
+### Week 8 -9
+
+[How interpreters work](https://hackmd.io/@eenagy/S1gPM4Eea)
+
+### Week 10 - 11
+
+[Debcrafter documentation](https://hackmd.io/@eenagy/H1j6sV4gp)
+[Actual debcrafter documentation](https://hackmd.io/AMlJV4gQQQe1T_KJU51yog) 

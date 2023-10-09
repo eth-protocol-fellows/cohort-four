@@ -27,4 +27,6 @@ See you on the other side 🌌
 ## Research Updates:
 - [EPF Report: Weeks 0 & 1 - EPF4, new opportunities, preparation and Ethereum](https://hackmd.io/@phklive/ry9CV64o2)
 - [EPF Report: Weeks 2 & 3 - ErlangVM, ELixir and grasping Ethereum 2 consensus layer](https://hackmd.io/@phklive/S140CRVi2)
-- Weeks 4 & 5 (WIP)
+- [EPF Report: Weeks 4 & 5 - Delving Deeper into Ethereum’s Foundation](https://hackmd.io/@phklive/1Z7WyUjlQ62bTquWukZlcA)
+- Weeks 6 & 7 (WIP)
+- [EPF Report: Weeks 8 & 9 - EF Tests, Bootcamp & Upcoming events](https://hackmd.io/@phklive/iNQHLusgShmJS8Yc77Z5gg)
