@@ -18,3 +18,4 @@ I'm joined by Martin Paulucci, Tomás Grüner and Paul-Henry Kajfasz in building
 - [Week 8](https://hackmd.io/4ho8pWYRSpa4QKkAi0wJ-w)
 - [Week 9](https://hackmd.io/VS1ZoNvXQQi60g65vxlW6A)
 - [Week 10](https://hackmd.io/zDJ6OTARQMeT9ZMlgN_GYw)
+- [Week 11](https://hackmd.io/Apee8YsqRBa9c9NyRX75zw)
