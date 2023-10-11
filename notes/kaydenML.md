@@ -30,53 +30,16 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - [Week 9](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/HJj1OtQkp)
 - [Week 10](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/S1iIpQ61a)
 - [Week 11](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/SJK8N0Sga)
+- [Week 12](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/S1KdrvgWT)
 
-
-### Quick Summary But I Highly Recommend Reading My Update On HackMD As Well
-
-- Spent a ton of learning/experimenting and working on my query for the graph I'm working on
-
-
-- Spent time researching on how the radius is handled in Trin.
-
-
-- Fixed some issues regarding a few of my PR's after they were reviewed by Piper and a few my Mikem
-
-
-- Decided on a better graph for the data I'm displaying https://d3-graph-gallery.com/graph/density_basic.html
-
-
-- My Pie Chart graph was merged and went live on the Glados site. glados.ethportal.net
-
-
-- Completed my sql query that I had been working on for a few days
-
-
-- Created a PR that displays the audit stats on the home page of Glados which was merged and went live on Glados.
-	- glados.ethportal.net
-	- https://github.com/ethereum/glados/pull/165
-
-
-- Spent some time converting my sql query to sea-query to be able to display it to the page and looping over some code I got from Trin
-
-
-- Hopefully within the next few days I will have completed this graph and began working on my third graph and other things I plan to work on
-
-### Working on Next
-
-- Try to hopefully finish up my data Radius Graph within the next few day's or so, then begin working on my third graph
+- After my graph is implemented the next task I'm going to be tackling is implementing a Nav bar for Glados.
 
 
 - After Piper reviewed my segmental control PR he felt it would be better to just implement it in bootstrap instead of me using my javascript because it's not trivial to maintain or test over the longevity of a project. Here's the bootstrap of how I would go about approaching this sort of thing.
-	- https://getbootstrap.com/docs/5.2/utilities/visibility/
+    - https://getbootstrap.com/docs/5.2/utilities/visibility/
+ 
 
-
-- Navigation Improvements and implementations like.
-    - Nav Bar/ Top Navigation Feature
-    - Breadcrumb Links
-
-
-- Continue UI improvements where needed, we might be going to show Glados at Dev Connect so we want Glados looking as clean as possible for when the time arrives.
+- Continue UI improvements where needed.
 
 
 - Look into more ethereum/portal/network resources to increase my knowledge of ethereum, portal network and Glados over all.
@@ -84,6 +47,8 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 
 - Writing Tests for bugs that I may find or may come up along the way.
 
+
+- begin implementing my third graph.
 
 ## Links And Resources
 
@@ -102,6 +67,8 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - https://github.com/ethereum/glados/pull/152
 
 - https://github.com/ethereum/glados/pull/156
+
+- https://github.com/ethereum/glados/pull/176
 
 **Merged Pr Links That I've Worked On And Helped Implement:**
 - https://github.com/ethereum/glados/pull/137
