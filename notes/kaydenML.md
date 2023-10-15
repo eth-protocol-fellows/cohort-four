@@ -31,19 +31,23 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - [Week 10](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/S1iIpQ61a)
 - [Week 11](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/SJK8N0Sga)
 - [Week 12](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/S1KdrvgWT)
+- [Week 13](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/rkobPsYWp)
+
+
+### Working on Next
+
+- Now that dev-connect is rolling around I'm going to be spending some time working on my presentation that I will be giving to the other fellows on my experience, progress and my great learning opportunity I was able to participate in.
+
 
 - After my graph is implemented the next task I'm going to be tackling is implementing a Nav bar for Glados.
 
 
 - After Piper reviewed my segmental control PR he felt it would be better to just implement it in bootstrap instead of me using my javascript because it's not trivial to maintain or test over the longevity of a project. Here's the bootstrap of how I would go about approaching this sort of thing.
-    - https://getbootstrap.com/docs/5.2/utilities/visibility/
+	- https://getbootstrap.com/docs/5.2/utilities/visibility/
  
-
+ 
 - Continue UI improvements where needed.
-
-
-- Look into more ethereum/portal/network resources to increase my knowledge of ethereum, portal network and Glados over all.
-
+ 
 
 - Writing Tests for bugs that I may find or may come up along the way.
 
@@ -57,8 +61,6 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - https://github.com/ethereum/glados
 
 **Active PR's I'm working on and contributing towards:**
-
-- https://github.com/ethereum/glados/pull/149
 
 - https://github.com/ethereum/glados/pull/150
 
