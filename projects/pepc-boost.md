@@ -127,3 +127,7 @@ Another goal is to read and document learnings in hackmd articles, design boards
 ### Demo Video Versions
 
 V0 Demo video: https://drive.google.com/file/d/1Wh4FdZE64Vy4So2k-05nABdLzOkF3rnc/view?usp=drive_link
+
+### Blog posts
+
+https://twitter.com/BharathVedarth1/status/1712156150102446356
