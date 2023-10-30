@@ -166,6 +166,7 @@ Our benchmark for success is clear and ambitious. By the culmination of the fell
 In github username alphabetical order.
 
 - Tomás Arjovsky (@arkenan)
+- Godspower Eze (@Godspower-Eze)
 - Tomás Grüner (@megaredhand)
 - Martín Paulucci (@mpaulucci)
 - Paul-Henry Kajfasz (@phklive)
