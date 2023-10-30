@@ -10,12 +10,14 @@ I'm joined by Martin Paulucci, Tomás Grüner and Paul-Henry Kajfasz in building
 
 ## Update links:
 
-- [Week 2](https://hackmd.io/@ft-mkp6jQ5egGIMYqmACGA/SJBdp9So2)
-- [Week 3](https://hackmd.io/6x43ZTkmSL2YKxdZe5E9KQ)
-- [Week 5](https://hackmd.io/ElVH25hKTuKxMjMMrFRbNQ)
-- [Week 6](https://hackmd.io/Upv0iycJQAyDjcB2CF9q1Q)
-- [Week 7](https://hackmd.io/WiTgsZqWTlSOXP8WX6kPkA)
-- [Week 8](https://hackmd.io/4ho8pWYRSpa4QKkAi0wJ-w)
-- [Week 9](https://hackmd.io/VS1ZoNvXQQi60g65vxlW6A)
-- [Week 10](https://hackmd.io/zDJ6OTARQMeT9ZMlgN_GYw)
-- [Week 11](https://hackmd.io/Apee8YsqRBa9c9NyRX75zw)
+- [Week 3](https://hackmd.io/@ft-mkp6jQ5egGIMYqmACGA/SJBdp9So2)
+- [Week 4](https://hackmd.io/6x43ZTkmSL2YKxdZe5E9KQ)
+- [Week 6](https://hackmd.io/ElVH25hKTuKxMjMMrFRbNQ)
+- [Week 7](https://hackmd.io/Upv0iycJQAyDjcB2CF9q1Q)
+- [Week 8](https://hackmd.io/WiTgsZqWTlSOXP8WX6kPkA)
+- [Week 9](https://hackmd.io/4ho8pWYRSpa4QKkAi0wJ-w)
+- [Week 10](https://hackmd.io/VS1ZoNvXQQi60g65vxlW6A)
+- [Week 11](https://hackmd.io/zDJ6OTARQMeT9ZMlgN_GYw)
+- [Week 12](https://hackmd.io/Apee8YsqRBa9c9NyRX75zw)
+- [Week 14](https://hackmd.io/Apee8YsqRBa9c9NyRX75zw)
+- [Week 15](https://hackmd.io/9TKEKvptRwm8nEksuAkmPg)
