@@ -103,25 +103,42 @@ Another goal is to read and document learnings in hackmd articles, design boards
 
 #### PEPC-Boost Relayer PRs
 [[PEPC-Boost][1] ToB bid auction types](https://github.com/bharath-123/pepc-boost-relay/pull/4)
+
 [[PEPC-Boost][2] Redis datastore implementation for ToB bid auction](https://github.com/bharath-123/pepc-boost-relay/pull/5)
+
 [[PEPC-Boost][3] ToB bid auction implementation](https://github.com/bharath-123/pepc-boost-relay/pull/6)
+
 [[PEPC-Boost][4] Add tests for the ToB bid tx auction impl](https://github.com/bharath-123/pepc-boost-relay/pull/7)
+
 [[PEPC-Boost][5] Add types to integrate with the block assembler](https://github.com/bharath-123/pepc-boost-relay/pull/8)
+
 [[PEPC-Boost][6] Block Assembler Client](https://github.com/bharath-123/pepc-boost-relay/pull/9)
+
 [[PEPC-Boost][7] Call block assembler with ToB txs whenever blocks are submitted](https://github.com/bharath-123/pepc-boost-relay/pull/10)
+
 [[PEPC-Boost][8] Block Assembler Client Integration tests](https://github.com/bharath-123/pepc-boost-relay/pull/11)
+
 [[PEPC-Boost][9] Tx tracing infra types](https://github.com/bharath-123/pepc-boost-relay/pull/13)
+
 [[PEPC-Boost][10] Implement tracing infra](https://github.com/bharath-123/pepc-boost-relay/pull/14)
+
 [[PEPC-Boost][11] Implement custom devnet state interference checks](https://github.com/bharath-123/pepc-boost-relay/pull/15)
+
 [[PEPC-Boost][12] Custom devnet state interference checks tests](https://github.com/bharath-123/pepc-boost-relay/pull/16)
+
 [[PEPC-Boost][13] Add state interference checks for Goerli](https://github.com/bharath-123/pepc-boost-relay/pull/17)
+
 [[PEPC-Boost][14] Goerli state interference checks](https://github.com/bharath-123/pepc-boost-relay/pull/18)
+
 [[PEPC-Boost][15] ToB tx payout should go to proposer fee recipient](https://github.com/bharath-123/pepc-boost-relay/pull/19)
+
 [[PEPC-Boost][16] Update tests for temporary payout solution](https://github.com/bharath-123/pepc-boost-relay/pull/20)
 
 #### PEPC-Boost Builder PRs
 [[PEPC-Boost][1] add types for block assembler rpc + minor refactor](https://github.com/bharath-123/pepc-boost-builder/pull/7)
+
 [[PEPC-Boost][2] Block Assembler Implementation](https://github.com/bharath-123/pepc-boost-builder/pull/9)
+
 [[PEPC-Boost][3] Block Assembler Tests](https://github.com/bharath-123/pepc-boost-builder/pull/11)
 
 ### Demo Video Versions
@@ -131,9 +148,15 @@ V0 Demo video: https://drive.google.com/file/d/1Wh4FdZE64Vy4So2k-05nABdLzOkF3rnc
 ### Blog posts and Tweets
 
 https://twitter.com/BharathVedarth1/status/1712156150102446356
+
 https://twitter.com/BharathVedarth1/status/1717252057160175667
+
+https://hackmd.io/@bchain/rk8sepAG6
+
+https://hackmd.io/@bchain/Sy5qtmRf6
 
 ### PEPC-Boost hosting
 
 PEPC-Boost website: https://website.pepc-booost.com/
+
 PEPC-Boost api: https://api.pepc-booost.com/
