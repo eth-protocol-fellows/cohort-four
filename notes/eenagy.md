@@ -33,4 +33,18 @@
 ### Week 10 - 11
 
 [Debcrafter documentation](https://hackmd.io/@eenagy/H1j6sV4gp)
-[Actual debcrafter documentation](https://hackmd.io/AMlJV4gQQQe1T_KJU51yog) 
+[Actual debcrafter documentation](https://hackmd.io/AMlJV4gQQQe1T_KJU51yog)
+
+### Week 12-15
+
+[Build system](https://hackmd.io/@eenagy/Hkrnfaem6)
+
+### Week 13-14
+
+[Package building](https://hackmd.io/@eenagy/ry7KeR7zT)
+[Eth-deb repo](https://github.com/eenagy/eth-deb)
+
+### Final update
+
+Nothing here, yet.
+[Final update]()
