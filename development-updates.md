@@ -198,4 +198,4 @@ The final weeks of the cohort should mark the finalization of your project. Subm
 
 | Name/GH | Final dev update | Project presentation |
 | ------- | ---------------- | -------------------- |
-|         |                  |                      |
+| [Luke](github.com/ltfschoen)        | [Final Update](https://hackmd.io/k2xNzibsS8GSgUiGz5gwCQ?view#Final-Development-Update)                 |                      |
