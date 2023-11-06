@@ -34,19 +34,18 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - [Week 13](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/rkobPsYWp)
 - [Week 14](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/H10DvymMa)
 - [Week 15](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/H1aQpKhM6)
+- [Week 16](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/SygvXIH7T)
 
 ### Working on Next and Continuing to work on
 
 - Now that I have finished my second graph and finished the Navbar implementation, going into these last few weeks of the cohort I'm going to be working on implementing my third graph of the program.
 
 
-- Now that dev-connect is rolling around I'm going to be spending some time working on my presentation that I will be giving to the other fellows on my experience, progress and my great learning opportunity I was able to participate in.
+- Continuing to write and refine my Project Presentation and practise my project presentation
 
 
 - Continue UI improvements where needed.
- 
 
-- Writing Tests for bugs that I may find or may come up along the way.
 - 
 ## Links And Resources
 
@@ -68,8 +67,6 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 
 - https://github.com/ethereum/glados/pull/176
 
-- https://github.com/ethereum/glados/pull/187
-
 **Merged Pr Links That I've Worked On And Helped Implement:**
 - https://github.com/ethereum/glados/pull/137
 
@@ -84,3 +81,7 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - https://github.com/ethereum/glados/pull/136
 
 - https://github.com/ethereum/glados/pull/165
+
+- https://github.com/ethereum/glados/pull/188
+
+- https://github.com/ethereum/glados/pull/176
