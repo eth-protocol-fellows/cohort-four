@@ -187,4 +187,4 @@ The final weeks of the cohort should mark the finalization of your project. Subm
 
 | Name/GH | Final dev update | Project presentation |
 | ------- | ---------------- | -------------------- |
-|         |                  |                      |
+|   Enc(Mason)      | [Final Update](https://hackmd.io/@mason2mind/SklDA8P7T)                 |       [Presentation](https://docs.google.com/presentation/d/1McCk7g2ths0BtQ6CRkOPJhWAZwc3E3Fl/edit?usp=sharing&ouid=105125959482756906323&rtpof=true&sd=true)               |
