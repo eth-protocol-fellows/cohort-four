@@ -189,3 +189,4 @@ The final weeks of the cohort should mark the finalization of your project. Subm
 | ------- | ---------------- | -------------------- |
 | [Luke](github.com/ltfschoen)   | [Final Update](https://hackmd.io/xt3aYxTlQPq4LOuBCUs2PA?view#Final-Development-Update)                 |                      |
 | Marcos  | [Final Update](https://hackmd.io/@mdvillagra/rkW498aGa)        |                      |
+|   Enc(Mason)      | [Final Update](https://hackmd.io/@mason2mind/SklDA8P7T)                 |       [Presentation](https://docs.google.com/presentation/d/1McCk7g2ths0BtQ6CRkOPJhWAZwc3E3Fl/edit?usp=sharing&ouid=105125959482756906323&rtpof=true&sd=true)               |
