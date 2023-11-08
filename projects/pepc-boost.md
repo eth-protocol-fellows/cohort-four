@@ -92,13 +92,21 @@ Another goal is to read and document learnings in hackmd articles, design boards
 ## Resources
 
 [PEPC FAQs](https://efdn.notion.site/PEPC-FAQ-0787ba2f77e14efba771ff2d903d67e4#a2d2d17abe90414e88d667ad10d91afe)
+
 [PEPC Original Proposal](https://ethresear.ch/t/unbundling-pbs-towards-protocol-enforced-proposer-commitments-pepc/13879?u=barnabe)
+
 [Studying Ethereum Censorship](https://hackmd.io/@oLeaCeNDTl-O01HPNj9_sw/B1-3hBojh)
+
 [PEPC-Boost Design Doc](https://docs.google.com/document/d/1wa4J48lYqgnFz3JbCIrR97LIX7S5Z5_SjPG2ZTZQUgE/edit)
+
 [PEPC-Boost Implementation Notes](https://hackmd.io/cvl87wD-T1y13qoJlWWB-Q)
+
 [PEPC-Boost v2 Design Doc](https://docs.google.com/document/d/1DLse86yGLId2idQUIJbaiGxY_RxMxz3LhtdinbA3q4Q/edit)
+
 [PEPC-Boost Docs](https://github.com/bharath-123/pepc-boost-docs)
+
 [PEPC-Boost Devops](https://github.com/bharath-123/pepc-boost-devops)
+
 [PEPC-Boost Issue Tracker](https://github.com/bharath-123/pepc-boost-relay/issues)
 
 #### PEPC-Boost Relayer PRs
