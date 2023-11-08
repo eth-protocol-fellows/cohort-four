@@ -187,4 +187,5 @@ The final weeks of the cohort should mark the finalization of your project. Subm
 
 | Name/GH | Final dev update | Project presentation |
 | ------- | ---------------- | -------------------- |
-| Marcos  | [link](https://hackmd.io/@mdvillagra/rkW498aGa)        |                      |
+| [Luke](github.com/ltfschoen)   | [Final Update](https://hackmd.io/xt3aYxTlQPq4LOuBCUs2PA?view#Final-Development-Update)                 |                      |
+| Marcos  | [Final Update](https://hackmd.io/@mdvillagra/rkW498aGa)        |                      |
