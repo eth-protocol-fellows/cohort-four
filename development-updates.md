@@ -187,4 +187,4 @@ The final weeks of the cohort should mark the finalization of your project. Subm
 
 | Name/GH | Final dev update | Project presentation |
 | ------- | ---------------- | -------------------- |
-|         |                  |                      |
+| [Daniel](https://github.com/danielrachi) | [Final dev update](https://hackmd.io/@danielrachi/HynEJ9Em6) |                      |
