@@ -31,25 +31,22 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - [Week 10](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/S1iIpQ61a)
 - [Week 11](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/SJK8N0Sga)
 - [Week 12](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/S1KdrvgWT)
+- [Week 13](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/rkobPsYWp)
+- [Week 14](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/H10DvymMa)
+- [Week 15](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/H1aQpKhM6)
+- [Week 16](https://hackmd.io/@v8QYUEqNQI-q90vwuMaJaw/SygvXIH7T)
 
-- After my graph is implemented the next task I'm going to be tackling is implementing a Nav bar for Glados.
+### Working on Next and Continuing to work on
+
+- Now that I have finished my second graph and finished the Navbar implementation, going into these last few weeks of the cohort I'm going to be working on implementing my third graph of the program.
 
 
-- After Piper reviewed my segmental control PR he felt it would be better to just implement it in bootstrap instead of me using my javascript because it's not trivial to maintain or test over the longevity of a project. Here's the bootstrap of how I would go about approaching this sort of thing.
-    - https://getbootstrap.com/docs/5.2/utilities/visibility/
- 
+- Continuing to write and refine my Project Presentation and practise my project presentation
+
 
 - Continue UI improvements where needed.
 
-
-- Look into more ethereum/portal/network resources to increase my knowledge of ethereum, portal network and Glados over all.
-
-
-- Writing Tests for bugs that I may find or may come up along the way.
-
-
-- begin implementing my third graph.
-
+- 
 ## Links And Resources
 
 **Glados Github:**
@@ -84,3 +81,7 @@ I’m interested on working hard on Glados because I believe that it suits my sk
 - https://github.com/ethereum/glados/pull/136
 
 - https://github.com/ethereum/glados/pull/165
+
+- https://github.com/ethereum/glados/pull/188
+
+- https://github.com/ethereum/glados/pull/176
