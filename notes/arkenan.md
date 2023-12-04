@@ -21,3 +21,4 @@ I'm joined by Martin Paulucci, Tomás Grüner and Paul-Henry Kajfasz in building
 - [Week 12](https://hackmd.io/Apee8YsqRBa9c9NyRX75zw)
 - [Week 14](https://hackmd.io/Apee8YsqRBa9c9NyRX75zw)
 - [Week 15](https://hackmd.io/9TKEKvptRwm8nEksuAkmPg)
+- [Week 16](https://hackmd.io/dbu5cc7xQkuqxjTXF3e0Ww)
