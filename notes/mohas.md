@@ -31,6 +31,7 @@ I think the idea submited by mentor Frederik is a great idea , i'm very interest
 - [Week 11](https://hackmd.io/@Mohas/H1BCo7ugp)
 - [Week 12](https://hackmd.io/@Mohas/HJhrLqxZ6)
 - [Week 13 + 14](https://hackmd.io/@Mohas/SJ9wqp7za)
+- [Final dev Update](https://hackmd.io/@Mohas/BJx6YeAma)
 
 ## Recommandations / informations / tips
 

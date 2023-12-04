@@ -94,3 +94,4 @@ Resources required for implementation
 
 Implementation / PR links
 - [IL implementation in geth](https://github.com/manav2401/go-ethereum/pull/1)
+- [Execution (engine API) specs](https://github.com/manav2401/execution-apis/pull/1)
