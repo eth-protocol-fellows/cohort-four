@@ -1,6 +1,6 @@
 # Ethereum Protocol Fellowship: Cohort 4
 
-This repository serves for organizing the fourth cohort of Ethereum Fellowship Program (EPF). 
+**Cohort 4 is now over. You can find all documented work by every fellow in this repository. To learn about upcoming cohorts follow our channel in R&D discord, EF blog or join the [mailing list](https://groups.google.com/a/ethereum.org/g/protocol-fellowship-group).**
 
 Learn more about EPF in [Program details](./program-guide/program-details.md) and [third cohort recap](https://blog.ethereum.org/2023/05/10/ethereum-protocol-fellowship-third-recap).
 
