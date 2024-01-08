@@ -34,3 +34,4 @@ See you on the other side 🌌
 - [EPF Report: Weeks 12 & 13 - Implementing State Transition and Onboarding new developers](https://hackmd.io/@phklive/rJo-hPsm6)
 - [EPF Report: Weeks 14 & 15 - State Transition, DevConnect preparation and traveling](https://hackmd.io/@phklive/HkQanPsQ6)
 - [EPF Report: Weeks 16 & 17 - Insights from ZuConnect, DevConnect, and EPF Day](https://hackmd.io/@phklive/r1gfny_sQ6)
+- [EPF Report: Final update - Behind the mountain, let's build the future together](https://hackmd.io/@phklive/Sy4INWUBT)
