@@ -46,5 +46,5 @@
 
 ### Final update
 
-Nothing here, yet.
-[Final update]()
+[Final dev update](https://hackmd.io/@eenagy/B1VHHEXVp)
+[Presentation](https://docs.google.com/presentation/d/1T2OjT2l10Kga18vTnMeJzmUjc5_iYghQKPehCsnkDAE/edit?usp=sharing)
