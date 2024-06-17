@@ -1,3 +1,5 @@
+**Note:** The final product has been published and can be found [here](https://ir.vanderbilt.edu/handle/1803/18820)! The notes, which may or may not still be active, are [here](https://publish.obsidian.md/single-slot-finality/Welcome+to+My+Research!)
+
 # Project Proposal
 
 ## An Overview and Expansion of Research into Single Slot Finality Consensus Mechanisms
